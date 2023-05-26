@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling
+export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard
 
 source evn_scripts/evn.bash.summit
 

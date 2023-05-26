@@ -1,0 +1,4476 @@
+Initializing CUDA...
+CUDA initialized with 1 GPU per MPI rank; 12 GPU(s) used in total
+MPI initialized with 12 MPI processes
+MPI initialized with thread support level 3
+AMReX (22.01) initialized
+WarpX (22.01)
+PICSAR (7b5449f92a4b)
+Level 0: dt = 9.380191971e-16 ; dx = 4.6875e-07 ; dy = 4.6875e-07 ; dz = 5.3125e-07
+
+Grids Summary:
+  Level 0   16 grids  2097152 cells  100 % of domain
+            smallest grid: 64 x 64 x 32  biggest grid: 64 x 64 x 32
+
+
+STEP 1 starts ...
+
+Unused ParmParse Variables:
+  [TOP]::warpx.serialize_initial_conditions(nvals = 1)  :: [1]
+  [TOP]::electrons.addIntegerAttributes(nvals = 1)  :: [regionofinterest]
+  [TOP]::electrons.attribute.regionofinterest(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [(z>12.0e-6) * (z<13.0e-6)]
+  [TOP]::electrons.addRealAttributes(nvals = 1)  :: [initialenergy]
+  [TOP]::electrons.attribute.initialenergy(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [ ux*ux + uy*uy + uz*uz]
+  [TOP]::FP.probe_geometry(nvals = 1)  :: [Line]
+  [TOP]::FP.x1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.y1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.z1_probe(nvals = 1)  :: [12e-6]
+  [TOP]::FP.resolution(nvals = 1)  :: [300]
+  [TOP]::FP.do_moving_window_FP(nvals = 1)  :: [1]
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ FIRST STEP ]
+*
+* No recorded warnings.
+********************************************************************************
+
+STEP 1 ends. TIME = 9.380191971e-16 DT = 9.380191971e-16
+Evolve time = 0.009708224 s; This step = 0.009708224 s; Avg. per step = 0.009708224 s
+
+STEP 2 starts ...
+STEP 2 ends. TIME = 1.876038394e-15 DT = 9.380191971e-16
+Evolve time = 0.019595952 s; This step = 0.009887728 s; Avg. per step = 0.009797976 s
+
+STEP 3 starts ...
+STEP 3 ends. TIME = 2.814057591e-15 DT = 9.380191971e-16
+Evolve time = 0.027583549 s; This step = 0.007987597 s; Avg. per step = 0.009194516333 s
+
+STEP 4 starts ...
+re-sorting particles 
+STEP 4 ends. TIME = 3.752076788e-15 DT = 9.380191971e-16
+Evolve time = 0.037495384 s; This step = 0.009911835 s; Avg. per step = 0.009373846 s
+
+STEP 5 starts ...
+STEP 5 ends. TIME = 4.690095985e-15 DT = 9.380191971e-16
+Evolve time = 0.045794702 s; This step = 0.008299318 s; Avg. per step = 0.0091589404 s
+
+STEP 6 starts ...
+STEP 6 ends. TIME = 5.628115182e-15 DT = 9.380191971e-16
+Evolve time = 0.055317958 s; This step = 0.009523256 s; Avg. per step = 0.009219659667 s
+
+STEP 7 starts ...
+STEP 7 ends. TIME = 6.56613438e-15 DT = 9.380191971e-16
+Evolve time = 0.063166823 s; This step = 0.007848865 s; Avg. per step = 0.009023831857 s
+
+STEP 8 starts ...
+re-sorting particles 
+STEP 8 ends. TIME = 7.504153577e-15 DT = 9.380191971e-16
+Evolve time = 0.073101804 s; This step = 0.009934981 s; Avg. per step = 0.0091377255 s
+
+STEP 9 starts ...
+STEP 9 ends. TIME = 8.442172774e-15 DT = 9.380191971e-16
+Evolve time = 0.08110702 s; This step = 0.008005216 s; Avg. per step = 0.009011891111 s
+
+STEP 10 starts ...
+STEP 10 ends. TIME = 9.380191971e-15 DT = 9.380191971e-16
+Evolve time = 0.090754172 s; This step = 0.009647152 s; Avg. per step = 0.0090754172 s
+
+STEP 11 starts ...
+STEP 11 ends. TIME = 1.031821117e-14 DT = 9.380191971e-16
+Evolve time = 0.098644374 s; This step = 0.007890202 s; Avg. per step = 0.008967670364 s
+
+STEP 12 starts ...
+re-sorting particles 
+STEP 12 ends. TIME = 1.125623036e-14 DT = 9.380191971e-16
+Evolve time = 0.108529195 s; This step = 0.009884821 s; Avg. per step = 0.009044099583 s
+
+STEP 13 starts ...
+STEP 13 ends. TIME = 1.219424956e-14 DT = 9.380191971e-16
+Evolve time = 0.116564512 s; This step = 0.008035317 s; Avg. per step = 0.008966500923 s
+
+STEP 14 starts ...
+STEP 14 ends. TIME = 1.313226876e-14 DT = 9.380191971e-16
+Evolve time = 0.126156672 s; This step = 0.00959216 s; Avg. per step = 0.009011190857 s
+
+STEP 15 starts ...
+STEP 15 ends. TIME = 1.407028796e-14 DT = 9.380191971e-16
+Evolve time = 0.134080823 s; This step = 0.007924151 s; Avg. per step = 0.008938721533 s
+
+STEP 16 starts ...
+re-sorting particles 
+STEP 16 ends. TIME = 1.500830715e-14 DT = 9.380191971e-16
+Evolve time = 0.143949977 s; This step = 0.009869154 s; Avg. per step = 0.008996873563 s
+
+STEP 17 starts ...
+STEP 17 ends. TIME = 1.594632635e-14 DT = 9.380191971e-16
+Evolve time = 0.151997203 s; This step = 0.008047226 s; Avg. per step = 0.008941011941 s
+
+STEP 18 starts ...
+STEP 18 ends. TIME = 1.688434555e-14 DT = 9.380191971e-16
+Evolve time = 0.161569678 s; This step = 0.009572475 s; Avg. per step = 0.008976093222 s
+
+STEP 19 starts ...
+STEP 19 ends. TIME = 1.782236474e-14 DT = 9.380191971e-16
+Evolve time = 0.171229726 s; This step = 0.009660048 s; Avg. per step = 0.009012090842 s
+
+STEP 20 starts ...
+re-sorting particles 
+STEP 20 ends. TIME = 1.876038394e-14 DT = 9.380191971e-16
+Evolve time = 0.21689615 s; This step = 0.045666424 s; Avg. per step = 0.0108448075 s
+
+STEP 21 starts ...
+STEP 21 ends. TIME = 1.969840314e-14 DT = 9.380191971e-16
+Evolve time = 0.227201561 s; This step = 0.010305411 s; Avg. per step = 0.01081912195 s
+
+STEP 22 starts ...
+STEP 22 ends. TIME = 2.063642234e-14 DT = 9.380191971e-16
+Evolve time = 0.235373359 s; This step = 0.008171798 s; Avg. per step = 0.01069878905 s
+
+STEP 23 starts ...
+STEP 23 ends. TIME = 2.157444153e-14 DT = 9.380191971e-16
+Evolve time = 0.245598074 s; This step = 0.010224715 s; Avg. per step = 0.01067817713 s
+
+STEP 24 starts ...
+re-sorting particles 
+STEP 24 ends. TIME = 2.251246073e-14 DT = 9.380191971e-16
+Evolve time = 0.254194634 s; This step = 0.00859656 s; Avg. per step = 0.01059144308 s
+
+STEP 25 starts ...
+STEP 25 ends. TIME = 2.345047993e-14 DT = 9.380191971e-16
+Evolve time = 0.264232958 s; This step = 0.010038324 s; Avg. per step = 0.01056931832 s
+
+STEP 26 starts ...
+STEP 26 ends. TIME = 2.438849912e-14 DT = 9.380191971e-16
+Evolve time = 0.272468589 s; This step = 0.008235631 s; Avg. per step = 0.01047956112 s
+
+STEP 27 starts ...
+STEP 27 ends. TIME = 2.532651832e-14 DT = 9.380191971e-16
+Evolve time = 0.282522438 s; This step = 0.010053849 s; Avg. per step = 0.010463794 s
+
+STEP 28 starts ...
+re-sorting particles 
+STEP 28 ends. TIME = 2.626453752e-14 DT = 9.380191971e-16
+Evolve time = 0.291255362 s; This step = 0.008732924 s; Avg. per step = 0.01040197721 s
+
+STEP 29 starts ...
+STEP 29 ends. TIME = 2.720255672e-14 DT = 9.380191971e-16
+Evolve time = 0.301314426 s; This step = 0.010059064 s; Avg. per step = 0.01039015262 s
+
+STEP 30 starts ...
+STEP 30 ends. TIME = 2.814057591e-14 DT = 9.380191971e-16
+Evolve time = 0.309581018 s; This step = 0.008266592 s; Avg. per step = 0.01031936727 s
+
+STEP 31 starts ...
+STEP 31 ends. TIME = 2.907859511e-14 DT = 9.380191971e-16
+Evolve time = 0.319744949 s; This step = 0.010163931 s; Avg. per step = 0.01031435319 s
+
+STEP 32 starts ...
+re-sorting particles 
+STEP 32 ends. TIME = 3.001661431e-14 DT = 9.380191971e-16
+Evolve time = 0.328362818 s; This step = 0.008617869 s; Avg. per step = 0.01026133806 s
+
+STEP 33 starts ...
+STEP 33 ends. TIME = 3.09546335e-14 DT = 9.380191971e-16
+Evolve time = 0.338410964 s; This step = 0.010048146 s; Avg. per step = 0.0102548777 s
+
+STEP 34 starts ...
+STEP 34 ends. TIME = 3.18926527e-14 DT = 9.380191971e-16
+Evolve time = 0.346662288 s; This step = 0.008251324 s; Avg. per step = 0.01019594965 s
+
+STEP 35 starts ...
+STEP 35 ends. TIME = 3.28306719e-14 DT = 9.380191971e-16
+Evolve time = 0.356654362 s; This step = 0.009992074 s; Avg. per step = 0.01019012463 s
+
+STEP 36 starts ...
+re-sorting particles 
+STEP 36 ends. TIME = 3.376869109e-14 DT = 9.380191971e-16
+Evolve time = 0.367066799 s; This step = 0.010412437 s; Avg. per step = 0.01019629997 s
+
+STEP 37 starts ...
+STEP 37 ends. TIME = 3.470671029e-14 DT = 9.380191971e-16
+Evolve time = 0.375313577 s; This step = 0.008246778 s; Avg. per step = 0.01014361019 s
+
+STEP 38 starts ...
+STEP 38 ends. TIME = 3.564472949e-14 DT = 9.380191971e-16
+Evolve time = 0.385248317 s; This step = 0.00993474 s; Avg. per step = 0.01013811361 s
+
+STEP 39 starts ...
+STEP 39 ends. TIME = 3.658274869e-14 DT = 9.380191971e-16
+Evolve time = 0.393536503 s; This step = 0.008288186 s; Avg. per step = 0.01009067956 s
+
+STEP 40 starts ...
+re-sorting particles 
+STEP 40 ends. TIME = 3.752076788e-14 DT = 9.380191971e-16
+Evolve time = 0.438138905 s; This step = 0.044602402 s; Avg. per step = 0.01095347262 s
+
+STEP 41 starts ...
+STEP 41 ends. TIME = 3.845878708e-14 DT = 9.380191971e-16
+Evolve time = 0.446570559 s; This step = 0.008431654 s; Avg. per step = 0.01089196485 s
+
+STEP 42 starts ...
+STEP 42 ends. TIME = 3.939680628e-14 DT = 9.380191971e-16
+Evolve time = 0.45654774 s; This step = 0.009977181 s; Avg. per step = 0.01087018429 s
+
+STEP 43 starts ...
+STEP 43 ends. TIME = 4.033482547e-14 DT = 9.380191971e-16
+Evolve time = 0.464786474 s; This step = 0.008238734 s; Avg. per step = 0.01080898777 s
+
+STEP 44 starts ...
+re-sorting particles 
+STEP 44 ends. TIME = 4.127284467e-14 DT = 9.380191971e-16
+Evolve time = 0.475056429 s; This step = 0.010269955 s; Avg. per step = 0.01079673702 s
+
+STEP 45 starts ...
+STEP 45 ends. TIME = 4.221086387e-14 DT = 9.380191971e-16
+Evolve time = 0.483330324 s; This step = 0.008273895 s; Avg. per step = 0.01074067387 s
+
+STEP 46 starts ...
+STEP 46 ends. TIME = 4.314888307e-14 DT = 9.380191971e-16
+Evolve time = 0.493585735 s; This step = 0.010255411 s; Avg. per step = 0.01073012467 s
+
+STEP 47 starts ...
+STEP 47 ends. TIME = 4.408690226e-14 DT = 9.380191971e-16
+Evolve time = 0.502058995 s; This step = 0.00847326 s; Avg. per step = 0.01068210628 s
+
+STEP 48 starts ...
+re-sorting particles 
+STEP 48 ends. TIME = 4.502492146e-14 DT = 9.380191971e-16
+Evolve time = 0.512529652 s; This step = 0.010470657 s; Avg. per step = 0.01067770108 s
+
+STEP 49 starts ...
+STEP 49 ends. TIME = 4.596294066e-14 DT = 9.380191971e-16
+Evolve time = 0.521007108 s; This step = 0.008477456 s; Avg. per step = 0.01063279812 s
+
+STEP 50 starts ...
+STEP 50 ends. TIME = 4.690095985e-14 DT = 9.380191971e-16
+Evolve time = 0.531031127 s; This step = 0.010024019 s; Avg. per step = 0.01062062254 s
+
+STEP 51 starts ...
+STEP 51 ends. TIME = 4.783897905e-14 DT = 9.380191971e-16
+Evolve time = 0.539438958 s; This step = 0.008407831 s; Avg. per step = 0.01057723447 s
+
+STEP 52 starts ...
+re-sorting particles 
+STEP 52 ends. TIME = 4.877699825e-14 DT = 9.380191971e-16
+Evolve time = 0.549927135 s; This step = 0.010488177 s; Avg. per step = 0.01057552183 s
+
+STEP 53 starts ...
+STEP 53 ends. TIME = 4.971501745e-14 DT = 9.380191971e-16
+Evolve time = 0.560182093 s; This step = 0.010254958 s; Avg. per step = 0.01056947345 s
+
+STEP 54 starts ...
+STEP 54 ends. TIME = 5.065303664e-14 DT = 9.380191971e-16
+Evolve time = 0.568491658 s; This step = 0.008309565 s; Avg. per step = 0.0105276233 s
+
+STEP 55 starts ...
+STEP 55 ends. TIME = 5.159105584e-14 DT = 9.380191971e-16
+Evolve time = 0.578524959 s; This step = 0.010033301 s; Avg. per step = 0.01051863562 s
+
+STEP 56 starts ...
+re-sorting particles 
+STEP 56 ends. TIME = 5.252907504e-14 DT = 9.380191971e-16
+Evolve time = 0.587488565 s; This step = 0.008963606 s; Avg. per step = 0.01049086723 s
+
+STEP 57 starts ...
+STEP 57 ends. TIME = 5.346709423e-14 DT = 9.380191971e-16
+Evolve time = 0.597726222 s; This step = 0.010237657 s; Avg. per step = 0.01048642495 s
+
+STEP 58 starts ...
+STEP 58 ends. TIME = 5.440511343e-14 DT = 9.380191971e-16
+Evolve time = 0.606134681 s; This step = 0.008408459 s; Avg. per step = 0.01045059795 s
+
+STEP 59 starts ...
+STEP 59 ends. TIME = 5.534313263e-14 DT = 9.380191971e-16
+Evolve time = 0.616293148 s; This step = 0.010158467 s; Avg. per step = 0.01044564658 s
+
+STEP 60 starts ...
+re-sorting particles 
+STEP 60 ends. TIME = 5.628115182e-14 DT = 9.380191971e-16
+Evolve time = 0.659103618 s; This step = 0.04281047 s; Avg. per step = 0.0109850603 s
+
+STEP 61 starts ...
+STEP 61 ends. TIME = 5.721917102e-14 DT = 9.380191971e-16
+Evolve time = 0.669484428 s; This step = 0.01038081 s; Avg. per step = 0.01097515456 s
+
+STEP 62 starts ...
+STEP 62 ends. TIME = 5.815719022e-14 DT = 9.380191971e-16
+Evolve time = 0.67810023 s; This step = 0.008615802 s; Avg. per step = 0.01093710048 s
+
+STEP 63 starts ...
+STEP 63 ends. TIME = 5.909520942e-14 DT = 9.380191971e-16
+Evolve time = 0.688267191 s; This step = 0.010166961 s; Avg. per step = 0.01092487605 s
+
+STEP 64 starts ...
+re-sorting particles 
+STEP 64 ends. TIME = 6.003322861e-14 DT = 9.380191971e-16
+Evolve time = 0.697113682 s; This step = 0.008846491 s; Avg. per step = 0.01089240128 s
+
+STEP 65 starts ...
+STEP 65 ends. TIME = 6.097124781e-14 DT = 9.380191971e-16
+Evolve time = 0.70739006 s; This step = 0.010276378 s; Avg. per step = 0.010882924 s
+
+STEP 66 starts ...
+STEP 66 ends. TIME = 6.190926701e-14 DT = 9.380191971e-16
+Evolve time = 0.715763001 s; This step = 0.008372941 s; Avg. per step = 0.01084489395 s
+
+STEP 67 starts ...
+STEP 67 ends. TIME = 6.28472862e-14 DT = 9.380191971e-16
+Evolve time = 0.725890134 s; This step = 0.010127133 s; Avg. per step = 0.0108341811 s
+
+STEP 68 starts ...
+re-sorting particles 
+STEP 68 ends. TIME = 6.37853054e-14 DT = 9.380191971e-16
+Evolve time = 0.734666885 s; This step = 0.008776751 s; Avg. per step = 0.01080392478 s
+
+STEP 69 starts ...
+STEP 69 ends. TIME = 6.47233246e-14 DT = 9.380191971e-16
+Evolve time = 0.744911923 s; This step = 0.010245038 s; Avg. per step = 0.01079582497 s
+
+STEP 70 starts ...
+STEP 70 ends. TIME = 6.56613438e-14 DT = 9.380191971e-16
+Evolve time = 0.755087887 s; This step = 0.010175964 s; Avg. per step = 0.01078696981 s
+
+STEP 71 starts ...
+STEP 71 ends. TIME = 6.659936299e-14 DT = 9.380191971e-16
+Evolve time = 0.763767272 s; This step = 0.008679385 s; Avg. per step = 0.01075728552 s
+
+STEP 72 starts ...
+re-sorting particles 
+STEP 72 ends. TIME = 6.753738219e-14 DT = 9.380191971e-16
+Evolve time = 0.774254281 s; This step = 0.010487009 s; Avg. per step = 0.01075353168 s
+
+STEP 73 starts ...
+STEP 73 ends. TIME = 6.847540139e-14 DT = 9.380191971e-16
+Evolve time = 0.782707229 s; This step = 0.008452948 s; Avg. per step = 0.01072201684 s
+
+STEP 74 starts ...
+STEP 74 ends. TIME = 6.941342058e-14 DT = 9.380191971e-16
+Evolve time = 0.792811775 s; This step = 0.010104546 s; Avg. per step = 0.01071367264 s
+
+STEP 75 starts ...
+STEP 75 ends. TIME = 7.035143978e-14 DT = 9.380191971e-16
+Evolve time = 0.801176193 s; This step = 0.008364418 s; Avg. per step = 0.01068234924 s
+
+STEP 76 starts ...
+re-sorting particles 
+STEP 76 ends. TIME = 7.128945898e-14 DT = 9.380191971e-16
+Evolve time = 0.811638576 s; This step = 0.010462383 s; Avg. per step = 0.01067945495 s
+
+STEP 77 starts ...
+STEP 77 ends. TIME = 7.222747818e-14 DT = 9.380191971e-16
+Evolve time = 0.820186937 s; This step = 0.008548361 s; Avg. per step = 0.0106517784 s
+
+STEP 78 starts ...
+STEP 78 ends. TIME = 7.316549737e-14 DT = 9.380191971e-16
+Evolve time = 0.830286837 s; This step = 0.0100999 s; Avg. per step = 0.01064470304 s
+
+STEP 79 starts ...
+STEP 79 ends. TIME = 7.410351657e-14 DT = 9.380191971e-16
+Evolve time = 0.838761225 s; This step = 0.008474388 s; Avg. per step = 0.0106172307 s
+
+STEP 80 starts ...
+re-sorting particles 
+STEP 80 ends. TIME = 7.504153577e-14 DT = 9.380191971e-16
+Evolve time = 0.884884837 s; This step = 0.046123612 s; Avg. per step = 0.01106106046 s
+
+STEP 81 starts ...
+STEP 81 ends. TIME = 7.597955496e-14 DT = 9.380191971e-16
+Evolve time = 0.893476186 s; This step = 0.008591349 s; Avg. per step = 0.0110305702 s
+
+STEP 82 starts ...
+STEP 82 ends. TIME = 7.691757416e-14 DT = 9.380191971e-16
+Evolve time = 0.903704548 s; This step = 0.010228362 s; Avg. per step = 0.01102078717 s
+
+STEP 83 starts ...
+STEP 83 ends. TIME = 7.785559336e-14 DT = 9.380191971e-16
+Evolve time = 0.912068772 s; This step = 0.008364224 s; Avg. per step = 0.01098878039 s
+
+STEP 84 starts ...
+re-sorting particles 
+STEP 84 ends. TIME = 7.879361255e-14 DT = 9.380191971e-16
+Evolve time = 0.922785443 s; This step = 0.010716671 s; Avg. per step = 0.01098554099 s
+
+STEP 85 starts ...
+STEP 85 ends. TIME = 7.973163175e-14 DT = 9.380191971e-16
+Evolve time = 0.931356207 s; This step = 0.008570764 s; Avg. per step = 0.01095713185 s
+
+STEP 86 starts ...
+STEP 86 ends. TIME = 8.066965095e-14 DT = 9.380191971e-16
+Evolve time = 0.941573002 s; This step = 0.010216795 s; Avg. per step = 0.01094852328 s
+
+STEP 87 starts ...
+STEP 87 ends. TIME = 8.160767015e-14 DT = 9.380191971e-16
+Evolve time = 0.951864244 s; This step = 0.010291242 s; Avg. per step = 0.01094096832 s
+
+STEP 88 starts ...
+re-sorting particles 
+STEP 88 ends. TIME = 8.254568934e-14 DT = 9.380191971e-16
+Evolve time = 0.960774187 s; This step = 0.008909943 s; Avg. per step = 0.01091788849 s
+
+STEP 89 starts ...
+STEP 89 ends. TIME = 8.348370854e-14 DT = 9.380191971e-16
+Evolve time = 0.97101173 s; This step = 0.010237543 s; Avg. per step = 0.01091024416 s
+
+STEP 90 starts ...
+STEP 90 ends. TIME = 8.442172774e-14 DT = 9.380191971e-16
+Evolve time = 0.97941482 s; This step = 0.00840309 s; Avg. per step = 0.01088238689 s
+
+STEP 91 starts ...
+STEP 91 ends. TIME = 8.535974693e-14 DT = 9.380191971e-16
+Evolve time = 0.98962418 s; This step = 0.01020936 s; Avg. per step = 0.01087499099 s
+
+STEP 92 starts ...
+re-sorting particles 
+STEP 92 ends. TIME = 8.629776613e-14 DT = 9.380191971e-16
+Evolve time = 0.998392522 s; This step = 0.008768342 s; Avg. per step = 0.01085209263 s
+
+STEP 93 starts ...
+STEP 93 ends. TIME = 8.723578533e-14 DT = 9.380191971e-16
+Evolve time = 1.008758675 s; This step = 0.010366153 s; Avg. per step = 0.01084686747 s
+
+STEP 94 starts ...
+STEP 94 ends. TIME = 8.817380453e-14 DT = 9.380191971e-16
+Evolve time = 1.01724641 s; This step = 0.008487735 s; Avg. per step = 0.01082177032 s
+
+STEP 95 starts ...
+STEP 95 ends. TIME = 8.911182372e-14 DT = 9.380191971e-16
+Evolve time = 1.027427378 s; This step = 0.010180968 s; Avg. per step = 0.01081502503 s
+
+STEP 96 starts ...
+re-sorting particles 
+STEP 96 ends. TIME = 9.004984292e-14 DT = 9.380191971e-16
+Evolve time = 1.036413373 s; This step = 0.008985995 s; Avg. per step = 0.01079597264 s
+
+STEP 97 starts ...
+STEP 97 ends. TIME = 9.098786212e-14 DT = 9.380191971e-16
+Evolve time = 1.046666909 s; This step = 0.010253536 s; Avg. per step = 0.01079038051 s
+
+STEP 98 starts ...
+STEP 98 ends. TIME = 9.192588131e-14 DT = 9.380191971e-16
+Evolve time = 1.05497095 s; This step = 0.008304041 s; Avg. per step = 0.01076500969 s
+
+STEP 99 starts ...
+STEP 99 ends. TIME = 9.286390051e-14 DT = 9.380191971e-16
+Evolve time = 1.065166076 s; This step = 0.010195126 s; Avg. per step = 0.01075925329 s
+
+STEP 100 starts ...
+re-sorting particles 
+STEP 100 ends. TIME = 9.380191971e-14 DT = 9.380191971e-16
+Evolve time = 1.11509226 s; This step = 0.049926184 s; Avg. per step = 0.0111509226 s
+
+STEP 101 starts ...
+STEP 101 ends. TIME = 9.473993891e-14 DT = 9.380191971e-16
+Evolve time = 1.125620768 s; This step = 0.010528508 s; Avg. per step = 0.01114476008 s
+
+STEP 102 starts ...
+STEP 102 ends. TIME = 9.56779581e-14 DT = 9.380191971e-16
+Evolve time = 1.134118601 s; This step = 0.008497833 s; Avg. per step = 0.01111880981 s
+
+STEP 103 starts ...
+STEP 103 ends. TIME = 9.66159773e-14 DT = 9.380191971e-16
+Evolve time = 1.144304021 s; This step = 0.01018542 s; Avg. per step = 0.01110974778 s
+
+STEP 104 starts ...
+re-sorting particles 
+STEP 104 ends. TIME = 9.75539965e-14 DT = 9.380191971e-16
+Evolve time = 1.15498267 s; This step = 0.010678649 s; Avg. per step = 0.0111056026 s
+
+STEP 105 starts ...
+STEP 105 ends. TIME = 9.849201569e-14 DT = 9.380191971e-16
+Evolve time = 1.163492938 s; This step = 0.008510268 s; Avg. per step = 0.01108088512 s
+
+STEP 106 starts ...
+STEP 106 ends. TIME = 9.943003489e-14 DT = 9.380191971e-16
+Evolve time = 1.173668416 s; This step = 0.010175478 s; Avg. per step = 0.01107234355 s
+
+STEP 107 starts ...
+STEP 107 ends. TIME = 1.003680541e-13 DT = 9.380191971e-16
+Evolve time = 1.182068194 s; This step = 0.008399778 s; Avg. per step = 0.0110473663 s
+
+STEP 108 starts ...
+re-sorting particles 
+STEP 108 ends. TIME = 1.013060733e-13 DT = 9.380191971e-16
+Evolve time = 1.192725325 s; This step = 0.010657131 s; Avg. per step = 0.01104375301 s
+
+STEP 109 starts ...
+STEP 109 ends. TIME = 1.022440925e-13 DT = 9.380191971e-16
+Evolve time = 1.201387709 s; This step = 0.008662384 s; Avg. per step = 0.01102190559 s
+
+STEP 110 starts ...
+STEP 110 ends. TIME = 1.031821117e-13 DT = 9.380191971e-16
+Evolve time = 1.211743308 s; This step = 0.010355599 s; Avg. per step = 0.01101584825 s
+
+STEP 111 starts ...
+STEP 111 ends. TIME = 1.041201309e-13 DT = 9.380191971e-16
+Evolve time = 1.220713556 s; This step = 0.008970248 s; Avg. per step = 0.01099741942 s
+
+STEP 112 starts ...
+re-sorting particles 
+STEP 112 ends. TIME = 1.050581501e-13 DT = 9.380191971e-16
+Evolve time = 1.231590818 s; This step = 0.010877262 s; Avg. per step = 0.01099634659 s
+
+STEP 113 starts ...
+STEP 113 ends. TIME = 1.059961693e-13 DT = 9.380191971e-16
+Evolve time = 1.239759663 s; This step = 0.008168845 s; Avg. per step = 0.01097132445 s
+
+STEP 114 starts ...
+STEP 114 ends. TIME = 1.069341885e-13 DT = 9.380191971e-16
+Evolve time = 1.249878359 s; This step = 0.010118696 s; Avg. per step = 0.01096384525 s
+
+STEP 115 starts ...
+STEP 115 ends. TIME = 1.078722077e-13 DT = 9.380191971e-16
+Evolve time = 1.258339933 s; This step = 0.008461574 s; Avg. per step = 0.01094208637 s
+
+STEP 116 starts ...
+re-sorting particles 
+STEP 116 ends. TIME = 1.088102269e-13 DT = 9.380191971e-16
+Evolve time = 1.269003567 s; This step = 0.010663634 s; Avg. per step = 0.01093968592 s
+
+STEP 117 starts ...
+STEP 117 ends. TIME = 1.097482461e-13 DT = 9.380191971e-16
+Evolve time = 1.277340887 s; This step = 0.00833732 s; Avg. per step = 0.01091744348 s
+
+STEP 118 starts ...
+STEP 118 ends. TIME = 1.106862653e-13 DT = 9.380191971e-16
+Evolve time = 1.287471418 s; This step = 0.010130531 s; Avg. per step = 0.01091077473 s
+
+STEP 119 starts ...
+STEP 119 ends. TIME = 1.116242845e-13 DT = 9.380191971e-16
+Evolve time = 1.295753867 s; This step = 0.008282449 s; Avg. per step = 0.01088868796 s
+
+STEP 120 starts ...
+re-sorting particles 
+STEP 120 ends. TIME = 1.125623036e-13 DT = 9.380191971e-16
+Evolve time = 1.346328155 s; This step = 0.050574288 s; Avg. per step = 0.01121940129 s
+
+STEP 121 starts ...
+STEP 121 ends. TIME = 1.135003228e-13 DT = 9.380191971e-16
+Evolve time = 1.356754257 s; This step = 0.010426102 s; Avg. per step = 0.0112128451 s
+
+STEP 122 starts ...
+STEP 122 ends. TIME = 1.14438342e-13 DT = 9.380191971e-16
+Evolve time = 1.36512792 s; This step = 0.008373663 s; Avg. per step = 0.01118957311 s
+
+STEP 123 starts ...
+STEP 123 ends. TIME = 1.153763612e-13 DT = 9.380191971e-16
+Evolve time = 1.375152021 s; This step = 0.010024101 s; Avg. per step = 0.01118009773 s
+
+STEP 124 starts ...
+re-sorting particles 
+STEP 124 ends. TIME = 1.163143804e-13 DT = 9.380191971e-16
+Evolve time = 1.38403046 s; This step = 0.008878439 s; Avg. per step = 0.01116153597 s
+
+STEP 125 starts ...
+STEP 125 ends. TIME = 1.172523996e-13 DT = 9.380191971e-16
+Evolve time = 1.394121494 s; This step = 0.010091034 s; Avg. per step = 0.01115297195 s
+
+STEP 126 starts ...
+STEP 126 ends. TIME = 1.181904188e-13 DT = 9.380191971e-16
+Evolve time = 1.402469502 s; This step = 0.008348008 s; Avg. per step = 0.01113071033 s
+
+STEP 127 starts ...
+STEP 127 ends. TIME = 1.19128438e-13 DT = 9.380191971e-16
+Evolve time = 1.412622656 s; This step = 0.010153154 s; Avg. per step = 0.01112301304 s
+
+STEP 128 starts ...
+re-sorting particles 
+STEP 128 ends. TIME = 1.200664572e-13 DT = 9.380191971e-16
+Evolve time = 1.421801714 s; This step = 0.009179058 s; Avg. per step = 0.01110782589 s
+
+STEP 129 starts ...
+STEP 129 ends. TIME = 1.210044764e-13 DT = 9.380191971e-16
+Evolve time = 1.432423941 s; This step = 0.010622227 s; Avg. per step = 0.01110406156 s
+
+STEP 130 starts ...
+STEP 130 ends. TIME = 1.219424956e-13 DT = 9.380191971e-16
+Evolve time = 1.44090431 s; This step = 0.008480369 s; Avg. per step = 0.01108387931 s
+
+STEP 131 starts ...
+STEP 131 ends. TIME = 1.228805148e-13 DT = 9.380191971e-16
+Evolve time = 1.450989187 s; This step = 0.010084877 s; Avg. per step = 0.01107625334 s
+
+STEP 132 starts ...
+re-sorting particles 
+STEP 132 ends. TIME = 1.23818534e-13 DT = 9.380191971e-16
+Evolve time = 1.459822576 s; This step = 0.008833389 s; Avg. per step = 0.01105926194 s
+
+STEP 133 starts ...
+STEP 133 ends. TIME = 1.247565532e-13 DT = 9.380191971e-16
+Evolve time = 1.470092039 s; This step = 0.010269463 s; Avg. per step = 0.0110533236 s
+
+STEP 134 starts ...
+STEP 134 ends. TIME = 1.256945724e-13 DT = 9.380191971e-16
+Evolve time = 1.478459097 s; This step = 0.008367058 s; Avg. per step = 0.01103327684 s
+
+STEP 135 starts ...
+STEP 135 ends. TIME = 1.266325916e-13 DT = 9.380191971e-16
+Evolve time = 1.488596705 s; This step = 0.010137608 s; Avg. per step = 0.01102664226 s
+
+STEP 136 starts ...
+re-sorting particles 
+STEP 136 ends. TIME = 1.275706108e-13 DT = 9.380191971e-16
+Evolve time = 1.497566427 s; This step = 0.008969722 s; Avg. per step = 0.01101151785 s
+
+STEP 137 starts ...
+STEP 137 ends. TIME = 1.2850863e-13 DT = 9.380191971e-16
+Evolve time = 1.507666651 s; This step = 0.010100224 s; Avg. per step = 0.01100486607 s
+
+STEP 138 starts ...
+STEP 138 ends. TIME = 1.294466492e-13 DT = 9.380191971e-16
+Evolve time = 1.517692625 s; This step = 0.010025974 s; Avg. per step = 0.01099777264 s
+
+STEP 139 starts ...
+STEP 139 ends. TIME = 1.303846684e-13 DT = 9.380191971e-16
+Evolve time = 1.525966735 s; This step = 0.00827411 s; Avg. per step = 0.01097817795 s
+
+STEP 140 starts ...
+re-sorting particles 
+STEP 140 ends. TIME = 1.313226876e-13 DT = 9.380191971e-16
+Evolve time = 1.577733821 s; This step = 0.051767086 s; Avg. per step = 0.01126952729 s
+
+STEP 141 starts ...
+STEP 141 ends. TIME = 1.322607068e-13 DT = 9.380191971e-16
+Evolve time = 1.586254187 s; This step = 0.008520366 s; Avg. per step = 0.0112500297 s
+
+STEP 142 starts ...
+STEP 142 ends. TIME = 1.33198726e-13 DT = 9.380191971e-16
+Evolve time = 1.596463517 s; This step = 0.01020933 s; Avg. per step = 0.01124270082 s
+
+STEP 143 starts ...
+STEP 143 ends. TIME = 1.341367452e-13 DT = 9.380191971e-16
+Evolve time = 1.604781694 s; This step = 0.008318177 s; Avg. per step = 0.01122224961 s
+
+STEP 144 starts ...
+re-sorting particles 
+STEP 144 ends. TIME = 1.350747644e-13 DT = 9.380191971e-16
+Evolve time = 1.615560081 s; This step = 0.010778387 s; Avg. per step = 0.01121916723 s
+
+STEP 145 starts ...
+STEP 145 ends. TIME = 1.360127836e-13 DT = 9.380191971e-16
+Evolve time = 1.623805795 s; This step = 0.008245714 s; Avg. per step = 0.01119866066 s
+
+STEP 146 starts ...
+STEP 146 ends. TIME = 1.369508028e-13 DT = 9.380191971e-16
+Evolve time = 1.634061629 s; This step = 0.010255834 s; Avg. per step = 0.01119220294 s
+
+STEP 147 starts ...
+STEP 147 ends. TIME = 1.37888822e-13 DT = 9.380191971e-16
+Evolve time = 1.642414621 s; This step = 0.008352992 s; Avg. per step = 0.01117288858 s
+
+STEP 148 starts ...
+re-sorting particles 
+STEP 148 ends. TIME = 1.388268412e-13 DT = 9.380191971e-16
+Evolve time = 1.653282768 s; This step = 0.010868147 s; Avg. per step = 0.01117082951 s
+
+STEP 149 starts ...
+STEP 149 ends. TIME = 1.397648604e-13 DT = 9.380191971e-16
+Evolve time = 1.661494756 s; This step = 0.008211988 s; Avg. per step = 0.01115097152 s
+
+STEP 150 starts ...
+STEP 150 ends. TIME = 1.407028796e-13 DT = 9.380191971e-16
+Evolve time = 1.671698901 s; This step = 0.010204145 s; Avg. per step = 0.01114465934 s
+
+STEP 151 starts ...
+STEP 151 ends. TIME = 1.416408988e-13 DT = 9.380191971e-16
+Evolve time = 1.680226172 s; This step = 0.008527271 s; Avg. per step = 0.01112732564 s
+
+STEP 152 starts ...
+re-sorting particles 
+STEP 152 ends. TIME = 1.42578918e-13 DT = 9.380191971e-16
+Evolve time = 1.691038609 s; This step = 0.010812437 s; Avg. per step = 0.01112525401 s
+
+STEP 153 starts ...
+STEP 153 ends. TIME = 1.435169372e-13 DT = 9.380191971e-16
+Evolve time = 1.699296799 s; This step = 0.00825819 s; Avg. per step = 0.01110651503 s
+
+STEP 154 starts ...
+STEP 154 ends. TIME = 1.444549564e-13 DT = 9.380191971e-16
+Evolve time = 1.709389719 s; This step = 0.01009292 s; Avg. per step = 0.01109993324 s
+
+STEP 155 starts ...
+STEP 155 ends. TIME = 1.453929755e-13 DT = 9.380191971e-16
+Evolve time = 1.719531858 s; This step = 0.010142139 s; Avg. per step = 0.01109375392 s
+
+STEP 156 starts ...
+re-sorting particles 
+STEP 156 ends. TIME = 1.463309947e-13 DT = 9.380191971e-16
+Evolve time = 1.72846015 s; This step = 0.008928292 s; Avg. per step = 0.01107987276 s
+
+STEP 157 starts ...
+STEP 157 ends. TIME = 1.472690139e-13 DT = 9.380191971e-16
+Evolve time = 1.738552962 s; This step = 0.010092812 s; Avg. per step = 0.01107358575 s
+
+STEP 158 starts ...
+STEP 158 ends. TIME = 1.482070331e-13 DT = 9.380191971e-16
+Evolve time = 1.746945355 s; This step = 0.008392393 s; Avg. per step = 0.01105661617 s
+
+STEP 159 starts ...
+STEP 159 ends. TIME = 1.491450523e-13 DT = 9.380191971e-16
+Evolve time = 1.757058606 s; This step = 0.010113251 s; Avg. per step = 0.01105068306 s
+
+STEP 160 starts ...
+re-sorting particles 
+STEP 160 ends. TIME = 1.500830715e-13 DT = 9.380191971e-16
+Evolve time = 1.808166542 s; This step = 0.051107936 s; Avg. per step = 0.01130104089 s
+
+STEP 161 starts ...
+STEP 161 ends. TIME = 1.510210907e-13 DT = 9.380191971e-16
+Evolve time = 1.818540291 s; This step = 0.010373749 s; Avg. per step = 0.01129528131 s
+
+STEP 162 starts ...
+STEP 162 ends. TIME = 1.519591099e-13 DT = 9.380191971e-16
+Evolve time = 1.826938424 s; This step = 0.008398133 s; Avg. per step = 0.01127739768 s
+
+STEP 163 starts ...
+STEP 163 ends. TIME = 1.528971291e-13 DT = 9.380191971e-16
+Evolve time = 1.837157527 s; This step = 0.010219103 s; Avg. per step = 0.01127090507 s
+
+STEP 164 starts ...
+re-sorting particles 
+STEP 164 ends. TIME = 1.538351483e-13 DT = 9.380191971e-16
+Evolve time = 1.846139065 s; This step = 0.008981538 s; Avg. per step = 0.01125694552 s
+
+STEP 165 starts ...
+STEP 165 ends. TIME = 1.547731675e-13 DT = 9.380191971e-16
+Evolve time = 1.85616219 s; This step = 0.010023125 s; Avg. per step = 0.01124946782 s
+
+STEP 166 starts ...
+STEP 166 ends. TIME = 1.557111867e-13 DT = 9.380191971e-16
+Evolve time = 1.864784779 s; This step = 0.008622589 s; Avg. per step = 0.01123364325 s
+
+STEP 167 starts ...
+STEP 167 ends. TIME = 1.566492059e-13 DT = 9.380191971e-16
+Evolve time = 1.874989531 s; This step = 0.010204752 s; Avg. per step = 0.01122748222 s
+
+STEP 168 starts ...
+re-sorting particles 
+STEP 168 ends. TIME = 1.575872251e-13 DT = 9.380191971e-16
+Evolve time = 1.884023223 s; This step = 0.009033692 s; Avg. per step = 0.01121442395 s
+
+STEP 169 starts ...
+STEP 169 ends. TIME = 1.585252443e-13 DT = 9.380191971e-16
+Evolve time = 1.894197761 s; This step = 0.010174538 s; Avg. per step = 0.01120827078 s
+
+STEP 170 starts ...
+STEP 170 ends. TIME = 1.594632635e-13 DT = 9.380191971e-16
+Evolve time = 1.902732536 s; This step = 0.008534775 s; Avg. per step = 0.01119254433 s
+
+STEP 171 starts ...
+STEP 171 ends. TIME = 1.604012827e-13 DT = 9.380191971e-16
+Evolve time = 1.912895255 s; This step = 0.010162719 s; Avg. per step = 0.01118652196 s
+
+STEP 172 starts ...
+re-sorting particles 
+STEP 172 ends. TIME = 1.613393019e-13 DT = 9.380191971e-16
+Evolve time = 1.923759454 s; This step = 0.010864199 s; Avg. per step = 0.01118464799 s
+
+STEP 173 starts ...
+STEP 173 ends. TIME = 1.622773211e-13 DT = 9.380191971e-16
+Evolve time = 1.932126953 s; This step = 0.008367499 s; Avg. per step = 0.01116836389 s
+
+STEP 174 starts ...
+STEP 174 ends. TIME = 1.632153403e-13 DT = 9.380191971e-16
+Evolve time = 1.942345368 s; This step = 0.010218415 s; Avg. per step = 0.01116290441 s
+
+STEP 175 starts ...
+STEP 175 ends. TIME = 1.641533595e-13 DT = 9.380191971e-16
+Evolve time = 1.950699292 s; This step = 0.008353924 s; Avg. per step = 0.0111468531 s
+
+STEP 176 starts ...
+re-sorting particles 
+STEP 176 ends. TIME = 1.650913787e-13 DT = 9.380191971e-16
+Evolve time = 1.961339399 s; This step = 0.010640107 s; Avg. per step = 0.01114397386 s
+
+STEP 177 starts ...
+STEP 177 ends. TIME = 1.660293979e-13 DT = 9.380191971e-16
+Evolve time = 1.969625027 s; This step = 0.008285628 s; Avg. per step = 0.01112782501 s
+
+STEP 178 starts ...
+STEP 178 ends. TIME = 1.669674171e-13 DT = 9.380191971e-16
+Evolve time = 1.97966452 s; This step = 0.010039493 s; Avg. per step = 0.01112171079 s
+
+STEP 179 starts ...
+STEP 179 ends. TIME = 1.679054363e-13 DT = 9.380191971e-16
+Evolve time = 1.987957908 s; This step = 0.008293388 s; Avg. per step = 0.0111059101 s
+
+STEP 180 starts ...
+re-sorting particles 
+STEP 180 ends. TIME = 1.688434555e-13 DT = 9.380191971e-16
+Evolve time = 2.037364851 s; This step = 0.049406943 s; Avg. per step = 0.01131869362 s
+
+STEP 181 starts ...
+STEP 181 ends. TIME = 1.697814747e-13 DT = 9.380191971e-16
+Evolve time = 2.045957476 s; This step = 0.008592625 s; Avg. per step = 0.01130363246 s
+
+STEP 182 starts ...
+STEP 182 ends. TIME = 1.707194939e-13 DT = 9.380191971e-16
+Evolve time = 2.056338189 s; This step = 0.010380713 s; Avg. per step = 0.01129856148 s
+
+STEP 183 starts ...
+STEP 183 ends. TIME = 1.716575131e-13 DT = 9.380191971e-16
+Evolve time = 2.064919514 s; This step = 0.008581325 s; Avg. per step = 0.01128371319 s
+
+STEP 184 starts ...
+re-sorting particles 
+STEP 184 ends. TIME = 1.725955323e-13 DT = 9.380191971e-16
+Evolve time = 2.075644911 s; This step = 0.010725397 s; Avg. per step = 0.01128067886 s
+
+STEP 185 starts ...
+STEP 185 ends. TIME = 1.735335515e-13 DT = 9.380191971e-16
+Evolve time = 2.083949731 s; This step = 0.00830482 s; Avg. per step = 0.01126459314 s
+
+STEP 186 starts ...
+STEP 186 ends. TIME = 1.744715707e-13 DT = 9.380191971e-16
+Evolve time = 2.094090059 s; This step = 0.010140328 s; Avg. per step = 0.0112585487 s
+
+STEP 187 starts ...
+STEP 187 ends. TIME = 1.754095899e-13 DT = 9.380191971e-16
+Evolve time = 2.102569812 s; This step = 0.008479753 s; Avg. per step = 0.01124368883 s
+
+STEP 188 starts ...
+re-sorting particles 
+STEP 188 ends. TIME = 1.763476091e-13 DT = 9.380191971e-16
+Evolve time = 2.113385977 s; This step = 0.010816165 s; Avg. per step = 0.01124141477 s
+
+STEP 189 starts ...
+STEP 189 ends. TIME = 1.772856282e-13 DT = 9.380191971e-16
+Evolve time = 2.123446277 s; This step = 0.0100603 s; Avg. per step = 0.01123516549 s
+
+STEP 190 starts ...
+STEP 190 ends. TIME = 1.782236474e-13 DT = 9.380191971e-16
+Evolve time = 2.131902926 s; This step = 0.008456649 s; Avg. per step = 0.01122054172 s
+
+STEP 191 starts ...
+STEP 191 ends. TIME = 1.791616666e-13 DT = 9.380191971e-16
+Evolve time = 2.14211949 s; This step = 0.010216564 s; Avg. per step = 0.01121528529 s
+
+STEP 192 starts ...
+re-sorting particles 
+STEP 192 ends. TIME = 1.800996858e-13 DT = 9.380191971e-16
+Evolve time = 2.151477964 s; This step = 0.009358474 s; Avg. per step = 0.0112056144 s
+
+STEP 193 starts ...
+STEP 193 ends. TIME = 1.81037705e-13 DT = 9.380191971e-16
+Evolve time = 2.161608607 s; This step = 0.010130643 s; Avg. per step = 0.0112000446 s
+
+STEP 194 starts ...
+STEP 194 ends. TIME = 1.819757242e-13 DT = 9.380191971e-16
+Evolve time = 2.170015981 s; This step = 0.008407374 s; Avg. per step = 0.01118564939 s
+
+STEP 195 starts ...
+STEP 195 ends. TIME = 1.829137434e-13 DT = 9.380191971e-16
+Evolve time = 2.180165906 s; This step = 0.010149925 s; Avg. per step = 0.01118033798 s
+
+STEP 196 starts ...
+re-sorting particles 
+STEP 196 ends. TIME = 1.838517626e-13 DT = 9.380191971e-16
+Evolve time = 2.189129961 s; This step = 0.008964055 s; Avg. per step = 0.01116903041 s
+
+STEP 197 starts ...
+STEP 197 ends. TIME = 1.847897818e-13 DT = 9.380191971e-16
+Evolve time = 2.199229419 s; This step = 0.010099458 s; Avg. per step = 0.01116360111 s
+
+STEP 198 starts ...
+STEP 198 ends. TIME = 1.85727801e-13 DT = 9.380191971e-16
+Evolve time = 2.207726122 s; This step = 0.008496703 s; Avg. per step = 0.01115013193 s
+
+STEP 199 starts ...
+STEP 199 ends. TIME = 1.866658202e-13 DT = 9.380191971e-16
+Evolve time = 2.217893947 s; This step = 0.010167825 s; Avg. per step = 0.01114519571 s
+
+STEP 200 starts ...
+re-sorting particles 
+STEP 200 ends. TIME = 1.876038394e-13 DT = 9.380191971e-16
+Evolve time = 2.267441706 s; This step = 0.049547759 s; Avg. per step = 0.01133720853 s
+
+STEP 201 starts ...
+STEP 201 ends. TIME = 1.885418586e-13 DT = 9.380191971e-16
+Evolve time = 2.277875201 s; This step = 0.010433495 s; Avg. per step = 0.01133271244 s
+
+STEP 202 starts ...
+STEP 202 ends. TIME = 1.894798778e-13 DT = 9.380191971e-16
+Evolve time = 2.28627804 s; This step = 0.008402839 s; Avg. per step = 0.01131820812 s
+
+STEP 203 starts ...
+STEP 203 ends. TIME = 1.90417897e-13 DT = 9.380191971e-16
+Evolve time = 2.296451534 s; This step = 0.010173494 s; Avg. per step = 0.01131256913 s
+
+STEP 204 starts ...
+re-sorting particles 
+STEP 204 ends. TIME = 1.913559162e-13 DT = 9.380191971e-16
+Evolve time = 2.30550981 s; This step = 0.009058276 s; Avg. per step = 0.01130151868 s
+
+STEP 205 starts ...
+STEP 205 ends. TIME = 1.922939354e-13 DT = 9.380191971e-16
+Evolve time = 2.315601442 s; This step = 0.010091632 s; Avg. per step = 0.01129561679 s
+
+STEP 206 starts ...
+STEP 206 ends. TIME = 1.932319546e-13 DT = 9.380191971e-16
+Evolve time = 2.325801084 s; This step = 0.010199642 s; Avg. per step = 0.01129029652 s
+
+STEP 207 starts ...
+STEP 207 ends. TIME = 1.941699738e-13 DT = 9.380191971e-16
+Evolve time = 2.334218515 s; This step = 0.008417431 s; Avg. per step = 0.01127641795 s
+
+STEP 208 starts ...
+re-sorting particles 
+STEP 208 ends. TIME = 1.95107993e-13 DT = 9.380191971e-16
+Evolve time = 2.34495383 s; This step = 0.010735315 s; Avg. per step = 0.01127381649 s
+
+STEP 209 starts ...
+STEP 209 ends. TIME = 1.960460122e-13 DT = 9.380191971e-16
+Evolve time = 2.353190722 s; This step = 0.008236892 s; Avg. per step = 0.01125928575 s
+
+STEP 210 starts ...
+STEP 210 ends. TIME = 1.969840314e-13 DT = 9.380191971e-16
+Evolve time = 2.363338965 s; This step = 0.010148243 s; Avg. per step = 0.01125399507 s
+
+STEP 211 starts ...
+STEP 211 ends. TIME = 1.979220506e-13 DT = 9.380191971e-16
+Evolve time = 2.371630704 s; This step = 0.008291739 s; Avg. per step = 0.01123995594 s
+
+STEP 212 starts ...
+re-sorting particles 
+STEP 212 ends. TIME = 1.988600698e-13 DT = 9.380191971e-16
+Evolve time = 2.382311052 s; This step = 0.010680348 s; Avg. per step = 0.01123731628 s
+
+STEP 213 starts ...
+STEP 213 ends. TIME = 1.99798089e-13 DT = 9.380191971e-16
+Evolve time = 2.390684634 s; This step = 0.008373582 s; Avg. per step = 0.01122387152 s
+
+STEP 214 starts ...
+STEP 214 ends. TIME = 2.007361082e-13 DT = 9.380191971e-16
+Evolve time = 2.400895184 s; This step = 0.01021055 s; Avg. per step = 0.01121913637 s
+
+STEP 215 starts ...
+STEP 215 ends. TIME = 2.016741274e-13 DT = 9.380191971e-16
+Evolve time = 2.409293282 s; This step = 0.008398098 s; Avg. per step = 0.01120601527 s
+
+STEP 216 starts ...
+re-sorting particles 
+STEP 216 ends. TIME = 2.026121466e-13 DT = 9.380191971e-16
+Evolve time = 2.420085617 s; This step = 0.010792335 s; Avg. per step = 0.01120410008 s
+
+STEP 217 starts ...
+STEP 217 ends. TIME = 2.035501658e-13 DT = 9.380191971e-16
+Evolve time = 2.428321036 s; This step = 0.008235419 s; Avg. per step = 0.01119041952 s
+
+STEP 218 starts ...
+STEP 218 ends. TIME = 2.04488185e-13 DT = 9.380191971e-16
+Evolve time = 2.438512208 s; This step = 0.010191172 s; Avg. per step = 0.01118583582 s
+
+STEP 219 starts ...
+STEP 219 ends. TIME = 2.054262042e-13 DT = 9.380191971e-16
+Evolve time = 2.446918908 s; This step = 0.0084067 s; Avg. per step = 0.0111731457 s
+
+STEP 220 starts ...
+re-sorting particles 
+STEP 220 ends. TIME = 2.063642234e-13 DT = 9.380191971e-16
+Evolve time = 2.500864604 s; This step = 0.053945696 s; Avg. per step = 0.01136756638 s
+
+STEP 221 starts ...
+STEP 221 ends. TIME = 2.073022426e-13 DT = 9.380191971e-16
+Evolve time = 2.509399366 s; This step = 0.008534762 s; Avg. per step = 0.01135474826 s
+
+STEP 222 starts ...
+STEP 222 ends. TIME = 2.082402618e-13 DT = 9.380191971e-16
+Evolve time = 2.519673494 s; This step = 0.010274128 s; Avg. per step = 0.0113498806 s
+
+STEP 223 starts ...
+STEP 223 ends. TIME = 2.091782809e-13 DT = 9.380191971e-16
+Evolve time = 2.52977136 s; This step = 0.010097866 s; Avg. per step = 0.01134426619 s
+
+STEP 224 starts ...
+re-sorting particles 
+STEP 224 ends. TIME = 2.101163001e-13 DT = 9.380191971e-16
+Evolve time = 2.538639577 s; This step = 0.008868217 s; Avg. per step = 0.0113332124 s
+
+STEP 225 starts ...
+STEP 225 ends. TIME = 2.110543193e-13 DT = 9.380191971e-16
+Evolve time = 2.548677794 s; This step = 0.010038217 s; Avg. per step = 0.01132745686 s
+
+STEP 226 starts ...
+STEP 226 ends. TIME = 2.119923385e-13 DT = 9.380191971e-16
+Evolve time = 2.557022517 s; This step = 0.008344723 s; Avg. per step = 0.01131425892 s
+
+STEP 227 starts ...
+STEP 227 ends. TIME = 2.129303577e-13 DT = 9.380191971e-16
+Evolve time = 2.567171929 s; This step = 0.010149412 s; Avg. per step = 0.01130912744 s
+
+STEP 228 starts ...
+re-sorting particles 
+STEP 228 ends. TIME = 2.138683769e-13 DT = 9.380191971e-16
+Evolve time = 2.576331449 s; This step = 0.00915952 s; Avg. per step = 0.01129969934 s
+
+STEP 229 starts ...
+STEP 229 ends. TIME = 2.148063961e-13 DT = 9.380191971e-16
+Evolve time = 2.586321593 s; This step = 0.009990144 s; Avg. per step = 0.01129398076 s
+
+STEP 230 starts ...
+STEP 230 ends. TIME = 2.157444153e-13 DT = 9.380191971e-16
+Evolve time = 2.594825699 s; This step = 0.008504106 s; Avg. per step = 0.01128185087 s
+
+STEP 231 starts ...
+STEP 231 ends. TIME = 2.166824345e-13 DT = 9.380191971e-16
+Evolve time = 2.605077115 s; This step = 0.010251416 s; Avg. per step = 0.01127739011 s
+
+STEP 232 starts ...
+re-sorting particles 
+STEP 232 ends. TIME = 2.176204537e-13 DT = 9.380191971e-16
+Evolve time = 2.614205538 s; This step = 0.009128423 s; Avg. per step = 0.01126812732 s
+
+STEP 233 starts ...
+STEP 233 ends. TIME = 2.185584729e-13 DT = 9.380191971e-16
+Evolve time = 2.624385354 s; This step = 0.010179816 s; Avg. per step = 0.01126345645 s
+
+STEP 234 starts ...
+STEP 234 ends. TIME = 2.194964921e-13 DT = 9.380191971e-16
+Evolve time = 2.632610868 s; This step = 0.008225514 s; Avg. per step = 0.01125047379 s
+
+STEP 235 starts ...
+STEP 235 ends. TIME = 2.204345113e-13 DT = 9.380191971e-16
+Evolve time = 2.642616838 s; This step = 0.01000597 s; Avg. per step = 0.01124517803 s
+
+STEP 236 starts ...
+re-sorting particles 
+STEP 236 ends. TIME = 2.213725305e-13 DT = 9.380191971e-16
+Evolve time = 2.651440043 s; This step = 0.008823205 s; Avg. per step = 0.01123491544 s
+
+STEP 237 starts ...
+STEP 237 ends. TIME = 2.223105497e-13 DT = 9.380191971e-16
+Evolve time = 2.661415672 s; This step = 0.009975629 s; Avg. per step = 0.01122960199 s
+
+STEP 238 starts ...
+STEP 238 ends. TIME = 2.232485689e-13 DT = 9.380191971e-16
+Evolve time = 2.669616092 s; This step = 0.00820042 s; Avg. per step = 0.01121687434 s
+
+STEP 239 starts ...
+STEP 239 ends. TIME = 2.241865881e-13 DT = 9.380191971e-16
+Evolve time = 2.679642491 s; This step = 0.010026399 s; Avg. per step = 0.01121189327 s
+
+STEP 240 starts ...
+re-sorting particles 
+STEP 240 ends. TIME = 2.251246073e-13 DT = 9.380191971e-16
+Evolve time = 2.732806764 s; This step = 0.053164273 s; Avg. per step = 0.01138669485 s
+
+STEP 241 starts ...
+STEP 241 ends. TIME = 2.260626265e-13 DT = 9.380191971e-16
+Evolve time = 2.741248227 s; This step = 0.008441463 s; Avg. per step = 0.01137447397 s
+
+STEP 242 starts ...
+STEP 242 ends. TIME = 2.270006457e-13 DT = 9.380191971e-16
+Evolve time = 2.751233168 s; This step = 0.009984941 s; Avg. per step = 0.0113687321 s
+
+STEP 243 starts ...
+STEP 243 ends. TIME = 2.279386649e-13 DT = 9.380191971e-16
+Evolve time = 2.759528929 s; This step = 0.008295761 s; Avg. per step = 0.01135608613 s
+
+STEP 244 starts ...
+re-sorting particles 
+STEP 244 ends. TIME = 2.288766841e-13 DT = 9.380191971e-16
+Evolve time = 2.770149661 s; This step = 0.010620732 s; Avg. per step = 0.01135307238 s
+
+STEP 245 starts ...
+STEP 245 ends. TIME = 2.298147033e-13 DT = 9.380191971e-16
+Evolve time = 2.77831148 s; This step = 0.008161819 s; Avg. per step = 0.01134004686 s
+
+STEP 246 starts ...
+STEP 246 ends. TIME = 2.307527225e-13 DT = 9.380191971e-16
+Evolve time = 2.788301396 s; This step = 0.009989916 s; Avg. per step = 0.01133455852 s
+
+STEP 247 starts ...
+STEP 247 ends. TIME = 2.316907417e-13 DT = 9.380191971e-16
+Evolve time = 2.796667511 s; This step = 0.008366115 s; Avg. per step = 0.01132254053 s
+
+STEP 248 starts ...
+re-sorting particles 
+STEP 248 ends. TIME = 2.326287609e-13 DT = 9.380191971e-16
+Evolve time = 2.807239718 s; This step = 0.010572207 s; Avg. per step = 0.01131951499 s
+
+STEP 249 starts ...
+STEP 249 ends. TIME = 2.335667801e-13 DT = 9.380191971e-16
+Evolve time = 2.815434229 s; This step = 0.008194511 s; Avg. per step = 0.01130696478 s
+
+STEP 250 starts ...
+STEP 250 ends. TIME = 2.345047993e-13 DT = 9.380191971e-16
+Evolve time = 2.825396331 s; This step = 0.009962102 s; Avg. per step = 0.01130158532 s
+
+STEP 251 starts ...
+STEP 251 ends. TIME = 2.354428185e-13 DT = 9.380191971e-16
+Evolve time = 2.833638681 s; This step = 0.00824235 s; Avg. per step = 0.01128939714 s
+
+STEP 252 starts ...
+re-sorting particles 
+STEP 252 ends. TIME = 2.363808377e-13 DT = 9.380191971e-16
+Evolve time = 2.84425456 s; This step = 0.010615879 s; Avg. per step = 0.01128672444 s
+
+STEP 253 starts ...
+STEP 253 ends. TIME = 2.373188569e-13 DT = 9.380191971e-16
+Evolve time = 2.852388405 s; This step = 0.008133845 s; Avg. per step = 0.01127426247 s
+
+STEP 254 starts ...
+STEP 254 ends. TIME = 2.382568761e-13 DT = 9.380191971e-16
+Evolve time = 2.862378617 s; This step = 0.009990212 s; Avg. per step = 0.01126920715 s
+
+STEP 255 starts ...
+STEP 255 ends. TIME = 2.391948953e-13 DT = 9.380191971e-16
+Evolve time = 2.870768312 s; This step = 0.008389695 s; Avg. per step = 0.01125791495 s
+
+STEP 256 starts ...
+re-sorting particles 
+STEP 256 ends. TIME = 2.401329145e-13 DT = 9.380191971e-16
+Evolve time = 2.881297887 s; This step = 0.010529575 s; Avg. per step = 0.01125506987 s
+
+STEP 257 starts ...
+STEP 257 ends. TIME = 2.410709336e-13 DT = 9.380191971e-16
+Evolve time = 2.891486859 s; This step = 0.010188972 s; Avg. per step = 0.01125092163 s
+
+STEP 258 starts ...
+STEP 258 ends. TIME = 2.420089528e-13 DT = 9.380191971e-16
+Evolve time = 2.899762889 s; This step = 0.00827603 s; Avg. per step = 0.01123939104 s
+
+STEP 259 starts ...
+STEP 259 ends. TIME = 2.42946972e-13 DT = 9.380191971e-16
+Evolve time = 2.909732571 s; This step = 0.009969682 s; Avg. per step = 0.01123448869 s
+
+STEP 260 starts ...
+re-sorting particles 
+STEP 260 ends. TIME = 2.438849912e-13 DT = 9.380191971e-16
+Evolve time = 2.961815747 s; This step = 0.052083176 s; Avg. per step = 0.01139159903 s
+
+STEP 261 starts ...
+STEP 261 ends. TIME = 2.448230104e-13 DT = 9.380191971e-16
+Evolve time = 2.971985068 s; This step = 0.010169321 s; Avg. per step = 0.01138691597 s
+
+STEP 262 starts ...
+STEP 262 ends. TIME = 2.457610296e-13 DT = 9.380191971e-16
+Evolve time = 2.980186699 s; This step = 0.008201631 s; Avg. per step = 0.01137475839 s
+
+STEP 263 starts ...
+STEP 263 ends. TIME = 2.466990488e-13 DT = 9.380191971e-16
+Evolve time = 2.990166049 s; This step = 0.00997935 s; Avg. per step = 0.01136945266 s
+
+STEP 264 starts ...
+re-sorting particles 
+STEP 264 ends. TIME = 2.47637068e-13 DT = 9.380191971e-16
+Evolve time = 2.998952714 s; This step = 0.008786665 s; Avg. per step = 0.01135966937 s
+
+STEP 265 starts ...
+STEP 265 ends. TIME = 2.485750872e-13 DT = 9.380191971e-16
+Evolve time = 3.008849047 s; This step = 0.009896333 s; Avg. per step = 0.01135414735 s
+
+STEP 266 starts ...
+STEP 266 ends. TIME = 2.495131064e-13 DT = 9.380191971e-16
+Evolve time = 3.017317611 s; This step = 0.008468564 s; Avg. per step = 0.01134329929 s
+
+STEP 267 starts ...
+STEP 267 ends. TIME = 2.504511256e-13 DT = 9.380191971e-16
+Evolve time = 3.027369035 s; This step = 0.010051424 s; Avg. per step = 0.01133846081 s
+
+STEP 268 starts ...
+re-sorting particles 
+STEP 268 ends. TIME = 2.513891448e-13 DT = 9.380191971e-16
+Evolve time = 3.036153051 s; This step = 0.008784016 s; Avg. per step = 0.01132892929 s
+
+STEP 269 starts ...
+STEP 269 ends. TIME = 2.52327164e-13 DT = 9.380191971e-16
+Evolve time = 3.046224279 s; This step = 0.010071228 s; Avg. per step = 0.01132425383 s
+
+STEP 270 starts ...
+STEP 270 ends. TIME = 2.532651832e-13 DT = 9.380191971e-16
+Evolve time = 3.054485236 s; This step = 0.008260957 s; Avg. per step = 0.01131290828 s
+
+STEP 271 starts ...
+STEP 271 ends. TIME = 2.542032024e-13 DT = 9.380191971e-16
+Evolve time = 3.064425082 s; This step = 0.009939846 s; Avg. per step = 0.01130784163 s
+
+STEP 272 starts ...
+re-sorting particles 
+STEP 272 ends. TIME = 2.551412216e-13 DT = 9.380191971e-16
+Evolve time = 3.073193449 s; This step = 0.008768367 s; Avg. per step = 0.01129850533 s
+
+STEP 273 starts ...
+STEP 273 ends. TIME = 2.560792408e-13 DT = 9.380191971e-16
+Evolve time = 3.083154733 s; This step = 0.009961284 s; Avg. per step = 0.01129360708 s
+
+STEP 274 starts ...
+STEP 274 ends. TIME = 2.5701726e-13 DT = 9.380191971e-16
+Evolve time = 3.093484002 s; This step = 0.010329269 s; Avg. per step = 0.0112900876 s
+
+STEP 275 starts ...
+STEP 275 ends. TIME = 2.579552792e-13 DT = 9.380191971e-16
+Evolve time = 3.101769687 s; This step = 0.008285685 s; Avg. per step = 0.0112791625 s
+
+STEP 276 starts ...
+re-sorting particles 
+STEP 276 ends. TIME = 2.588932984e-13 DT = 9.380191971e-16
+Evolve time = 3.112433785 s; This step = 0.010664098 s; Avg. per step = 0.011276934 s
+
+STEP 277 starts ...
+STEP 277 ends. TIME = 2.598313176e-13 DT = 9.380191971e-16
+Evolve time = 3.120574928 s; This step = 0.008141143 s; Avg. per step = 0.01126561346 s
+
+STEP 278 starts ...
+STEP 278 ends. TIME = 2.607693368e-13 DT = 9.380191971e-16
+Evolve time = 3.130664479 s; This step = 0.010089551 s; Avg. per step = 0.01126138302 s
+
+STEP 279 starts ...
+STEP 279 ends. TIME = 2.61707356e-13 DT = 9.380191971e-16
+Evolve time = 3.138836921 s; This step = 0.008172442 s; Avg. per step = 0.01125031154 s
+
+STEP 280 starts ...
+re-sorting particles 
+STEP 280 ends. TIME = 2.626453752e-13 DT = 9.380191971e-16
+Evolve time = 3.186264524 s; This step = 0.047427603 s; Avg. per step = 0.01137951616 s
+
+STEP 281 starts ...
+STEP 281 ends. TIME = 2.635833944e-13 DT = 9.380191971e-16
+Evolve time = 3.195106252 s; This step = 0.008841728 s; Avg. per step = 0.01137048488 s
+
+STEP 282 starts ...
+STEP 282 ends. TIME = 2.645214136e-13 DT = 9.380191971e-16
+Evolve time = 3.206455842 s; This step = 0.01134959 s; Avg. per step = 0.01137041079 s
+
+STEP 283 starts ...
+STEP 283 ends. TIME = 2.654594328e-13 DT = 9.380191971e-16
+Evolve time = 3.214727311 s; This step = 0.008271469 s; Avg. per step = 0.01135946046 s
+
+STEP 284 starts ...
+re-sorting particles 
+STEP 284 ends. TIME = 2.66397452e-13 DT = 9.380191971e-16
+Evolve time = 3.225405357 s; This step = 0.010678046 s; Avg. per step = 0.01135706112 s
+
+STEP 285 starts ...
+STEP 285 ends. TIME = 2.673354712e-13 DT = 9.380191971e-16
+Evolve time = 3.233871951 s; This step = 0.008466594 s; Avg. per step = 0.01134691913 s
+
+STEP 286 starts ...
+STEP 286 ends. TIME = 2.682734904e-13 DT = 9.380191971e-16
+Evolve time = 3.244239815 s; This step = 0.010367864 s; Avg. per step = 0.01134349586 s
+
+STEP 287 starts ...
+STEP 287 ends. TIME = 2.692115096e-13 DT = 9.380191971e-16
+Evolve time = 3.252624539 s; This step = 0.008384724 s; Avg. per step = 0.01133318655 s
+
+STEP 288 starts ...
+re-sorting particles 
+STEP 288 ends. TIME = 2.701495288e-13 DT = 9.380191971e-16
+Evolve time = 3.263130966 s; This step = 0.010506427 s; Avg. per step = 0.01133031585 s
+
+STEP 289 starts ...
+STEP 289 ends. TIME = 2.71087548e-13 DT = 9.380191971e-16
+Evolve time = 3.271715168 s; This step = 0.008584202 s; Avg. per step = 0.01132081373 s
+
+STEP 290 starts ...
+STEP 290 ends. TIME = 2.720255672e-13 DT = 9.380191971e-16
+Evolve time = 3.281742315 s; This step = 0.010027147 s; Avg. per step = 0.01131635281 s
+
+STEP 291 starts ...
+STEP 291 ends. TIME = 2.729635864e-13 DT = 9.380191971e-16
+Evolve time = 3.291856037 s; This step = 0.010113722 s; Avg. per step = 0.01131222006 s
+
+STEP 292 starts ...
+re-sorting particles 
+STEP 292 ends. TIME = 2.739016055e-13 DT = 9.380191971e-16
+Evolve time = 3.300590506 s; This step = 0.008734469 s; Avg. per step = 0.01130339214 s
+
+STEP 293 starts ...
+STEP 293 ends. TIME = 2.748396247e-13 DT = 9.380191971e-16
+Evolve time = 3.311056179 s; This step = 0.010465673 s; Avg. per step = 0.01130053303 s
+
+STEP 294 starts ...
+STEP 294 ends. TIME = 2.757776439e-13 DT = 9.380191971e-16
+Evolve time = 3.319309279 s; This step = 0.0082531 s; Avg. per step = 0.01129016762 s
+
+STEP 295 starts ...
+STEP 295 ends. TIME = 2.767156631e-13 DT = 9.380191971e-16
+Evolve time = 3.329361868 s; This step = 0.010052589 s; Avg. per step = 0.01128597243 s
+
+STEP 296 starts ...
+re-sorting particles 
+STEP 296 ends. TIME = 2.776536823e-13 DT = 9.380191971e-16
+Evolve time = 3.338106612 s; This step = 0.008744744 s; Avg. per step = 0.0112773872 s
+
+STEP 297 starts ...
+STEP 297 ends. TIME = 2.785917015e-13 DT = 9.380191971e-16
+Evolve time = 3.348099733 s; This step = 0.009993121 s; Avg. per step = 0.01127306307 s
+
+STEP 298 starts ...
+STEP 298 ends. TIME = 2.795297207e-13 DT = 9.380191971e-16
+Evolve time = 3.356381473 s; This step = 0.00828174 s; Avg. per step = 0.01126302508 s
+
+STEP 299 starts ...
+STEP 299 ends. TIME = 2.804677399e-13 DT = 9.380191971e-16
+Evolve time = 3.366451673 s; This step = 0.0100702 s; Avg. per step = 0.0112590357 s
+
+STEP 300 starts ...
+re-sorting particles 
+STEP 300 ends. TIME = 2.814057591e-13 DT = 9.380191971e-16
+Evolve time = 3.411722831 s; This step = 0.045271158 s; Avg. per step = 0.01137240944 s
+
+STEP 301 starts ...
+STEP 301 ends. TIME = 2.823437783e-13 DT = 9.380191971e-16
+Evolve time = 3.421961409 s; This step = 0.010238578 s; Avg. per step = 0.01136864255 s
+
+STEP 302 starts ...
+STEP 302 ends. TIME = 2.832817975e-13 DT = 9.380191971e-16
+Evolve time = 3.430314279 s; This step = 0.00835287 s; Avg. per step = 0.01135865655 s
+
+STEP 303 starts ...
+STEP 303 ends. TIME = 2.842198167e-13 DT = 9.380191971e-16
+Evolve time = 3.44028461 s; This step = 0.009970331 s; Avg. per step = 0.01135407462 s
+
+STEP 304 starts ...
+re-sorting particles 
+STEP 304 ends. TIME = 2.851578359e-13 DT = 9.380191971e-16
+Evolve time = 3.449104624 s; This step = 0.008820014 s; Avg. per step = 0.01134573889 s
+
+STEP 305 starts ...
+STEP 305 ends. TIME = 2.860958551e-13 DT = 9.380191971e-16
+Evolve time = 3.458998361 s; This step = 0.009893737 s; Avg. per step = 0.01134097823 s
+
+STEP 306 starts ...
+STEP 306 ends. TIME = 2.870338743e-13 DT = 9.380191971e-16
+Evolve time = 3.467232973 s; This step = 0.008234612 s; Avg. per step = 0.01133082671 s
+
+STEP 307 starts ...
+STEP 307 ends. TIME = 2.879718935e-13 DT = 9.380191971e-16
+Evolve time = 3.477319387 s; This step = 0.010086414 s; Avg. per step = 0.01132677325 s
+
+STEP 308 starts ...
+re-sorting particles 
+STEP 308 ends. TIME = 2.889099127e-13 DT = 9.380191971e-16
+Evolve time = 3.487799713 s; This step = 0.010480326 s; Avg. per step = 0.01132402504 s
+
+STEP 309 starts ...
+STEP 309 ends. TIME = 2.898479319e-13 DT = 9.380191971e-16
+Evolve time = 3.49599379 s; This step = 0.008194077 s; Avg. per step = 0.01131389576 s
+
+STEP 310 starts ...
+STEP 310 ends. TIME = 2.907859511e-13 DT = 9.380191971e-16
+Evolve time = 3.506581178 s; This step = 0.010587388 s; Avg. per step = 0.01131155219 s
+
+STEP 311 starts ...
+STEP 311 ends. TIME = 2.917239703e-13 DT = 9.380191971e-16
+Evolve time = 3.514861812 s; This step = 0.008280634 s; Avg. per step = 0.01130180647 s
+
+STEP 312 starts ...
+re-sorting particles 
+STEP 312 ends. TIME = 2.926619895e-13 DT = 9.380191971e-16
+Evolve time = 3.525374015 s; This step = 0.010512203 s; Avg. per step = 0.01129927569 s
+
+STEP 313 starts ...
+STEP 313 ends. TIME = 2.936000087e-13 DT = 9.380191971e-16
+Evolve time = 3.534142887 s; This step = 0.008768872 s; Avg. per step = 0.01129119133 s
+
+STEP 314 starts ...
+STEP 314 ends. TIME = 2.945380279e-13 DT = 9.380191971e-16
+Evolve time = 3.544096292 s; This step = 0.009953405 s; Avg. per step = 0.01128693087 s
+
+STEP 315 starts ...
+STEP 315 ends. TIME = 2.954760471e-13 DT = 9.380191971e-16
+Evolve time = 3.552510592 s; This step = 0.0084143 s; Avg. per step = 0.0112778114 s
+
+STEP 316 starts ...
+re-sorting particles 
+STEP 316 ends. TIME = 2.964140663e-13 DT = 9.380191971e-16
+Evolve time = 3.563105073 s; This step = 0.010594481 s; Avg. per step = 0.01127564897 s
+
+STEP 317 starts ...
+STEP 317 ends. TIME = 2.973520855e-13 DT = 9.380191971e-16
+Evolve time = 3.571300991 s; This step = 0.008195918 s; Avg. per step = 0.01126593373 s
+
+STEP 318 starts ...
+STEP 318 ends. TIME = 2.982901047e-13 DT = 9.380191971e-16
+Evolve time = 3.581237779 s; This step = 0.009936788 s; Avg. per step = 0.01126175402 s
+
+STEP 319 starts ...
+STEP 319 ends. TIME = 2.992281239e-13 DT = 9.380191971e-16
+Evolve time = 3.589488302 s; This step = 0.008250523 s; Avg. per step = 0.01125231443 s
+
+STEP 320 starts ...
+re-sorting particles 
+STEP 320 ends. TIME = 3.001661431e-13 DT = 9.380191971e-16
+Evolve time = 3.637133953 s; This step = 0.047645651 s; Avg. per step = 0.0113660436 s
+
+STEP 321 starts ...
+STEP 321 ends. TIME = 3.011041623e-13 DT = 9.380191971e-16
+Evolve time = 3.645671209 s; This step = 0.008537256 s; Avg. per step = 0.01135723118 s
+
+STEP 322 starts ...
+STEP 322 ends. TIME = 3.020421815e-13 DT = 9.380191971e-16
+Evolve time = 3.655646436 s; This step = 0.009975227 s; Avg. per step = 0.01135293924 s
+
+STEP 323 starts ...
+STEP 323 ends. TIME = 3.029802007e-13 DT = 9.380191971e-16
+Evolve time = 3.663872232 s; This step = 0.008225796 s; Avg. per step = 0.01134325768 s
+
+STEP 324 starts ...
+re-sorting particles 
+STEP 324 ends. TIME = 3.039182199e-13 DT = 9.380191971e-16
+Evolve time = 3.674492781 s; This step = 0.010620549 s; Avg. per step = 0.0113410271 s
+
+STEP 325 starts ...
+STEP 325 ends. TIME = 3.048562391e-13 DT = 9.380191971e-16
+Evolve time = 3.684472495 s; This step = 0.009979714 s; Avg. per step = 0.01133683845 s
+
+STEP 326 starts ...
+STEP 326 ends. TIME = 3.057942582e-13 DT = 9.380191971e-16
+Evolve time = 3.692708494 s; This step = 0.008235999 s; Avg. per step = 0.01132732667 s
+
+STEP 327 starts ...
+STEP 327 ends. TIME = 3.067322774e-13 DT = 9.380191971e-16
+Evolve time = 3.702750517 s; This step = 0.010042023 s; Avg. per step = 0.01132339608 s
+
+STEP 328 starts ...
+re-sorting particles 
+STEP 328 ends. TIME = 3.076702966e-13 DT = 9.380191971e-16
+Evolve time = 3.712232287 s; This step = 0.00948177 s; Avg. per step = 0.01131778136 s
+
+STEP 329 starts ...
+STEP 329 ends. TIME = 3.086083158e-13 DT = 9.380191971e-16
+Evolve time = 3.722215495 s; This step = 0.009983208 s; Avg. per step = 0.01131372491 s
+
+STEP 330 starts ...
+STEP 330 ends. TIME = 3.09546335e-13 DT = 9.380191971e-16
+Evolve time = 3.730535833 s; This step = 0.008320338 s; Avg. per step = 0.01130465404 s
+
+STEP 331 starts ...
+STEP 331 ends. TIME = 3.104843542e-13 DT = 9.380191971e-16
+Evolve time = 3.74106067 s; This step = 0.010524837 s; Avg. per step = 0.0113022981 s
+
+STEP 332 starts ...
+re-sorting particles 
+STEP 332 ends. TIME = 3.114223734e-13 DT = 9.380191971e-16
+Evolve time = 3.749819378 s; This step = 0.008758708 s; Avg. per step = 0.01129463668 s
+
+STEP 333 starts ...
+STEP 333 ends. TIME = 3.123603926e-13 DT = 9.380191971e-16
+Evolve time = 3.759753854 s; This step = 0.009934476 s; Avg. per step = 0.01129055211 s
+
+STEP 334 starts ...
+STEP 334 ends. TIME = 3.132984118e-13 DT = 9.380191971e-16
+Evolve time = 3.768044376 s; This step = 0.008290522 s; Avg. per step = 0.01128156999 s
+
+STEP 335 starts ...
+STEP 335 ends. TIME = 3.14236431e-13 DT = 9.380191971e-16
+Evolve time = 3.778585232 s; This step = 0.010540856 s; Avg. per step = 0.0112793589 s
+
+STEP 336 starts ...
+re-sorting particles 
+STEP 336 ends. TIME = 3.151744502e-13 DT = 9.380191971e-16
+Evolve time = 3.787245399 s; This step = 0.008660167 s; Avg. per step = 0.01127156369 s
+
+STEP 337 starts ...
+STEP 337 ends. TIME = 3.161124694e-13 DT = 9.380191971e-16
+Evolve time = 3.797285067 s; This step = 0.010039668 s; Avg. per step = 0.01126790821 s
+
+STEP 338 starts ...
+STEP 338 ends. TIME = 3.170504886e-13 DT = 9.380191971e-16
+Evolve time = 3.805560529 s; This step = 0.008275462 s; Avg. per step = 0.01125905482 s
+
+STEP 339 starts ...
+STEP 339 ends. TIME = 3.179885078e-13 DT = 9.380191971e-16
+Evolve time = 3.816552093 s; This step = 0.010991564 s; Avg. per step = 0.01125826576 s
+
+STEP 340 starts ...
+re-sorting particles 
+STEP 340 ends. TIME = 3.18926527e-13 DT = 9.380191971e-16
+Evolve time = 3.863699176 s; This step = 0.047147083 s; Avg. per step = 0.01136382111 s
+
+STEP 341 starts ...
+STEP 341 ends. TIME = 3.198645462e-13 DT = 9.380191971e-16
+Evolve time = 3.87393026 s; This step = 0.010231084 s; Avg. per step = 0.0113604993 s
+
+STEP 342 starts ...
+STEP 342 ends. TIME = 3.208025654e-13 DT = 9.380191971e-16
+Evolve time = 3.885068856 s; This step = 0.011138596 s; Avg. per step = 0.01135985046 s
+
+STEP 343 starts ...
+STEP 343 ends. TIME = 3.217405846e-13 DT = 9.380191971e-16
+Evolve time = 3.893327899 s; This step = 0.008259043 s; Avg. per step = 0.0113508102 s
+
+STEP 344 starts ...
+re-sorting particles 
+STEP 344 ends. TIME = 3.226786038e-13 DT = 9.380191971e-16
+Evolve time = 3.903955906 s; This step = 0.010628007 s; Avg. per step = 0.01134870903 s
+
+STEP 345 starts ...
+STEP 345 ends. TIME = 3.23616623e-13 DT = 9.380191971e-16
+Evolve time = 3.912189694 s; This step = 0.008233788 s; Avg. per step = 0.01133968027 s
+
+STEP 346 starts ...
+STEP 346 ends. TIME = 3.245546422e-13 DT = 9.380191971e-16
+Evolve time = 3.922217157 s; This step = 0.010027463 s; Avg. per step = 0.01133588774 s
+
+STEP 347 starts ...
+STEP 347 ends. TIME = 3.254926614e-13 DT = 9.380191971e-16
+Evolve time = 3.930420296 s; This step = 0.008203139 s; Avg. per step = 0.01132685964 s
+
+STEP 348 starts ...
+re-sorting particles 
+STEP 348 ends. TIME = 3.264306806e-13 DT = 9.380191971e-16
+Evolve time = 3.940982141 s; This step = 0.010561845 s; Avg. per step = 0.01132466132 s
+
+STEP 349 starts ...
+STEP 349 ends. TIME = 3.273686998e-13 DT = 9.380191971e-16
+Evolve time = 3.949109495 s; This step = 0.008127354 s; Avg. per step = 0.01131549999 s
+
+STEP 350 starts ...
+STEP 350 ends. TIME = 3.28306719e-13 DT = 9.380191971e-16
+Evolve time = 3.959126342 s; This step = 0.010016847 s; Avg. per step = 0.01131178955 s
+
+STEP 351 starts ...
+STEP 351 ends. TIME = 3.292447382e-13 DT = 9.380191971e-16
+Evolve time = 3.967456412 s; This step = 0.00833007 s; Avg. per step = 0.01130329462 s
+
+STEP 352 starts ...
+re-sorting particles 
+STEP 352 ends. TIME = 3.301827574e-13 DT = 9.380191971e-16
+Evolve time = 3.977939413 s; This step = 0.010483001 s; Avg. per step = 0.01130096424 s
+
+STEP 353 starts ...
+STEP 353 ends. TIME = 3.311207766e-13 DT = 9.380191971e-16
+Evolve time = 3.986095362 s; This step = 0.008155949 s; Avg. per step = 0.01129205485 s
+
+STEP 354 starts ...
+STEP 354 ends. TIME = 3.320587958e-13 DT = 9.380191971e-16
+Evolve time = 3.996130128 s; This step = 0.010034766 s; Avg. per step = 0.01128850319 s
+
+STEP 355 starts ...
+STEP 355 ends. TIME = 3.32996815e-13 DT = 9.380191971e-16
+Evolve time = 4.004277281 s; This step = 0.008147153 s; Avg. per step = 0.01127965431 s
+
+STEP 356 starts ...
+re-sorting particles 
+STEP 356 ends. TIME = 3.339348342e-13 DT = 9.380191971e-16
+Evolve time = 4.015082122 s; This step = 0.010804841 s; Avg. per step = 0.01127832057 s
+
+STEP 357 starts ...
+STEP 357 ends. TIME = 3.348728534e-13 DT = 9.380191971e-16
+Evolve time = 4.023187883 s; This step = 0.008105761 s; Avg. per step = 0.01126943385 s
+
+STEP 358 starts ...
+STEP 358 ends. TIME = 3.358108726e-13 DT = 9.380191971e-16
+Evolve time = 4.033188155 s; This step = 0.010000272 s; Avg. per step = 0.0112658887 s
+
+STEP 359 starts ...
+STEP 359 ends. TIME = 3.367488918e-13 DT = 9.380191971e-16
+Evolve time = 4.043217055 s; This step = 0.0100289 s; Avg. per step = 0.01126244305 s
+
+STEP 360 starts ...
+re-sorting particles 
+STEP 360 ends. TIME = 3.376869109e-13 DT = 9.380191971e-16
+Evolve time = 4.093245311 s; This step = 0.050028256 s; Avg. per step = 0.01137012586 s
+
+STEP 361 starts ...
+STEP 361 ends. TIME = 3.386249301e-13 DT = 9.380191971e-16
+Evolve time = 4.10344795 s; This step = 0.010202639 s; Avg. per step = 0.01136689183 s
+
+STEP 362 starts ...
+STEP 362 ends. TIME = 3.395629493e-13 DT = 9.380191971e-16
+Evolve time = 4.111633916 s; This step = 0.008185966 s; Avg. per step = 0.01135810474 s
+
+STEP 363 starts ...
+STEP 363 ends. TIME = 3.405009685e-13 DT = 9.380191971e-16
+Evolve time = 4.121641934 s; This step = 0.010008018 s; Avg. per step = 0.01135438549 s
+
+STEP 364 starts ...
+re-sorting particles 
+STEP 364 ends. TIME = 3.414389877e-13 DT = 9.380191971e-16
+Evolve time = 4.130414745 s; This step = 0.008772811 s; Avg. per step = 0.01134729326 s
+
+STEP 365 starts ...
+STEP 365 ends. TIME = 3.423770069e-13 DT = 9.380191971e-16
+Evolve time = 4.140340503 s; This step = 0.009925758 s; Avg. per step = 0.01134339864 s
+
+STEP 366 starts ...
+STEP 366 ends. TIME = 3.433150261e-13 DT = 9.380191971e-16
+Evolve time = 4.148570053 s; This step = 0.00822955 s; Avg. per step = 0.01133489086 s
+
+STEP 367 starts ...
+STEP 367 ends. TIME = 3.442530453e-13 DT = 9.380191971e-16
+Evolve time = 4.158572687 s; This step = 0.010002634 s; Avg. per step = 0.01133126073 s
+
+STEP 368 starts ...
+re-sorting particles 
+STEP 368 ends. TIME = 3.451910645e-13 DT = 9.380191971e-16
+Evolve time = 4.167434195 s; This step = 0.008861508 s; Avg. per step = 0.01132454944 s
+
+STEP 369 starts ...
+STEP 369 ends. TIME = 3.461290837e-13 DT = 9.380191971e-16
+Evolve time = 4.177450939 s; This step = 0.010016744 s; Avg. per step = 0.01132100525 s
+
+STEP 370 starts ...
+STEP 370 ends. TIME = 3.470671029e-13 DT = 9.380191971e-16
+Evolve time = 4.185682913 s; This step = 0.008231974 s; Avg. per step = 0.01131265652 s
+
+STEP 371 starts ...
+STEP 371 ends. TIME = 3.480051221e-13 DT = 9.380191971e-16
+Evolve time = 4.195730178 s; This step = 0.010047265 s; Avg. per step = 0.01130924576 s
+
+STEP 372 starts ...
+re-sorting particles 
+STEP 372 ends. TIME = 3.489431413e-13 DT = 9.380191971e-16
+Evolve time = 4.204485748 s; This step = 0.00875557 s; Avg. per step = 0.01130238104 s
+
+STEP 373 starts ...
+STEP 373 ends. TIME = 3.498811605e-13 DT = 9.380191971e-16
+Evolve time = 4.214462007 s; This step = 0.009976259 s; Avg. per step = 0.01129882576 s
+
+STEP 374 starts ...
+STEP 374 ends. TIME = 3.508191797e-13 DT = 9.380191971e-16
+Evolve time = 4.222763879 s; This step = 0.008301872 s; Avg. per step = 0.01129081251 s
+
+STEP 375 starts ...
+STEP 375 ends. TIME = 3.517571989e-13 DT = 9.380191971e-16
+Evolve time = 4.232908152 s; This step = 0.010144273 s; Avg. per step = 0.01128775507 s
+
+STEP 376 starts ...
+re-sorting particles 
+STEP 376 ends. TIME = 3.526952181e-13 DT = 9.380191971e-16
+Evolve time = 4.243388352 s; This step = 0.0104802 s; Avg. per step = 0.01128560732 s
+
+STEP 377 starts ...
+STEP 377 ends. TIME = 3.536332373e-13 DT = 9.380191971e-16
+Evolve time = 4.251533385 s; This step = 0.008145033 s; Avg. per step = 0.01127727688 s
+
+STEP 378 starts ...
+STEP 378 ends. TIME = 3.545712565e-13 DT = 9.380191971e-16
+Evolve time = 4.261543213 s; This step = 0.010009828 s; Avg. per step = 0.01127392384 s
+
+STEP 379 starts ...
+STEP 379 ends. TIME = 3.555092757e-13 DT = 9.380191971e-16
+Evolve time = 4.269824717 s; This step = 0.008281504 s; Avg. per step = 0.01126602828 s
+
+STEP 380 starts ...
+re-sorting particles 
+STEP 380 ends. TIME = 3.564472949e-13 DT = 9.380191971e-16
+Evolve time = 4.31738175 s; This step = 0.047557033 s; Avg. per step = 0.01136153092 s
+
+STEP 381 starts ...
+STEP 381 ends. TIME = 3.573853141e-13 DT = 9.380191971e-16
+Evolve time = 4.325834713 s; This step = 0.008452963 s; Avg. per step = 0.01135389688 s
+
+STEP 382 starts ...
+STEP 382 ends. TIME = 3.583233333e-13 DT = 9.380191971e-16
+Evolve time = 4.335812061 s; This step = 0.009977348 s; Avg. per step = 0.01135029335 s
+
+STEP 383 starts ...
+STEP 383 ends. TIME = 3.592613525e-13 DT = 9.380191971e-16
+Evolve time = 4.343985647 s; This step = 0.008173586 s; Avg. per step = 0.01134199908 s
+
+STEP 384 starts ...
+re-sorting particles 
+STEP 384 ends. TIME = 3.601993717e-13 DT = 9.380191971e-16
+Evolve time = 4.3545133 s; This step = 0.010527653 s; Avg. per step = 0.01133987839 s
+
+STEP 385 starts ...
+STEP 385 ends. TIME = 3.611373909e-13 DT = 9.380191971e-16
+Evolve time = 4.362716707 s; This step = 0.008203407 s; Avg. per step = 0.01133173171 s
+
+STEP 386 starts ...
+STEP 386 ends. TIME = 3.620754101e-13 DT = 9.380191971e-16
+Evolve time = 4.372667127 s; This step = 0.00995042 s; Avg. per step = 0.01132815318 s
+
+STEP 387 starts ...
+STEP 387 ends. TIME = 3.630134293e-13 DT = 9.380191971e-16
+Evolve time = 4.380903012 s; This step = 0.008235885 s; Avg. per step = 0.01132016282 s
+
+STEP 388 starts ...
+re-sorting particles 
+STEP 388 ends. TIME = 3.639514485e-13 DT = 9.380191971e-16
+Evolve time = 4.391425893 s; This step = 0.010522881 s; Avg. per step = 0.01131810797 s
+
+STEP 389 starts ...
+STEP 389 ends. TIME = 3.648894677e-13 DT = 9.380191971e-16
+Evolve time = 4.399645475 s; This step = 0.008219582 s; Avg. per step = 0.01131014261 s
+
+STEP 390 starts ...
+STEP 390 ends. TIME = 3.658274869e-13 DT = 9.380191971e-16
+Evolve time = 4.409620995 s; This step = 0.00997552 s; Avg. per step = 0.0113067205 s
+
+STEP 391 starts ...
+STEP 391 ends. TIME = 3.667655061e-13 DT = 9.380191971e-16
+Evolve time = 4.417907661 s; This step = 0.008286666 s; Avg. per step = 0.01129899658 s
+
+STEP 392 starts ...
+re-sorting particles 
+STEP 392 ends. TIME = 3.677035253e-13 DT = 9.380191971e-16
+Evolve time = 4.428456305 s; This step = 0.010548644 s; Avg. per step = 0.01129708241 s
+
+STEP 393 starts ...
+STEP 393 ends. TIME = 3.686415445e-13 DT = 9.380191971e-16
+Evolve time = 4.43849709 s; This step = 0.010040785 s; Avg. per step = 0.01129388573 s
+
+STEP 394 starts ...
+STEP 394 ends. TIME = 3.695795637e-13 DT = 9.380191971e-16
+Evolve time = 4.446849283 s; This step = 0.008352193 s; Avg. per step = 0.0112864195 s
+
+STEP 395 starts ...
+STEP 395 ends. TIME = 3.705175828e-13 DT = 9.380191971e-16
+Evolve time = 4.456804284 s; This step = 0.009955001 s; Avg. per step = 0.01128304882 s
+
+STEP 396 starts ...
+re-sorting particles 
+STEP 396 ends. TIME = 3.71455602e-13 DT = 9.380191971e-16
+Evolve time = 4.465679701 s; This step = 0.008875417 s; Avg. per step = 0.01127696894 s
+
+STEP 397 starts ...
+STEP 397 ends. TIME = 3.723936212e-13 DT = 9.380191971e-16
+Evolve time = 4.475831742 s; This step = 0.010152041 s; Avg. per step = 0.01127413537 s
+
+STEP 398 starts ...
+STEP 398 ends. TIME = 3.733316404e-13 DT = 9.380191971e-16
+Evolve time = 4.483995881 s; This step = 0.008164139 s; Avg. per step = 0.01126632131 s
+
+STEP 399 starts ...
+STEP 399 ends. TIME = 3.742696596e-13 DT = 9.380191971e-16
+Evolve time = 4.494139931 s; This step = 0.01014405 s; Avg. per step = 0.0112635086 s
+
+STEP 400 starts ...
+re-sorting particles 
+STEP 400 ends. TIME = 3.752076788e-13 DT = 9.380191971e-16
+Evolve time = 4.540342493 s; This step = 0.046202562 s; Avg. per step = 0.01135085623 s
+
+STEP 401 starts ...
+STEP 401 ends. TIME = 3.76145698e-13 DT = 9.380191971e-16
+Evolve time = 4.550648201 s; This step = 0.010305708 s; Avg. per step = 0.01134824988 s
+
+STEP 402 starts ...
+STEP 402 ends. TIME = 3.770837172e-13 DT = 9.380191971e-16
+Evolve time = 4.55893564 s; This step = 0.008287439 s; Avg. per step = 0.01134063592 s
+
+STEP 403 starts ...
+STEP 403 ends. TIME = 3.780217364e-13 DT = 9.380191971e-16
+Evolve time = 4.569054522 s; This step = 0.010118882 s; Avg. per step = 0.01133760427 s
+
+STEP 404 starts ...
+re-sorting particles 
+STEP 404 ends. TIME = 3.789597556e-13 DT = 9.380191971e-16
+Evolve time = 4.577830155 s; This step = 0.008775633 s; Avg. per step = 0.01133126276 s
+
+STEP 405 starts ...
+STEP 405 ends. TIME = 3.798977748e-13 DT = 9.380191971e-16
+Evolve time = 4.587838805 s; This step = 0.01000865 s; Avg. per step = 0.01132799705 s
+
+STEP 406 starts ...
+STEP 406 ends. TIME = 3.80835794e-13 DT = 9.380191971e-16
+Evolve time = 4.596122514 s; This step = 0.008283709 s; Avg. per step = 0.0113204988 s
+
+STEP 407 starts ...
+STEP 407 ends. TIME = 3.817738132e-13 DT = 9.380191971e-16
+Evolve time = 4.606172344 s; This step = 0.01004983 s; Avg. per step = 0.01131737677 s
+
+STEP 408 starts ...
+re-sorting particles 
+STEP 408 ends. TIME = 3.827118324e-13 DT = 9.380191971e-16
+Evolve time = 4.614955289 s; This step = 0.008782945 s; Avg. per step = 0.01131116492 s
+
+STEP 409 starts ...
+STEP 409 ends. TIME = 3.836498516e-13 DT = 9.380191971e-16
+Evolve time = 4.624872184 s; This step = 0.009916895 s; Avg. per step = 0.01130775595 s
+
+STEP 410 starts ...
+STEP 410 ends. TIME = 3.845878708e-13 DT = 9.380191971e-16
+Evolve time = 4.634971888 s; This step = 0.010099704 s; Avg. per step = 0.01130480948 s
+
+STEP 411 starts ...
+STEP 411 ends. TIME = 3.8552589e-13 DT = 9.380191971e-16
+Evolve time = 4.643134394 s; This step = 0.008162506 s; Avg. per step = 0.01129716398 s
+
+STEP 412 starts ...
+re-sorting particles 
+STEP 412 ends. TIME = 3.864639092e-13 DT = 9.380191971e-16
+Evolve time = 4.653652676 s; This step = 0.010518282 s; Avg. per step = 0.01129527349 s
+
+STEP 413 starts ...
+STEP 413 ends. TIME = 3.874019284e-13 DT = 9.380191971e-16
+Evolve time = 4.661799497 s; This step = 0.008146821 s; Avg. per step = 0.01128765011 s
+
+STEP 414 starts ...
+STEP 414 ends. TIME = 3.883399476e-13 DT = 9.380191971e-16
+Evolve time = 4.671765266 s; This step = 0.009965769 s; Avg. per step = 0.01128445716 s
+
+STEP 415 starts ...
+STEP 415 ends. TIME = 3.892779668e-13 DT = 9.380191971e-16
+Evolve time = 4.680078906 s; This step = 0.00831364 s; Avg. per step = 0.01127729857 s
+
+STEP 416 starts ...
+re-sorting particles 
+STEP 416 ends. TIME = 3.90215986e-13 DT = 9.380191971e-16
+Evolve time = 4.69062799 s; This step = 0.010549084 s; Avg. per step = 0.01127554805 s
+
+STEP 417 starts ...
+STEP 417 ends. TIME = 3.911540052e-13 DT = 9.380191971e-16
+Evolve time = 4.698796615 s; This step = 0.008168625 s; Avg. per step = 0.0112680974 s
+
+STEP 418 starts ...
+STEP 418 ends. TIME = 3.920920244e-13 DT = 9.380191971e-16
+Evolve time = 4.708850453 s; This step = 0.010053838 s; Avg. per step = 0.01126519247 s
+
+STEP 419 starts ...
+STEP 419 ends. TIME = 3.930300436e-13 DT = 9.380191971e-16
+Evolve time = 4.717124324 s; This step = 0.008273871 s; Avg. per step = 0.01125805328 s
+
+STEP 420 starts ...
+re-sorting particles 
+STEP 420 ends. TIME = 3.939680628e-13 DT = 9.380191971e-16
+Evolve time = 4.763755208 s; This step = 0.046630884 s; Avg. per step = 0.0113422743 s
+
+STEP 421 starts ...
+STEP 421 ends. TIME = 3.94906082e-13 DT = 9.380191971e-16
+Evolve time = 4.772256494 s; This step = 0.008501286 s; Avg. per step = 0.01133552611 s
+
+STEP 422 starts ...
+STEP 422 ends. TIME = 3.958441012e-13 DT = 9.380191971e-16
+Evolve time = 4.782264593 s; This step = 0.010008099 s; Avg. per step = 0.01133238055 s
+
+STEP 423 starts ...
+STEP 423 ends. TIME = 3.967821204e-13 DT = 9.380191971e-16
+Evolve time = 4.790435821 s; This step = 0.008171228 s; Avg. per step = 0.01132490738 s
+
+STEP 424 starts ...
+re-sorting particles 
+STEP 424 ends. TIME = 3.977201396e-13 DT = 9.380191971e-16
+Evolve time = 4.801046993 s; This step = 0.010611172 s; Avg. per step = 0.01132322404 s
+
+STEP 425 starts ...
+STEP 425 ends. TIME = 3.986581588e-13 DT = 9.380191971e-16
+Evolve time = 4.809202394 s; This step = 0.008155401 s; Avg. per step = 0.01131577034 s
+
+STEP 426 starts ...
+STEP 426 ends. TIME = 3.99596178e-13 DT = 9.380191971e-16
+Evolve time = 4.819205835 s; This step = 0.010003441 s; Avg. per step = 0.01131268975 s
+
+STEP 427 starts ...
+STEP 427 ends. TIME = 4.005341972e-13 DT = 9.380191971e-16
+Evolve time = 4.829386302 s; This step = 0.010180467 s; Avg. per step = 0.01131003818 s
+
+STEP 428 starts ...
+re-sorting particles 
+STEP 428 ends. TIME = 4.014722164e-13 DT = 9.380191971e-16
+Evolve time = 4.83822555 s; This step = 0.008839248 s; Avg. per step = 0.0113042653 s
+
+STEP 429 starts ...
+STEP 429 ends. TIME = 4.024102355e-13 DT = 9.380191971e-16
+Evolve time = 4.848167503 s; This step = 0.009941953 s; Avg. per step = 0.01130108975 s
+
+STEP 430 starts ...
+STEP 430 ends. TIME = 4.033482547e-13 DT = 9.380191971e-16
+Evolve time = 4.856320464 s; This step = 0.008152961 s; Avg. per step = 0.01129376852 s
+
+STEP 431 starts ...
+STEP 431 ends. TIME = 4.042862739e-13 DT = 9.380191971e-16
+Evolve time = 4.866386845 s; This step = 0.010066381 s; Avg. per step = 0.01129092075 s
+
+STEP 432 starts ...
+re-sorting particles 
+STEP 432 ends. TIME = 4.052242931e-13 DT = 9.380191971e-16
+Evolve time = 4.875147144 s; This step = 0.008760299 s; Avg. per step = 0.01128506283 s
+
+STEP 433 starts ...
+STEP 433 ends. TIME = 4.061623123e-13 DT = 9.380191971e-16
+Evolve time = 4.885173949 s; This step = 0.010026805 s; Avg. per step = 0.01128215693 s
+
+STEP 434 starts ...
+STEP 434 ends. TIME = 4.071003315e-13 DT = 9.380191971e-16
+Evolve time = 4.893450205 s; This step = 0.008276256 s; Avg. per step = 0.01127523089 s
+
+STEP 435 starts ...
+STEP 435 ends. TIME = 4.080383507e-13 DT = 9.380191971e-16
+Evolve time = 4.90344324 s; This step = 0.009993035 s; Avg. per step = 0.01127228331 s
+
+STEP 436 starts ...
+re-sorting particles 
+STEP 436 ends. TIME = 4.089763699e-13 DT = 9.380191971e-16
+Evolve time = 4.912321203 s; This step = 0.008877963 s; Avg. per step = 0.01126679175 s
+
+STEP 437 starts ...
+STEP 437 ends. TIME = 4.099143891e-13 DT = 9.380191971e-16
+Evolve time = 4.922509232 s; This step = 0.010188029 s; Avg. per step = 0.01126432319 s
+
+STEP 438 starts ...
+STEP 438 ends. TIME = 4.108524083e-13 DT = 9.380191971e-16
+Evolve time = 4.930704116 s; This step = 0.008194884 s; Avg. per step = 0.01125731533 s
+
+STEP 439 starts ...
+STEP 439 ends. TIME = 4.117904275e-13 DT = 9.380191971e-16
+Evolve time = 4.94073231 s; This step = 0.010028194 s; Avg. per step = 0.01125451551 s
+
+STEP 440 starts ...
+re-sorting particles 
+STEP 440 ends. TIME = 4.127284467e-13 DT = 9.380191971e-16
+Evolve time = 4.985957617 s; This step = 0.045225307 s; Avg. per step = 0.01133172186 s
+
+STEP 441 starts ...
+STEP 441 ends. TIME = 4.136664659e-13 DT = 9.380191971e-16
+Evolve time = 4.996316166 s; This step = 0.010358549 s; Avg. per step = 0.01132951512 s
+
+STEP 442 starts ...
+STEP 442 ends. TIME = 4.146044851e-13 DT = 9.380191971e-16
+Evolve time = 5.004520016 s; This step = 0.00820385 s; Avg. per step = 0.01132244348 s
+
+STEP 443 starts ...
+STEP 443 ends. TIME = 4.155425043e-13 DT = 9.380191971e-16
+Evolve time = 5.014510263 s; This step = 0.009990247 s; Avg. per step = 0.01131943626 s
+
+STEP 444 starts ...
+re-sorting particles 
+STEP 444 ends. TIME = 4.164805235e-13 DT = 9.380191971e-16
+Evolve time = 5.02508121 s; This step = 0.010570947 s; Avg. per step = 0.01131775047 s
+
+STEP 445 starts ...
+STEP 445 ends. TIME = 4.174185427e-13 DT = 9.380191971e-16
+Evolve time = 5.033203793 s; This step = 0.008122583 s; Avg. per step = 0.01131057032 s
+
+STEP 446 starts ...
+STEP 446 ends. TIME = 4.183565619e-13 DT = 9.380191971e-16
+Evolve time = 5.04321098 s; This step = 0.010007187 s; Avg. per step = 0.01130764794 s
+
+STEP 447 starts ...
+STEP 447 ends. TIME = 4.192945811e-13 DT = 9.380191971e-16
+Evolve time = 5.051417064 s; This step = 0.008206084 s; Avg. per step = 0.01130070932 s
+
+STEP 448 starts ...
+re-sorting particles 
+STEP 448 ends. TIME = 4.202326003e-13 DT = 9.380191971e-16
+Evolve time = 5.061927106 s; This step = 0.010510042 s; Avg. per step = 0.01129894443 s
+
+STEP 449 starts ...
+STEP 449 ends. TIME = 4.211706195e-13 DT = 9.380191971e-16
+Evolve time = 5.07010536 s; This step = 0.008178254 s; Avg. per step = 0.01129199412 s
+
+STEP 450 starts ...
+STEP 450 ends. TIME = 4.221086387e-13 DT = 9.380191971e-16
+Evolve time = 5.08011036 s; This step = 0.010005 s; Avg. per step = 0.01128913413 s
+
+STEP 451 starts ...
+STEP 451 ends. TIME = 4.230466579e-13 DT = 9.380191971e-16
+Evolve time = 5.088407125 s; This step = 0.008296765 s; Avg. per step = 0.01128249917 s
+
+STEP 452 starts ...
+re-sorting particles 
+STEP 452 ends. TIME = 4.239846771e-13 DT = 9.380191971e-16
+Evolve time = 5.099002409 s; This step = 0.010595284 s; Avg. per step = 0.01128097878 s
+
+STEP 453 starts ...
+STEP 453 ends. TIME = 4.249226963e-13 DT = 9.380191971e-16
+Evolve time = 5.107078638 s; This step = 0.008076229 s; Avg. per step = 0.01127390428 s
+
+STEP 454 starts ...
+STEP 454 ends. TIME = 4.258607155e-13 DT = 9.380191971e-16
+Evolve time = 5.117100466 s; This step = 0.010021828 s; Avg. per step = 0.0112711464 s
+
+STEP 455 starts ...
+STEP 455 ends. TIME = 4.267987347e-13 DT = 9.380191971e-16
+Evolve time = 5.12530057 s; This step = 0.008200104 s; Avg. per step = 0.01126439686 s
+
+STEP 456 starts ...
+re-sorting particles 
+STEP 456 ends. TIME = 4.277367539e-13 DT = 9.380191971e-16
+Evolve time = 5.135785701 s; This step = 0.010485131 s; Avg. per step = 0.01126268794 s
+
+STEP 457 starts ...
+STEP 457 ends. TIME = 4.286747731e-13 DT = 9.380191971e-16
+Evolve time = 5.143982478 s; This step = 0.008196777 s; Avg. per step = 0.01125597916 s
+
+STEP 458 starts ...
+STEP 458 ends. TIME = 4.296127923e-13 DT = 9.380191971e-16
+Evolve time = 5.153985646 s; This step = 0.010003168 s; Avg. per step = 0.01125324377 s
+
+STEP 459 starts ...
+STEP 459 ends. TIME = 4.305508115e-13 DT = 9.380191971e-16
+Evolve time = 5.162212542 s; This step = 0.008226896 s; Avg. per step = 0.01124665042 s
+
+STEP 460 starts ...
+re-sorting particles 
+STEP 460 ends. TIME = 4.314888307e-13 DT = 9.380191971e-16
+Evolve time = 5.210217329 s; This step = 0.048004787 s; Avg. per step = 0.01132655941 s
+
+STEP 461 starts ...
+STEP 461 ends. TIME = 4.324268499e-13 DT = 9.380191971e-16
+Evolve time = 5.220478757 s; This step = 0.010261428 s; Avg. per step = 0.01132424893 s
+
+STEP 462 starts ...
+STEP 462 ends. TIME = 4.333648691e-13 DT = 9.380191971e-16
+Evolve time = 5.228609911 s; This step = 0.008131154 s; Avg. per step = 0.01131733747 s
+
+STEP 463 starts ...
+STEP 463 ends. TIME = 4.343028882e-13 DT = 9.380191971e-16
+Evolve time = 5.238637021 s; This step = 0.01002711 s; Avg. per step = 0.0113145508 s
+
+STEP 464 starts ...
+re-sorting particles 
+STEP 464 ends. TIME = 4.352409074e-13 DT = 9.380191971e-16
+Evolve time = 5.247508222 s; This step = 0.008871201 s; Avg. per step = 0.01130928496 s
+
+STEP 465 starts ...
+STEP 465 ends. TIME = 4.361789266e-13 DT = 9.380191971e-16
+Evolve time = 5.257533838 s; This step = 0.010025616 s; Avg. per step = 0.01130652438 s
+
+STEP 466 starts ...
+STEP 466 ends. TIME = 4.371169458e-13 DT = 9.380191971e-16
+Evolve time = 5.265787519 s; This step = 0.008253681 s; Avg. per step = 0.01129997322 s
+
+STEP 467 starts ...
+STEP 467 ends. TIME = 4.38054965e-13 DT = 9.380191971e-16
+Evolve time = 5.275949496 s; This step = 0.010161977 s; Avg. per step = 0.01129753639 s
+
+STEP 468 starts ...
+re-sorting particles 
+STEP 468 ends. TIME = 4.389929842e-13 DT = 9.380191971e-16
+Evolve time = 5.284879298 s; This step = 0.008929802 s; Avg. per step = 0.01129247713 s
+
+STEP 469 starts ...
+STEP 469 ends. TIME = 4.399310034e-13 DT = 9.380191971e-16
+Evolve time = 5.29486621 s; This step = 0.009986912 s; Avg. per step = 0.01128969341 s
+
+STEP 470 starts ...
+STEP 470 ends. TIME = 4.408690226e-13 DT = 9.380191971e-16
+Evolve time = 5.303149972 s; This step = 0.008283762 s; Avg. per step = 0.01128329781 s
+
+STEP 471 starts ...
+STEP 471 ends. TIME = 4.418070418e-13 DT = 9.380191971e-16
+Evolve time = 5.313166278 s; This step = 0.010016306 s; Avg. per step = 0.01128060781 s
+
+STEP 472 starts ...
+re-sorting particles 
+STEP 472 ends. TIME = 4.42745061e-13 DT = 9.380191971e-16
+Evolve time = 5.321943099 s; This step = 0.008776821 s; Avg. per step = 0.01127530318 s
+
+STEP 473 starts ...
+STEP 473 ends. TIME = 4.436830802e-13 DT = 9.380191971e-16
+Evolve time = 5.331913936 s; This step = 0.009970837 s; Avg. per step = 0.01127254532 s
+
+STEP 474 starts ...
+STEP 474 ends. TIME = 4.446210994e-13 DT = 9.380191971e-16
+Evolve time = 5.340187225 s; This step = 0.008273289 s; Avg. per step = 0.01126621777 s
+
+STEP 475 starts ...
+STEP 475 ends. TIME = 4.455591186e-13 DT = 9.380191971e-16
+Evolve time = 5.350303574 s; This step = 0.010116349 s; Avg. per step = 0.011263797 s
+
+STEP 476 starts ...
+re-sorting particles 
+STEP 476 ends. TIME = 4.464971378e-13 DT = 9.380191971e-16
+Evolve time = 5.359028147 s; This step = 0.008724573 s; Avg. per step = 0.01125846249 s
+
+STEP 477 starts ...
+STEP 477 ends. TIME = 4.47435157e-13 DT = 9.380191971e-16
+Evolve time = 5.369057311 s; This step = 0.010029164 s; Avg. per step = 0.01125588535 s
+
+STEP 478 starts ...
+STEP 478 ends. TIME = 4.483731762e-13 DT = 9.380191971e-16
+Evolve time = 5.379137129 s; This step = 0.010079818 s; Avg. per step = 0.01125342496 s
+
+STEP 479 starts ...
+STEP 479 ends. TIME = 4.493111954e-13 DT = 9.380191971e-16
+Evolve time = 5.387350367 s; This step = 0.008213238 s; Avg. per step = 0.01124707801 s
+
+STEP 480 starts ...
+re-sorting particles 
+STEP 480 ends. TIME = 4.502492146e-13 DT = 9.380191971e-16
+Evolve time = 5.434452482 s; This step = 0.047102115 s; Avg. per step = 0.011321776 s
+
+STEP 481 starts ...
+STEP 481 ends. TIME = 4.511872338e-13 DT = 9.380191971e-16
+Evolve time = 5.443009594 s; This step = 0.008557112 s; Avg. per step = 0.01131602826 s
+
+STEP 482 starts ...
+STEP 482 ends. TIME = 4.52125253e-13 DT = 9.380191971e-16
+Evolve time = 5.453043866 s; This step = 0.010034272 s; Avg. per step = 0.01131336902 s
+
+STEP 483 starts ...
+STEP 483 ends. TIME = 4.530632722e-13 DT = 9.380191971e-16
+Evolve time = 5.461257767 s; This step = 0.008213901 s; Avg. per step = 0.0113069519 s
+
+STEP 484 starts ...
+re-sorting particles 
+STEP 484 ends. TIME = 4.540012914e-13 DT = 9.380191971e-16
+Evolve time = 5.471795237 s; This step = 0.01053747 s; Avg. per step = 0.01130536206 s
+
+STEP 485 starts ...
+STEP 485 ends. TIME = 4.549393106e-13 DT = 9.380191971e-16
+Evolve time = 5.479964902 s; This step = 0.008169665 s; Avg. per step = 0.01129889671 s
+
+STEP 486 starts ...
+STEP 486 ends. TIME = 4.558773298e-13 DT = 9.380191971e-16
+Evolve time = 5.48999991 s; This step = 0.010035008 s; Avg. per step = 0.01129629611 s
+
+STEP 487 starts ...
+STEP 487 ends. TIME = 4.56815349e-13 DT = 9.380191971e-16
+Evolve time = 5.498226287 s; This step = 0.008226377 s; Avg. per step = 0.01128999238 s
+
+STEP 488 starts ...
+re-sorting particles 
+STEP 488 ends. TIME = 4.577533682e-13 DT = 9.380191971e-16
+Evolve time = 5.508820743 s; This step = 0.010594456 s; Avg. per step = 0.0112885671 s
+
+STEP 489 starts ...
+STEP 489 ends. TIME = 4.586913874e-13 DT = 9.380191971e-16
+Evolve time = 5.517279491 s; This step = 0.008458748 s; Avg. per step = 0.01128278015 s
+
+STEP 490 starts ...
+STEP 490 ends. TIME = 4.596294066e-13 DT = 9.380191971e-16
+Evolve time = 5.52737876 s; This step = 0.010099269 s; Avg. per step = 0.01128036482 s
+
+STEP 491 starts ...
+STEP 491 ends. TIME = 4.605674258e-13 DT = 9.380191971e-16
+Evolve time = 5.535729771 s; This step = 0.008351011 s; Avg. per step = 0.01127439872 s
+
+STEP 492 starts ...
+re-sorting particles 
+STEP 492 ends. TIME = 4.61505445e-13 DT = 9.380191971e-16
+Evolve time = 5.546240795 s; This step = 0.010511024 s; Avg. per step = 0.01127284714 s
+
+STEP 493 starts ...
+STEP 493 ends. TIME = 4.624434642e-13 DT = 9.380191971e-16
+Evolve time = 5.554485017 s; This step = 0.008244222 s; Avg. per step = 0.01126670389 s
+
+STEP 494 starts ...
+STEP 494 ends. TIME = 4.633814834e-13 DT = 9.380191971e-16
+Evolve time = 5.564489136 s; This step = 0.010004119 s; Avg. per step = 0.01126414805 s
+
+STEP 495 starts ...
+STEP 495 ends. TIME = 4.643195026e-13 DT = 9.380191971e-16
+Evolve time = 5.574542362 s; This step = 0.010053226 s; Avg. per step = 0.01126170174 s
+
+STEP 496 starts ...
+re-sorting particles 
+STEP 496 ends. TIME = 4.652575218e-13 DT = 9.380191971e-16
+Evolve time = 5.583439855 s; This step = 0.008897493 s; Avg. per step = 0.01125693519 s
+
+STEP 497 starts ...
+STEP 497 ends. TIME = 4.661955409e-13 DT = 9.380191971e-16
+Evolve time = 5.593381244 s; This step = 0.009941389 s; Avg. per step = 0.01125428822 s
+
+STEP 498 starts ...
+STEP 498 ends. TIME = 4.671335601e-13 DT = 9.380191971e-16
+Evolve time = 5.601568445 s; This step = 0.008187201 s; Avg. per step = 0.01124812941 s
+
+STEP 499 starts ...
+STEP 499 ends. TIME = 4.680715793e-13 DT = 9.380191971e-16
+Evolve time = 5.611594198 s; This step = 0.010025753 s; Avg. per step = 0.01124567976 s
+
+STEP 500 starts ...
+re-sorting particles 
+STEP 500 ends. TIME = 4.690095985e-13 DT = 9.380191971e-16
+Evolve time = 5.65670883 s; This step = 0.045114632 s; Avg. per step = 0.01131341766 s
+
+STEP 501 starts ...
+STEP 501 ends. TIME = 4.699476177e-13 DT = 9.380191971e-16
+Evolve time = 5.666913794 s; This step = 0.010204964 s; Avg. per step = 0.01131120518 s
+
+STEP 502 starts ...
+STEP 502 ends. TIME = 4.708856369e-13 DT = 9.380191971e-16
+Evolve time = 5.675312982 s; This step = 0.008399188 s; Avg. per step = 0.01130540435 s
+
+STEP 503 starts ...
+STEP 503 ends. TIME = 4.718236561e-13 DT = 9.380191971e-16
+Evolve time = 5.6853729 s; This step = 0.010059918 s; Avg. per step = 0.01130292823 s
+
+STEP 504 starts ...
+re-sorting particles 
+STEP 504 ends. TIME = 4.727616753e-13 DT = 9.380191971e-16
+Evolve time = 5.694999216 s; This step = 0.009626316 s; Avg. per step = 0.01129960162 s
+
+STEP 505 starts ...
+STEP 505 ends. TIME = 4.736996945e-13 DT = 9.380191971e-16
+Evolve time = 5.704938446 s; This step = 0.00993923 s; Avg. per step = 0.01129690781 s
+
+STEP 506 starts ...
+STEP 506 ends. TIME = 4.746377137e-13 DT = 9.380191971e-16
+Evolve time = 5.713144381 s; This step = 0.008205935 s; Avg. per step = 0.01129079917 s
+
+STEP 507 starts ...
+STEP 507 ends. TIME = 4.755757329e-13 DT = 9.380191971e-16
+Evolve time = 5.723713647 s; This step = 0.010569266 s; Avg. per step = 0.01128937603 s
+
+STEP 508 starts ...
+re-sorting particles 
+STEP 508 ends. TIME = 4.765137521e-13 DT = 9.380191971e-16
+Evolve time = 5.732520195 s; This step = 0.008806548 s; Avg. per step = 0.01128448857 s
+
+STEP 509 starts ...
+STEP 509 ends. TIME = 4.774517713e-13 DT = 9.380191971e-16
+Evolve time = 5.742523068 s; This step = 0.010002873 s; Avg. per step = 0.01128197066 s
+
+STEP 510 starts ...
+STEP 510 ends. TIME = 4.783897905e-13 DT = 9.380191971e-16
+Evolve time = 5.75079303 s; This step = 0.008269962 s; Avg. per step = 0.01127606476 s
+
+STEP 511 starts ...
+STEP 511 ends. TIME = 4.793278097e-13 DT = 9.380191971e-16
+Evolve time = 5.760958655 s; This step = 0.010165625 s; Avg. per step = 0.01127389169 s
+
+STEP 512 starts ...
+re-sorting particles 
+STEP 512 ends. TIME = 4.802658289e-13 DT = 9.380191971e-16
+Evolve time = 5.771574856 s; This step = 0.010616201 s; Avg. per step = 0.01127260714 s
+
+STEP 513 starts ...
+STEP 513 ends. TIME = 4.812038481e-13 DT = 9.380191971e-16
+Evolve time = 5.779645398 s; This step = 0.008070542 s; Avg. per step = 0.0112663653 s
+
+STEP 514 starts ...
+STEP 514 ends. TIME = 4.821418673e-13 DT = 9.380191971e-16
+Evolve time = 5.789592923 s; This step = 0.009947525 s; Avg. per step = 0.01126379946 s
+
+STEP 515 starts ...
+STEP 515 ends. TIME = 4.830798865e-13 DT = 9.380191971e-16
+Evolve time = 5.797801525 s; This step = 0.008208602 s; Avg. per step = 0.01125786704 s
+
+STEP 516 starts ...
+re-sorting particles 
+STEP 516 ends. TIME = 4.840179057e-13 DT = 9.380191971e-16
+Evolve time = 5.808396541 s; This step = 0.010595016 s; Avg. per step = 0.01125658244 s
+
+STEP 517 starts ...
+STEP 517 ends. TIME = 4.849559249e-13 DT = 9.380191971e-16
+Evolve time = 5.816548849 s; This step = 0.008152308 s; Avg. per step = 0.01125057804 s
+
+STEP 518 starts ...
+STEP 518 ends. TIME = 4.858939441e-13 DT = 9.380191971e-16
+Evolve time = 5.826526186 s; This step = 0.009977337 s; Avg. per step = 0.01124812005 s
+
+STEP 519 starts ...
+STEP 519 ends. TIME = 4.868319633e-13 DT = 9.380191971e-16
+Evolve time = 5.834785009 s; This step = 0.008258823 s; Avg. per step = 0.01124236033 s
+
+STEP 520 starts ...
+re-sorting particles 
+STEP 520 ends. TIME = 4.877699825e-13 DT = 9.380191971e-16
+Evolve time = 5.882537232 s; This step = 0.047752223 s; Avg. per step = 0.0113125716 s
+
+STEP 521 starts ...
+STEP 521 ends. TIME = 4.887080017e-13 DT = 9.380191971e-16
+Evolve time = 5.891051456 s; This step = 0.008514224 s; Avg. per step = 0.01130720049 s
+
+STEP 522 starts ...
+STEP 522 ends. TIME = 4.896460209e-13 DT = 9.380191971e-16
+Evolve time = 5.901090173 s; This step = 0.010038717 s; Avg. per step = 0.01130477045 s
+
+STEP 523 starts ...
+STEP 523 ends. TIME = 4.905840401e-13 DT = 9.380191971e-16
+Evolve time = 5.909522694 s; This step = 0.008432521 s; Avg. per step = 0.01129927857 s
+
+STEP 524 starts ...
+re-sorting particles 
+STEP 524 ends. TIME = 4.915220593e-13 DT = 9.380191971e-16
+Evolve time = 5.920051726 s; This step = 0.010529032 s; Avg. per step = 0.01129780864 s
+
+STEP 525 starts ...
+STEP 525 ends. TIME = 4.924600785e-13 DT = 9.380191971e-16
+Evolve time = 5.928235839 s; This step = 0.008184113 s; Avg. per step = 0.01129187779 s
+
+STEP 526 starts ...
+STEP 526 ends. TIME = 4.933980977e-13 DT = 9.380191971e-16
+Evolve time = 5.938363805 s; This step = 0.010127966 s; Avg. per step = 0.01128966503 s
+
+STEP 527 starts ...
+STEP 527 ends. TIME = 4.943361169e-13 DT = 9.380191971e-16
+Evolve time = 5.946627112 s; This step = 0.008263307 s; Avg. per step = 0.01128392241 s
+
+STEP 528 starts ...
+re-sorting particles 
+STEP 528 ends. TIME = 4.952741361e-13 DT = 9.380191971e-16
+Evolve time = 5.957868933 s; This step = 0.011241821 s; Avg. per step = 0.01128384268 s
+
+STEP 529 starts ...
+STEP 529 ends. TIME = 4.962121553e-13 DT = 9.380191971e-16
+Evolve time = 5.967869989 s; This step = 0.010001056 s; Avg. per step = 0.01128141775 s
+
+STEP 530 starts ...
+STEP 530 ends. TIME = 4.971501745e-13 DT = 9.380191971e-16
+Evolve time = 5.976124057 s; This step = 0.008254068 s; Avg. per step = 0.01127570577 s
+
+STEP 531 starts ...
+STEP 531 ends. TIME = 4.980881937e-13 DT = 9.380191971e-16
+Evolve time = 5.986306453 s; This step = 0.010182396 s; Avg. per step = 0.0112736468 s
+
+STEP 532 starts ...
+re-sorting particles 
+STEP 532 ends. TIME = 4.990262128e-13 DT = 9.380191971e-16
+Evolve time = 5.995174978 s; This step = 0.008868525 s; Avg. per step = 0.0112691259 s
+
+STEP 533 starts ...
+STEP 533 ends. TIME = 4.99964232e-13 DT = 9.380191971e-16
+Evolve time = 6.00511123 s; This step = 0.009936252 s; Avg. per step = 0.0112666252 s
+
+STEP 534 starts ...
+STEP 534 ends. TIME = 5.009022512e-13 DT = 9.380191971e-16
+Evolve time = 6.013250673 s; This step = 0.008139443 s; Avg. per step = 0.01126076905 s
+
+STEP 535 starts ...
+STEP 535 ends. TIME = 5.018402704e-13 DT = 9.380191971e-16
+Evolve time = 6.02344917 s; This step = 0.010198497 s; Avg. per step = 0.0112587835 s
+
+STEP 536 starts ...
+re-sorting particles 
+STEP 536 ends. TIME = 5.027782896e-13 DT = 9.380191971e-16
+Evolve time = 6.032278792 s; This step = 0.008829622 s; Avg. per step = 0.01125425148 s
+
+STEP 537 starts ...
+STEP 537 ends. TIME = 5.037163088e-13 DT = 9.380191971e-16
+Evolve time = 6.042260109 s; This step = 0.009981317 s; Avg. per step = 0.01125188102 s
+
+STEP 538 starts ...
+STEP 538 ends. TIME = 5.04654328e-13 DT = 9.380191971e-16
+Evolve time = 6.050598559 s; This step = 0.00833845 s; Avg. per step = 0.01124646572 s
+
+STEP 539 starts ...
+STEP 539 ends. TIME = 5.055923472e-13 DT = 9.380191971e-16
+Evolve time = 6.060657075 s; This step = 0.010058516 s; Avg. per step = 0.01124426173 s
+
+STEP 540 starts ...
+re-sorting particles 
+STEP 540 ends. TIME = 5.065303664e-13 DT = 9.380191971e-16
+Evolve time = 6.10622091 s; This step = 0.045563835 s; Avg. per step = 0.0113078165 s
+
+STEP 541 starts ...
+STEP 541 ends. TIME = 5.074683856e-13 DT = 9.380191971e-16
+Evolve time = 6.116432987 s; This step = 0.010212077 s; Avg. per step = 0.0113057911 s
+
+STEP 542 starts ...
+STEP 542 ends. TIME = 5.084064048e-13 DT = 9.380191971e-16
+Evolve time = 6.124655065 s; This step = 0.008222078 s; Avg. per step = 0.0113001016 s
+
+STEP 543 starts ...
+STEP 543 ends. TIME = 5.09344424e-13 DT = 9.380191971e-16
+Evolve time = 6.134590044 s; This step = 0.009934979 s; Avg. per step = 0.01129758756 s
+
+STEP 544 starts ...
+re-sorting particles 
+STEP 544 ends. TIME = 5.102824432e-13 DT = 9.380191971e-16
+Evolve time = 6.143316999 s; This step = 0.008726955 s; Avg. per step = 0.01129286213 s
+
+STEP 545 starts ...
+STEP 545 ends. TIME = 5.112204624e-13 DT = 9.380191971e-16
+Evolve time = 6.153395951 s; This step = 0.010078952 s; Avg. per step = 0.01129063477 s
+
+STEP 546 starts ...
+STEP 546 ends. TIME = 5.121584816e-13 DT = 9.380191971e-16
+Evolve time = 6.16389661 s; This step = 0.010500659 s; Avg. per step = 0.01128918793 s
+
+STEP 547 starts ...
+STEP 547 ends. TIME = 5.130965008e-13 DT = 9.380191971e-16
+Evolve time = 6.172225068 s; This step = 0.008328458 s; Avg. per step = 0.01128377526 s
+
+STEP 548 starts ...
+re-sorting particles 
+STEP 548 ends. TIME = 5.1403452e-13 DT = 9.380191971e-16
+Evolve time = 6.182759992 s; This step = 0.010534924 s; Avg. per step = 0.01128240874 s
+
+STEP 549 starts ...
+STEP 549 ends. TIME = 5.149725392e-13 DT = 9.380191971e-16
+Evolve time = 6.190946248 s; This step = 0.008186256 s; Avg. per step = 0.01127676912 s
+
+STEP 550 starts ...
+STEP 550 ends. TIME = 5.159105584e-13 DT = 9.380191971e-16
+Evolve time = 6.201635928 s; This step = 0.01068968 s; Avg. per step = 0.01127570169 s
+
+STEP 551 starts ...
+STEP 551 ends. TIME = 5.168485776e-13 DT = 9.380191971e-16
+Evolve time = 6.209824982 s; This step = 0.008189054 s; Avg. per step = 0.01127009979 s
+
+STEP 552 starts ...
+re-sorting particles 
+STEP 552 ends. TIME = 5.177865968e-13 DT = 9.380191971e-16
+Evolve time = 6.220319323 s; This step = 0.010494341 s; Avg. per step = 0.01126869443 s
+
+STEP 553 starts ...
+STEP 553 ends. TIME = 5.18724616e-13 DT = 9.380191971e-16
+Evolve time = 6.22852683 s; This step = 0.008207507 s; Avg. per step = 0.01126315882 s
+
+STEP 554 starts ...
+STEP 554 ends. TIME = 5.196626352e-13 DT = 9.380191971e-16
+Evolve time = 6.23912027 s; This step = 0.01059344 s; Avg. per step = 0.01126194995 s
+
+STEP 555 starts ...
+STEP 555 ends. TIME = 5.206006544e-13 DT = 9.380191971e-16
+Evolve time = 6.247341915 s; This step = 0.008221645 s; Avg. per step = 0.01125647192 s
+
+STEP 556 starts ...
+re-sorting particles 
+STEP 556 ends. TIME = 5.215386736e-13 DT = 9.380191971e-16
+Evolve time = 6.257915719 s; This step = 0.010573804 s; Avg. per step = 0.0112552441 s
+
+STEP 557 starts ...
+STEP 557 ends. TIME = 5.224766928e-13 DT = 9.380191971e-16
+Evolve time = 6.266494854 s; This step = 0.008579135 s; Avg. per step = 0.01125043959 s
+
+STEP 558 starts ...
+STEP 558 ends. TIME = 5.23414712e-13 DT = 9.380191971e-16
+Evolve time = 6.276443263 s; This step = 0.009948409 s; Avg. per step = 0.01124810621 s
+
+STEP 559 starts ...
+STEP 559 ends. TIME = 5.243527312e-13 DT = 9.380191971e-16
+Evolve time = 6.284679328 s; This step = 0.008236065 s; Avg. per step = 0.01124271794 s
+
+STEP 560 starts ...
+re-sorting particles 
+STEP 560 ends. TIME = 5.252907504e-13 DT = 9.380191971e-16
+Evolve time = 6.331792854 s; This step = 0.047113526 s; Avg. per step = 0.01130677295 s
+
+STEP 561 starts ...
+STEP 561 ends. TIME = 5.262287696e-13 DT = 9.380191971e-16
+Evolve time = 6.340383757 s; This step = 0.008590903 s; Avg. per step = 0.01130193183 s
+
+STEP 562 starts ...
+STEP 562 ends. TIME = 5.271667888e-13 DT = 9.380191971e-16
+Evolve time = 6.3503871 s; This step = 0.010003343 s; Avg. per step = 0.01129962117 s
+
+STEP 563 starts ...
+STEP 563 ends. TIME = 5.28104808e-13 DT = 9.380191971e-16
+Evolve time = 6.360379674 s; This step = 0.009992574 s; Avg. per step = 0.0112972996 s
+
+STEP 564 starts ...
+re-sorting particles 
+STEP 564 ends. TIME = 5.290428272e-13 DT = 9.380191971e-16
+Evolve time = 6.369174021 s; This step = 0.008794347 s; Avg. per step = 0.01129286174 s
+
+STEP 565 starts ...
+STEP 565 ends. TIME = 5.299808464e-13 DT = 9.380191971e-16
+Evolve time = 6.379115831 s; This step = 0.00994181 s; Avg. per step = 0.0112904705 s
+
+STEP 566 starts ...
+STEP 566 ends. TIME = 5.309188655e-13 DT = 9.380191971e-16
+Evolve time = 6.387352224 s; This step = 0.008236393 s; Avg. per step = 0.0112850746 s
+
+STEP 567 starts ...
+STEP 567 ends. TIME = 5.318568847e-13 DT = 9.380191971e-16
+Evolve time = 6.397416932 s; This step = 0.010064708 s; Avg. per step = 0.01128292228 s
+
+STEP 568 starts ...
+re-sorting particles 
+STEP 568 ends. TIME = 5.327949039e-13 DT = 9.380191971e-16
+Evolve time = 6.406335566 s; This step = 0.008918634 s; Avg. per step = 0.0112787598 s
+
+STEP 569 starts ...
+STEP 569 ends. TIME = 5.337329231e-13 DT = 9.380191971e-16
+Evolve time = 6.416277056 s; This step = 0.00994149 s; Avg. per step = 0.01127640959 s
+
+STEP 570 starts ...
+STEP 570 ends. TIME = 5.346709423e-13 DT = 9.380191971e-16
+Evolve time = 6.424531967 s; This step = 0.008254911 s; Avg. per step = 0.01127110871 s
+
+STEP 571 starts ...
+STEP 571 ends. TIME = 5.356089615e-13 DT = 9.380191971e-16
+Evolve time = 6.434508139 s; This step = 0.009976172 s; Avg. per step = 0.01126884087 s
+
+STEP 572 starts ...
+re-sorting particles 
+STEP 572 ends. TIME = 5.365469807e-13 DT = 9.380191971e-16
+Evolve time = 6.44326071 s; This step = 0.008752571 s; Avg. per step = 0.0112644418 s
+
+STEP 573 starts ...
+STEP 573 ends. TIME = 5.374849999e-13 DT = 9.380191971e-16
+Evolve time = 6.45324822 s; This step = 0.00998751 s; Avg. per step = 0.0112622133 s
+
+STEP 574 starts ...
+STEP 574 ends. TIME = 5.384230191e-13 DT = 9.380191971e-16
+Evolve time = 6.461577121 s; This step = 0.008328901 s; Avg. per step = 0.011257103 s
+
+STEP 575 starts ...
+STEP 575 ends. TIME = 5.393610383e-13 DT = 9.380191971e-16
+Evolve time = 6.471712804 s; This step = 0.010135683 s; Avg. per step = 0.0112551527 s
+
+STEP 576 starts ...
+re-sorting particles 
+STEP 576 ends. TIME = 5.402990575e-13 DT = 9.380191971e-16
+Evolve time = 6.480528233 s; This step = 0.008815429 s; Avg. per step = 0.01125091707 s
+
+STEP 577 starts ...
+STEP 577 ends. TIME = 5.412370767e-13 DT = 9.380191971e-16
+Evolve time = 6.490468728 s; This step = 0.009940495 s; Avg. per step = 0.01124864598 s
+
+STEP 578 starts ...
+STEP 578 ends. TIME = 5.421750959e-13 DT = 9.380191971e-16
+Evolve time = 6.498670004 s; This step = 0.008201276 s; Avg. per step = 0.01124337371 s
+
+STEP 579 starts ...
+STEP 579 ends. TIME = 5.431131151e-13 DT = 9.380191971e-16
+Evolve time = 6.508707479 s; This step = 0.010037475 s; Avg. per step = 0.01124129098 s
+
+STEP 580 starts ...
+re-sorting particles 
+STEP 580 ends. TIME = 5.440511343e-13 DT = 9.380191971e-16
+Evolve time = 6.55567005 s; This step = 0.046962571 s; Avg. per step = 0.0113028794 s
+
+STEP 581 starts ...
+STEP 581 ends. TIME = 5.449891535e-13 DT = 9.380191971e-16
+Evolve time = 6.564087823 s; This step = 0.008417773 s; Avg. per step = 0.01129791364 s
+
+STEP 582 starts ...
+STEP 582 ends. TIME = 5.459271727e-13 DT = 9.380191971e-16
+Evolve time = 6.574056921 s; This step = 0.009969098 s; Avg. per step = 0.01129563045 s
+
+STEP 583 starts ...
+STEP 583 ends. TIME = 5.468651919e-13 DT = 9.380191971e-16
+Evolve time = 6.582354737 s; This step = 0.008297816 s; Avg. per step = 0.0112904884 s
+
+STEP 584 starts ...
+re-sorting particles 
+STEP 584 ends. TIME = 5.478032111e-13 DT = 9.380191971e-16
+Evolve time = 6.592947061 s; This step = 0.010592324 s; Avg. per step = 0.01128929291 s
+
+STEP 585 starts ...
+STEP 585 ends. TIME = 5.487412303e-13 DT = 9.380191971e-16
+Evolve time = 6.601081318 s; This step = 0.008134257 s; Avg. per step = 0.01128389969 s
+
+STEP 586 starts ...
+STEP 586 ends. TIME = 5.496792495e-13 DT = 9.380191971e-16
+Evolve time = 6.611189398 s; This step = 0.01010808 s; Avg. per step = 0.01128189317 s
+
+STEP 587 starts ...
+STEP 587 ends. TIME = 5.506172687e-13 DT = 9.380191971e-16
+Evolve time = 6.619534396 s; This step = 0.008344998 s; Avg. per step = 0.01127688994 s
+
+STEP 588 starts ...
+re-sorting particles 
+STEP 588 ends. TIME = 5.515552879e-13 DT = 9.380191971e-16
+Evolve time = 6.630018187 s; This step = 0.010483791 s; Avg. per step = 0.01127554113 s
+
+STEP 589 starts ...
+STEP 589 ends. TIME = 5.524933071e-13 DT = 9.380191971e-16
+Evolve time = 6.638284677 s; This step = 0.00826649 s; Avg. per step = 0.01127043239 s
+
+STEP 590 starts ...
+STEP 590 ends. TIME = 5.534313263e-13 DT = 9.380191971e-16
+Evolve time = 6.648363678 s; This step = 0.010079001 s; Avg. per step = 0.01126841301 s
+
+STEP 591 starts ...
+STEP 591 ends. TIME = 5.543693455e-13 DT = 9.380191971e-16
+Evolve time = 6.656531438 s; This step = 0.00816776 s; Avg. per step = 0.01126316656 s
+
+STEP 592 starts ...
+re-sorting particles 
+STEP 592 ends. TIME = 5.553073647e-13 DT = 9.380191971e-16
+Evolve time = 6.667033685 s; This step = 0.010502247 s; Avg. per step = 0.01126188122 s
+
+STEP 593 starts ...
+STEP 593 ends. TIME = 5.562453839e-13 DT = 9.380191971e-16
+Evolve time = 6.675193613 s; This step = 0.008159928 s; Avg. per step = 0.01125665027 s
+
+STEP 594 starts ...
+STEP 594 ends. TIME = 5.571834031e-13 DT = 9.380191971e-16
+Evolve time = 6.685280225 s; This step = 0.010086612 s; Avg. per step = 0.01125468051 s
+
+STEP 595 starts ...
+STEP 595 ends. TIME = 5.581214223e-13 DT = 9.380191971e-16
+Evolve time = 6.693496288 s; This step = 0.008216063 s; Avg. per step = 0.01124957359 s
+
+STEP 596 starts ...
+re-sorting particles 
+STEP 596 ends. TIME = 5.590594415e-13 DT = 9.380191971e-16
+Evolve time = 6.704052115 s; This step = 0.010555827 s; Avg. per step = 0.01124840959 s
+
+STEP 597 starts ...
+STEP 597 ends. TIME = 5.599974607e-13 DT = 9.380191971e-16
+Evolve time = 6.714096338 s; This step = 0.010044223 s; Avg. per step = 0.01124639253 s
+
+STEP 598 starts ...
+STEP 598 ends. TIME = 5.609354799e-13 DT = 9.380191971e-16
+Evolve time = 6.722224248 s; This step = 0.00812791 s; Avg. per step = 0.01124117767 s
+
+STEP 599 starts ...
+STEP 599 ends. TIME = 5.618734991e-13 DT = 9.380191971e-16
+Evolve time = 6.732354528 s; This step = 0.01013028 s; Avg. per step = 0.01123932309 s
+
+STEP 600 starts ...
+re-sorting particles 
+STEP 600 ends. TIME = 5.628115182e-13 DT = 9.380191971e-16
+Evolve time = 6.777769505 s; This step = 0.045414977 s; Avg. per step = 0.01129628251 s
+
+STEP 601 starts ...
+STEP 601 ends. TIME = 5.637495374e-13 DT = 9.380191971e-16
+Evolve time = 6.788123683 s; This step = 0.010354178 s; Avg. per step = 0.01129471495 s
+
+STEP 602 starts ...
+STEP 602 ends. TIME = 5.646875566e-13 DT = 9.380191971e-16
+Evolve time = 6.796531874 s; This step = 0.008408191 s; Avg. per step = 0.01128992006 s
+
+STEP 603 starts ...
+STEP 603 ends. TIME = 5.656255758e-13 DT = 9.380191971e-16
+Evolve time = 6.806655752 s; This step = 0.010123878 s; Avg. per step = 0.01128798632 s
+
+STEP 604 starts ...
+re-sorting particles 
+STEP 604 ends. TIME = 5.66563595e-13 DT = 9.380191971e-16
+Evolve time = 6.815327009 s; This step = 0.008671257 s; Avg. per step = 0.01128365399 s
+
+STEP 605 starts ...
+STEP 605 ends. TIME = 5.675016142e-13 DT = 9.380191971e-16
+Evolve time = 6.825256447 s; This step = 0.009929438 s; Avg. per step = 0.01128141561 s
+
+STEP 606 starts ...
+STEP 606 ends. TIME = 5.684396334e-13 DT = 9.380191971e-16
+Evolve time = 6.833401364 s; This step = 0.008144917 s; Avg. per step = 0.01127623987 s
+
+STEP 607 starts ...
+STEP 607 ends. TIME = 5.693776526e-13 DT = 9.380191971e-16
+Evolve time = 6.843531578 s; This step = 0.010130214 s; Avg. per step = 0.01127435186 s
+
+STEP 608 starts ...
+re-sorting particles 
+STEP 608 ends. TIME = 5.703156718e-13 DT = 9.380191971e-16
+Evolve time = 6.852428536 s; This step = 0.008896958 s; Avg. per step = 0.01127044167 s
+
+STEP 609 starts ...
+STEP 609 ends. TIME = 5.71253691e-13 DT = 9.380191971e-16
+Evolve time = 6.8624247 s; This step = 0.009996164 s; Avg. per step = 0.01126834926 s
+
+STEP 610 starts ...
+STEP 610 ends. TIME = 5.721917102e-13 DT = 9.380191971e-16
+Evolve time = 6.870759101 s; This step = 0.008334401 s; Avg. per step = 0.01126353951 s
+
+STEP 611 starts ...
+STEP 611 ends. TIME = 5.731297294e-13 DT = 9.380191971e-16
+Evolve time = 6.880783404 s; This step = 0.010024303 s; Avg. per step = 0.0112615113 s
+
+STEP 612 starts ...
+re-sorting particles 
+STEP 612 ends. TIME = 5.740677486e-13 DT = 9.380191971e-16
+Evolve time = 6.889751296 s; This step = 0.008967892 s; Avg. per step = 0.01125776356 s
+
+STEP 613 starts ...
+STEP 613 ends. TIME = 5.750057678e-13 DT = 9.380191971e-16
+Evolve time = 6.899781363 s; This step = 0.010030067 s; Avg. per step = 0.01125576079 s
+
+STEP 614 starts ...
+STEP 614 ends. TIME = 5.75943787e-13 DT = 9.380191971e-16
+Evolve time = 6.909768955 s; This step = 0.009987592 s; Avg. per step = 0.01125369537 s
+
+STEP 615 starts ...
+STEP 615 ends. TIME = 5.768818062e-13 DT = 9.380191971e-16
+Evolve time = 6.917955625 s; This step = 0.00818667 s; Avg. per step = 0.01124870833 s
+
+STEP 616 starts ...
+re-sorting particles 
+STEP 616 ends. TIME = 5.778198254e-13 DT = 9.380191971e-16
+Evolve time = 6.928618921 s; This step = 0.010663296 s; Avg. per step = 0.01124775799 s
+
+STEP 617 starts ...
+STEP 617 ends. TIME = 5.787578446e-13 DT = 9.380191971e-16
+Evolve time = 6.936687121 s; This step = 0.0080682 s; Avg. per step = 0.01124260473 s
+
+STEP 618 starts ...
+STEP 618 ends. TIME = 5.796958638e-13 DT = 9.380191971e-16
+Evolve time = 6.946869997 s; This step = 0.010182876 s; Avg. per step = 0.01124088996 s
+
+STEP 619 starts ...
+STEP 619 ends. TIME = 5.80633883e-13 DT = 9.380191971e-16
+Evolve time = 6.955092992 s; This step = 0.008222995 s; Avg. per step = 0.01123601453 s
+
+STEP 620 starts ...
+re-sorting particles 
+STEP 620 ends. TIME = 5.815719022e-13 DT = 9.380191971e-16
+Evolve time = 7.002124663 s; This step = 0.047031671 s; Avg. per step = 0.01129374946 s
+
+STEP 621 starts ...
+STEP 621 ends. TIME = 5.825099214e-13 DT = 9.380191971e-16
+Evolve time = 7.010662612 s; This step = 0.008537949 s; Avg. per step = 0.01128931177 s
+
+STEP 622 starts ...
+STEP 622 ends. TIME = 5.834479406e-13 DT = 9.380191971e-16
+Evolve time = 7.020750767 s; This step = 0.010088155 s; Avg. per step = 0.01128738065 s
+
+STEP 623 starts ...
+STEP 623 ends. TIME = 5.843859598e-13 DT = 9.380191971e-16
+Evolve time = 7.029043249 s; This step = 0.008292482 s; Avg. per step = 0.01128257343 s
+
+STEP 624 starts ...
+re-sorting particles 
+STEP 624 ends. TIME = 5.85323979e-13 DT = 9.380191971e-16
+Evolve time = 7.039792099 s; This step = 0.01074885 s; Avg. per step = 0.01128171811 s
+
+STEP 625 starts ...
+STEP 625 ends. TIME = 5.862619982e-13 DT = 9.380191971e-16
+Evolve time = 7.047986273 s; This step = 0.008194174 s; Avg. per step = 0.01127677804 s
+
+STEP 626 starts ...
+STEP 626 ends. TIME = 5.872000174e-13 DT = 9.380191971e-16
+Evolve time = 7.057974163 s; This step = 0.00998789 s; Avg. per step = 0.01127471911 s
+
+STEP 627 starts ...
+STEP 627 ends. TIME = 5.881380366e-13 DT = 9.380191971e-16
+Evolve time = 7.066311593 s; This step = 0.00833743 s; Avg. per step = 0.01127003444 s
+
+STEP 628 starts ...
+re-sorting particles 
+STEP 628 ends. TIME = 5.890760558e-13 DT = 9.380191971e-16
+Evolve time = 7.076862712 s; This step = 0.010551119 s; Avg. per step = 0.01126888967 s
+
+STEP 629 starts ...
+STEP 629 ends. TIME = 5.90014075e-13 DT = 9.380191971e-16
+Evolve time = 7.085238352 s; This step = 0.00837564 s; Avg. per step = 0.01126428991 s
+
+STEP 630 starts ...
+STEP 630 ends. TIME = 5.909520942e-13 DT = 9.380191971e-16
+Evolve time = 7.095416029 s; This step = 0.010177677 s; Avg. per step = 0.01126256513 s
+
+STEP 631 starts ...
+STEP 631 ends. TIME = 5.918901134e-13 DT = 9.380191971e-16
+Evolve time = 7.105428619 s; This step = 0.01001259 s; Avg. per step = 0.01126058418 s
+
+STEP 632 starts ...
+re-sorting particles 
+STEP 632 ends. TIME = 5.928281326e-13 DT = 9.380191971e-16
+Evolve time = 7.1143751 s; This step = 0.008946481 s; Avg. per step = 0.01125692263 s
+
+STEP 633 starts ...
+STEP 633 ends. TIME = 5.937661518e-13 DT = 9.380191971e-16
+Evolve time = 7.124327617 s; This step = 0.009952517 s; Avg. per step = 0.01125486195 s
+
+STEP 634 starts ...
+STEP 634 ends. TIME = 5.947041709e-13 DT = 9.380191971e-16
+Evolve time = 7.132540411 s; This step = 0.008212794 s; Avg. per step = 0.01125006374 s
+
+STEP 635 starts ...
+STEP 635 ends. TIME = 5.956421901e-13 DT = 9.380191971e-16
+Evolve time = 7.142547325 s; This step = 0.010006914 s; Avg. per step = 0.01124810602 s
+
+STEP 636 starts ...
+re-sorting particles 
+STEP 636 ends. TIME = 5.965802093e-13 DT = 9.380191971e-16
+Evolve time = 7.151513963 s; This step = 0.008966638 s; Avg. per step = 0.01124451881 s
+
+STEP 637 starts ...
+STEP 637 ends. TIME = 5.975182285e-13 DT = 9.380191971e-16
+Evolve time = 7.161520804 s; This step = 0.010006841 s; Avg. per step = 0.01124257583 s
+
+STEP 638 starts ...
+STEP 638 ends. TIME = 5.984562477e-13 DT = 9.380191971e-16
+Evolve time = 7.169710646 s; This step = 0.008189842 s; Avg. per step = 0.01123779098 s
+
+STEP 639 starts ...
+STEP 639 ends. TIME = 5.993942669e-13 DT = 9.380191971e-16
+Evolve time = 7.179728217 s; This step = 0.010017571 s; Avg. per step = 0.0112358814 s
+
+STEP 640 starts ...
+re-sorting particles 
+STEP 640 ends. TIME = 6.003322861e-13 DT = 9.380191971e-16
+Evolve time = 7.22462246 s; This step = 0.044894243 s; Avg. per step = 0.01128847259 s
+
+STEP 641 starts ...
+STEP 641 ends. TIME = 6.012703053e-13 DT = 9.380191971e-16
+Evolve time = 7.234977082 s; This step = 0.010354622 s; Avg. per step = 0.01128701573 s
+
+STEP 642 starts ...
+STEP 642 ends. TIME = 6.022083245e-13 DT = 9.380191971e-16
+Evolve time = 7.243222538 s; This step = 0.008245456 s; Avg. per step = 0.0112822781 s
+
+STEP 643 starts ...
+STEP 643 ends. TIME = 6.031463437e-13 DT = 9.380191971e-16
+Evolve time = 7.253401501 s; This step = 0.010178963 s; Avg. per step = 0.01128056221 s
+
+STEP 644 starts ...
+re-sorting particles 
+STEP 644 ends. TIME = 6.040843629e-13 DT = 9.380191971e-16
+Evolve time = 7.262079964 s; This step = 0.008678463 s; Avg. per step = 0.01127652168 s
+
+STEP 645 starts ...
+STEP 645 ends. TIME = 6.050223821e-13 DT = 9.380191971e-16
+Evolve time = 7.272064732 s; This step = 0.009984768 s; Avg. per step = 0.01127451896 s
+
+STEP 646 starts ...
+STEP 646 ends. TIME = 6.059604013e-13 DT = 9.380191971e-16
+Evolve time = 7.280205238 s; This step = 0.008140506 s; Avg. per step = 0.01126966755 s
+
+STEP 647 starts ...
+STEP 647 ends. TIME = 6.068984205e-13 DT = 9.380191971e-16
+Evolve time = 7.290284449 s; This step = 0.010079211 s; Avg. per step = 0.01126782759 s
+
+STEP 648 starts ...
+re-sorting particles 
+STEP 648 ends. TIME = 6.078364397e-13 DT = 9.380191971e-16
+Evolve time = 7.300933751 s; This step = 0.010649302 s; Avg. per step = 0.01126687307 s
+
+STEP 649 starts ...
+STEP 649 ends. TIME = 6.087744589e-13 DT = 9.380191971e-16
+Evolve time = 7.309123328 s; This step = 0.008189577 s; Avg. per step = 0.01126213148 s
+
+STEP 650 starts ...
+STEP 650 ends. TIME = 6.097124781e-13 DT = 9.380191971e-16
+Evolve time = 7.319123672 s; This step = 0.010000344 s; Avg. per step = 0.01126019026 s
+
+STEP 651 starts ...
+STEP 651 ends. TIME = 6.106504973e-13 DT = 9.380191971e-16
+Evolve time = 7.327327756 s; This step = 0.008204084 s; Avg. per step = 0.01125549578 s
+
+STEP 652 starts ...
+re-sorting particles 
+STEP 652 ends. TIME = 6.115885165e-13 DT = 9.380191971e-16
+Evolve time = 7.337809421 s; This step = 0.010481665 s; Avg. per step = 0.01125430893 s
+
+STEP 653 starts ...
+STEP 653 ends. TIME = 6.125265357e-13 DT = 9.380191971e-16
+Evolve time = 7.345983833 s; This step = 0.008174412 s; Avg. per step = 0.01124959239 s
+
+STEP 654 starts ...
+STEP 654 ends. TIME = 6.134645549e-13 DT = 9.380191971e-16
+Evolve time = 7.356059342 s; This step = 0.010075509 s; Avg. per step = 0.01124779716 s
+
+STEP 655 starts ...
+STEP 655 ends. TIME = 6.144025741e-13 DT = 9.380191971e-16
+Evolve time = 7.36423891 s; This step = 0.008179568 s; Avg. per step = 0.01124311284 s
+
+STEP 656 starts ...
+re-sorting particles 
+STEP 656 ends. TIME = 6.153405933e-13 DT = 9.380191971e-16
+Evolve time = 7.374789519 s; This step = 0.010550609 s; Avg. per step = 0.01124205719 s
+
+STEP 657 starts ...
+STEP 657 ends. TIME = 6.162786125e-13 DT = 9.380191971e-16
+Evolve time = 7.382996576 s; This step = 0.008207057 s; Avg. per step = 0.01123743771 s
+
+STEP 658 starts ...
+STEP 658 ends. TIME = 6.172166317e-13 DT = 9.380191971e-16
+Evolve time = 7.39293099 s; This step = 0.009934414 s; Avg. per step = 0.01123545743 s
+
+STEP 659 starts ...
+STEP 659 ends. TIME = 6.181546509e-13 DT = 9.380191971e-16
+Evolve time = 7.401322098 s; This step = 0.008391108 s; Avg. per step = 0.01123114127 s
+
+STEP 660 starts ...
+re-sorting particles 
+STEP 660 ends. TIME = 6.190926701e-13 DT = 9.380191971e-16
+Evolve time = 7.447599009 s; This step = 0.046276911 s; Avg. per step = 0.01128424092 s
+
+STEP 661 starts ...
+STEP 661 ends. TIME = 6.200306893e-13 DT = 9.380191971e-16
+Evolve time = 7.455983666 s; This step = 0.008384657 s; Avg. per step = 0.01127985426 s
+
+STEP 662 starts ...
+STEP 662 ends. TIME = 6.209687085e-13 DT = 9.380191971e-16
+Evolve time = 7.465985147 s; This step = 0.010001481 s; Avg. per step = 0.01127792318 s
+
+STEP 663 starts ...
+STEP 663 ends. TIME = 6.219067277e-13 DT = 9.380191971e-16
+Evolve time = 7.474217851 s; This step = 0.008232704 s; Avg. per step = 0.01127333009 s
+
+STEP 664 starts ...
+re-sorting particles 
+STEP 664 ends. TIME = 6.228447469e-13 DT = 9.380191971e-16
+Evolve time = 7.484735198 s; This step = 0.010517347 s; Avg. per step = 0.01127219156 s
+
+STEP 665 starts ...
+STEP 665 ends. TIME = 6.237827661e-13 DT = 9.380191971e-16
+Evolve time = 7.494774758 s; This step = 0.01003956 s; Avg. per step = 0.01127033798 s
+
+STEP 666 starts ...
+STEP 666 ends. TIME = 6.247207853e-13 DT = 9.380191971e-16
+Evolve time = 7.503140283 s; This step = 0.008365525 s; Avg. per step = 0.0112659764 s
+
+STEP 667 starts ...
+STEP 667 ends. TIME = 6.256588045e-13 DT = 9.380191971e-16
+Evolve time = 7.5131049 s; This step = 0.009964617 s; Avg. per step = 0.01126402534 s
+
+STEP 668 starts ...
+re-sorting particles 
+STEP 668 ends. TIME = 6.265968237e-13 DT = 9.380191971e-16
+Evolve time = 7.521965754 s; This step = 0.008860854 s; Avg. per step = 0.01126042778 s
+
+STEP 669 starts ...
+STEP 669 ends. TIME = 6.275348428e-13 DT = 9.380191971e-16
+Evolve time = 7.531904619 s; This step = 0.009938865 s; Avg. per step = 0.01125845235 s
+
+STEP 670 starts ...
+STEP 670 ends. TIME = 6.28472862e-13 DT = 9.380191971e-16
+Evolve time = 7.540228971 s; This step = 0.008324352 s; Avg. per step = 0.01125407309 s
+
+STEP 671 starts ...
+STEP 671 ends. TIME = 6.294108812e-13 DT = 9.380191971e-16
+Evolve time = 7.550338995 s; This step = 0.010110024 s; Avg. per step = 0.0112523681 s
+
+STEP 672 starts ...
+re-sorting particles 
+STEP 672 ends. TIME = 6.303489004e-13 DT = 9.380191971e-16
+Evolve time = 7.559176954 s; This step = 0.008837959 s; Avg. per step = 0.01124877523 s
+
+STEP 673 starts ...
+STEP 673 ends. TIME = 6.312869196e-13 DT = 9.380191971e-16
+Evolve time = 7.569175305 s; This step = 0.009998351 s; Avg. per step = 0.01124691724 s
+
+STEP 674 starts ...
+STEP 674 ends. TIME = 6.322249388e-13 DT = 9.380191971e-16
+Evolve time = 7.57760186 s; This step = 0.008426555 s; Avg. per step = 0.01124273273 s
+
+STEP 675 starts ...
+STEP 675 ends. TIME = 6.33162958e-13 DT = 9.380191971e-16
+Evolve time = 7.587793696 s; This step = 0.010191836 s; Avg. per step = 0.01124117585 s
+
+STEP 676 starts ...
+re-sorting particles 
+STEP 676 ends. TIME = 6.341009772e-13 DT = 9.380191971e-16
+Evolve time = 7.596610825 s; This step = 0.008817129 s; Avg. per step = 0.01123758998 s
+
+STEP 677 starts ...
+STEP 677 ends. TIME = 6.350389964e-13 DT = 9.380191971e-16
+Evolve time = 7.60668128 s; This step = 0.010070455 s; Avg. per step = 0.011235866 s
+
+STEP 678 starts ...
+STEP 678 ends. TIME = 6.359770156e-13 DT = 9.380191971e-16
+Evolve time = 7.614817986 s; This step = 0.008136706 s; Avg. per step = 0.01123129496 s
+
+STEP 679 starts ...
+STEP 679 ends. TIME = 6.369150348e-13 DT = 9.380191971e-16
+Evolve time = 7.624942722 s; This step = 0.010124736 s; Avg. per step = 0.01122966528 s
+
+STEP 680 starts ...
+re-sorting particles 
+STEP 680 ends. TIME = 6.37853054e-13 DT = 9.380191971e-16
+Evolve time = 7.669464346 s; This step = 0.044521624 s; Avg. per step = 0.01127862404 s
+
+STEP 681 starts ...
+STEP 681 ends. TIME = 6.387910732e-13 DT = 9.380191971e-16
+Evolve time = 7.679700799 s; This step = 0.010236453 s; Avg. per step = 0.01127709368 s
+
+STEP 682 starts ...
+STEP 682 ends. TIME = 6.397290924e-13 DT = 9.380191971e-16
+Evolve time = 7.689812569 s; This step = 0.01011177 s; Avg. per step = 0.011275385 s
+
+STEP 683 starts ...
+STEP 683 ends. TIME = 6.406671116e-13 DT = 9.380191971e-16
+Evolve time = 7.698043332 s; This step = 0.008230763 s; Avg. per step = 0.01127092728 s
+
+STEP 684 starts ...
+re-sorting particles 
+STEP 684 ends. TIME = 6.416051308e-13 DT = 9.380191971e-16
+Evolve time = 7.708629948 s; This step = 0.010586616 s; Avg. per step = 0.01126992682 s
+
+STEP 685 starts ...
+STEP 685 ends. TIME = 6.4254315e-13 DT = 9.380191971e-16
+Evolve time = 7.716749628 s; This step = 0.00811968 s; Avg. per step = 0.01126532792 s
+
+STEP 686 starts ...
+STEP 686 ends. TIME = 6.434811692e-13 DT = 9.380191971e-16
+Evolve time = 7.726673775 s; This step = 0.009924147 s; Avg. per step = 0.01126337285 s
+
+STEP 687 starts ...
+STEP 687 ends. TIME = 6.444191884e-13 DT = 9.380191971e-16
+Evolve time = 7.73485772 s; This step = 0.008183945 s; Avg. per step = 0.01125889042 s
+
+STEP 688 starts ...
+re-sorting particles 
+STEP 688 ends. TIME = 6.453572076e-13 DT = 9.380191971e-16
+Evolve time = 7.74544337 s; This step = 0.01058565 s; Avg. per step = 0.01125791187 s
+
+STEP 689 starts ...
+STEP 689 ends. TIME = 6.462952268e-13 DT = 9.380191971e-16
+Evolve time = 7.75361669 s; This step = 0.00817332 s; Avg. per step = 0.01125343496 s
+
+STEP 690 starts ...
+STEP 690 ends. TIME = 6.47233246e-13 DT = 9.380191971e-16
+Evolve time = 7.763673741 s; This step = 0.010057051 s; Avg. per step = 0.01125170107 s
+
+STEP 691 starts ...
+STEP 691 ends. TIME = 6.481712652e-13 DT = 9.380191971e-16
+Evolve time = 7.772009671 s; This step = 0.00833593 s; Avg. per step = 0.01124748143 s
+
+STEP 692 starts ...
+re-sorting particles 
+STEP 692 ends. TIME = 6.491092844e-13 DT = 9.380191971e-16
+Evolve time = 7.782572085 s; This step = 0.010562414 s; Avg. per step = 0.01124649145 s
+
+STEP 693 starts ...
+STEP 693 ends. TIME = 6.500473036e-13 DT = 9.380191971e-16
+Evolve time = 7.790802444 s; This step = 0.008230359 s; Avg. per step = 0.01124213917 s
+
+STEP 694 starts ...
+STEP 694 ends. TIME = 6.509853228e-13 DT = 9.380191971e-16
+Evolve time = 7.800833696 s; This step = 0.010031252 s; Avg. per step = 0.01124039437 s
+
+STEP 695 starts ...
+STEP 695 ends. TIME = 6.51923342e-13 DT = 9.380191971e-16
+Evolve time = 7.809052887 s; This step = 0.008219191 s; Avg. per step = 0.01123604732 s
+
+STEP 696 starts ...
+re-sorting particles 
+STEP 696 ends. TIME = 6.528613612e-13 DT = 9.380191971e-16
+Evolve time = 7.819596025 s; This step = 0.010543138 s; Avg. per step = 0.01123505176 s
+
+STEP 697 starts ...
+STEP 697 ends. TIME = 6.537993804e-13 DT = 9.380191971e-16
+Evolve time = 7.827765768 s; This step = 0.008169743 s; Avg. per step = 0.0112306539 s
+
+STEP 698 starts ...
+STEP 698 ends. TIME = 6.547373996e-13 DT = 9.380191971e-16
+Evolve time = 7.837710314 s; This step = 0.009944546 s; Avg. per step = 0.01122881134 s
+
+STEP 699 starts ...
+STEP 699 ends. TIME = 6.556754188e-13 DT = 9.380191971e-16
+Evolve time = 7.847737063 s; This step = 0.010026749 s; Avg. per step = 0.01122709165 s
+
+STEP 700 starts ...
+re-sorting particles 
+STEP 700 ends. TIME = 6.56613438e-13 DT = 9.380191971e-16
+Evolve time = 7.892500519 s; This step = 0.044763456 s; Avg. per step = 0.01127500074 s
+
+STEP 701 starts ...
+STEP 701 ends. TIME = 6.575514572e-13 DT = 9.380191971e-16
+Evolve time = 7.902816863 s; This step = 0.010316344 s; Avg. per step = 0.01127363319 s
+
+STEP 702 starts ...
+STEP 702 ends. TIME = 6.584894764e-13 DT = 9.380191971e-16
+Evolve time = 7.910952439 s; This step = 0.008135576 s; Avg. per step = 0.01126916302 s
+
+STEP 703 starts ...
+STEP 703 ends. TIME = 6.594274955e-13 DT = 9.380191971e-16
+Evolve time = 7.921039895 s; This step = 0.010087456 s; Avg. per step = 0.01126748207 s
+
+STEP 704 starts ...
+re-sorting particles 
+STEP 704 ends. TIME = 6.603655147e-13 DT = 9.380191971e-16
+Evolve time = 7.929873166 s; This step = 0.008833271 s; Avg. per step = 0.01126402438 s
+
+STEP 705 starts ...
+STEP 705 ends. TIME = 6.613035339e-13 DT = 9.380191971e-16
+Evolve time = 7.940018613 s; This step = 0.010145447 s; Avg. per step = 0.01126243775 s
+
+STEP 706 starts ...
+STEP 706 ends. TIME = 6.622415531e-13 DT = 9.380191971e-16
+Evolve time = 7.948391801 s; This step = 0.008373188 s; Avg. per step = 0.01125834533 s
+
+STEP 707 starts ...
+STEP 707 ends. TIME = 6.631795723e-13 DT = 9.380191971e-16
+Evolve time = 7.958483745 s; This step = 0.010091944 s; Avg. per step = 0.01125669554 s
+
+STEP 708 starts ...
+re-sorting particles 
+STEP 708 ends. TIME = 6.641175915e-13 DT = 9.380191971e-16
+Evolve time = 7.967436534 s; This step = 0.008952789 s; Avg. per step = 0.01125344143 s
+
+STEP 709 starts ...
+STEP 709 ends. TIME = 6.650556107e-13 DT = 9.380191971e-16
+Evolve time = 7.977529259 s; This step = 0.010092725 s; Avg. per step = 0.01125180431 s
+
+STEP 710 starts ...
+STEP 710 ends. TIME = 6.659936299e-13 DT = 9.380191971e-16
+Evolve time = 7.985785322 s; This step = 0.008256063 s; Avg. per step = 0.01124758496 s
+
+STEP 711 starts ...
+STEP 711 ends. TIME = 6.669316491e-13 DT = 9.380191971e-16
+Evolve time = 7.995907428 s; This step = 0.010122106 s; Avg. per step = 0.01124600201 s
+
+STEP 712 starts ...
+re-sorting particles 
+STEP 712 ends. TIME = 6.678696683e-13 DT = 9.380191971e-16
+Evolve time = 8.004652937 s; This step = 0.008745509 s; Avg. per step = 0.01124249008 s
+
+STEP 713 starts ...
+STEP 713 ends. TIME = 6.688076875e-13 DT = 9.380191971e-16
+Evolve time = 8.014562812 s; This step = 0.009909875 s; Avg. per step = 0.01124062105 s
+
+STEP 714 starts ...
+STEP 714 ends. TIME = 6.697457067e-13 DT = 9.380191971e-16
+Evolve time = 8.022866444 s; This step = 0.008303632 s; Avg. per step = 0.01123650762 s
+
+STEP 715 starts ...
+STEP 715 ends. TIME = 6.706837259e-13 DT = 9.380191971e-16
+Evolve time = 8.0329073 s; This step = 0.010040856 s; Avg. per step = 0.01123483538 s
+
+STEP 716 starts ...
+re-sorting particles 
+STEP 716 ends. TIME = 6.716217451e-13 DT = 9.380191971e-16
+Evolve time = 8.043644781 s; This step = 0.010737481 s; Avg. per step = 0.01123414076 s
+
+STEP 717 starts ...
+STEP 717 ends. TIME = 6.725597643e-13 DT = 9.380191971e-16
+Evolve time = 8.051906325 s; This step = 0.008261544 s; Avg. per step = 0.01122999487 s
+
+STEP 718 starts ...
+STEP 718 ends. TIME = 6.734977835e-13 DT = 9.380191971e-16
+Evolve time = 8.061931693 s; This step = 0.010025368 s; Avg. per step = 0.01122831712 s
+
+STEP 719 starts ...
+STEP 719 ends. TIME = 6.744358027e-13 DT = 9.380191971e-16
+Evolve time = 8.070370585 s; This step = 0.008438892 s; Avg. per step = 0.01122443753 s
+
+STEP 720 starts ...
+re-sorting particles 
+STEP 720 ends. TIME = 6.753738219e-13 DT = 9.380191971e-16
+Evolve time = 8.117150269 s; This step = 0.046779684 s; Avg. per step = 0.01127381982 s
+
+STEP 721 starts ...
+STEP 721 ends. TIME = 6.763118411e-13 DT = 9.380191971e-16
+Evolve time = 8.125554394 s; This step = 0.008404125 s; Avg. per step = 0.01126983966 s
+
+STEP 722 starts ...
+STEP 722 ends. TIME = 6.772498603e-13 DT = 9.380191971e-16
+Evolve time = 8.13567915 s; This step = 0.010124756 s; Avg. per step = 0.01126825367 s
+
+STEP 723 starts ...
+STEP 723 ends. TIME = 6.781878795e-13 DT = 9.380191971e-16
+Evolve time = 8.143863333 s; This step = 0.008184183 s; Avg. per step = 0.01126398801 s
+
+STEP 724 starts ...
+re-sorting particles 
+STEP 724 ends. TIME = 6.791258987e-13 DT = 9.380191971e-16
+Evolve time = 8.154424401 s; This step = 0.010561068 s; Avg. per step = 0.01126301713 s
+
+STEP 725 starts ...
+STEP 725 ends. TIME = 6.800639179e-13 DT = 9.380191971e-16
+Evolve time = 8.162624995 s; This step = 0.008200594 s; Avg. per step = 0.0112587931 s
+
+STEP 726 starts ...
+STEP 726 ends. TIME = 6.810019371e-13 DT = 9.380191971e-16
+Evolve time = 8.172709375 s; This step = 0.01008438 s; Avg. per step = 0.01125717545 s
+
+STEP 727 starts ...
+STEP 727 ends. TIME = 6.819399563e-13 DT = 9.380191971e-16
+Evolve time = 8.180903065 s; This step = 0.00819369 s; Avg. per step = 0.01125296157 s
+
+STEP 728 starts ...
+re-sorting particles 
+STEP 728 ends. TIME = 6.828779755e-13 DT = 9.380191971e-16
+Evolve time = 8.191555424 s; This step = 0.010652359 s; Avg. per step = 0.01125213657 s
+
+STEP 729 starts ...
+STEP 729 ends. TIME = 6.838159947e-13 DT = 9.380191971e-16
+Evolve time = 8.199730264 s; This step = 0.00817484 s; Avg. per step = 0.01124791531 s
+
+STEP 730 starts ...
+STEP 730 ends. TIME = 6.847540139e-13 DT = 9.380191971e-16
+Evolve time = 8.209810951 s; This step = 0.010080687 s; Avg. per step = 0.01124631637 s
+
+STEP 731 starts ...
+STEP 731 ends. TIME = 6.856920331e-13 DT = 9.380191971e-16
+Evolve time = 8.218147094 s; This step = 0.008336143 s; Avg. per step = 0.01124233529 s
+
+STEP 732 starts ...
+re-sorting particles 
+STEP 732 ends. TIME = 6.866300523e-13 DT = 9.380191971e-16
+Evolve time = 8.228819708 s; This step = 0.010672614 s; Avg. per step = 0.01124155698 s
+
+STEP 733 starts ...
+STEP 733 ends. TIME = 6.875680715e-13 DT = 9.380191971e-16
+Evolve time = 8.238950003 s; This step = 0.010130295 s; Avg. per step = 0.01124004093 s
+
+STEP 734 starts ...
+STEP 734 ends. TIME = 6.885060907e-13 DT = 9.380191971e-16
+Evolve time = 8.24724836 s; This step = 0.008298357 s; Avg. per step = 0.01123603319 s
+
+STEP 735 starts ...
+STEP 735 ends. TIME = 6.894441099e-13 DT = 9.380191971e-16
+Evolve time = 8.257335361 s; This step = 0.010087001 s; Avg. per step = 0.01123446988 s
+
+STEP 736 starts ...
+re-sorting particles 
+STEP 736 ends. TIME = 6.903821291e-13 DT = 9.380191971e-16
+Evolve time = 8.266142036 s; This step = 0.008806675 s; Avg. per step = 0.01123117124 s
+
+STEP 737 starts ...
+STEP 737 ends. TIME = 6.913201482e-13 DT = 9.380191971e-16
+Evolve time = 8.276075249 s; This step = 0.009933213 s; Avg. per step = 0.01122941011 s
+
+STEP 738 starts ...
+STEP 738 ends. TIME = 6.922581674e-13 DT = 9.380191971e-16
+Evolve time = 8.284373332 s; This step = 0.008298083 s; Avg. per step = 0.01122543812 s
+
+STEP 739 starts ...
+STEP 739 ends. TIME = 6.931961866e-13 DT = 9.380191971e-16
+Evolve time = 8.294388468 s; This step = 0.010015136 s; Avg. per step = 0.01122380036 s
+
+STEP 740 starts ...
+re-sorting particles 
+STEP 740 ends. TIME = 6.941342058e-13 DT = 9.380191971e-16
+Evolve time = 8.340417014 s; This step = 0.046028546 s; Avg. per step = 0.0112708338 s
+
+STEP 741 starts ...
+STEP 741 ends. TIME = 6.95072225e-13 DT = 9.380191971e-16
+Evolve time = 8.35073998 s; This step = 0.010322966 s; Avg. per step = 0.01126955463 s
+
+STEP 742 starts ...
+STEP 742 ends. TIME = 6.960102442e-13 DT = 9.380191971e-16
+Evolve time = 8.35890425 s; This step = 0.00816427 s; Avg. per step = 0.01126536961 s
+
+STEP 743 starts ...
+STEP 743 ends. TIME = 6.969482634e-13 DT = 9.380191971e-16
+Evolve time = 8.369021883 s; This step = 0.010117633 s; Avg. per step = 0.01126382488 s
+
+STEP 744 starts ...
+re-sorting particles 
+STEP 744 ends. TIME = 6.978862826e-13 DT = 9.380191971e-16
+Evolve time = 8.377840009 s; This step = 0.008818126 s; Avg. per step = 0.01126053765 s
+
+STEP 745 starts ...
+STEP 745 ends. TIME = 6.988243018e-13 DT = 9.380191971e-16
+Evolve time = 8.387827968 s; This step = 0.009987959 s; Avg. per step = 0.01125882949 s
+
+STEP 746 starts ...
+STEP 746 ends. TIME = 6.99762321e-13 DT = 9.380191971e-16
+Evolve time = 8.395971688 s; This step = 0.00814372 s; Avg. per step = 0.01125465374 s
+
+STEP 747 starts ...
+STEP 747 ends. TIME = 7.007003402e-13 DT = 9.380191971e-16
+Evolve time = 8.405970924 s; This step = 0.009999236 s; Avg. per step = 0.01125297312 s
+
+STEP 748 starts ...
+re-sorting particles 
+STEP 748 ends. TIME = 7.016383594e-13 DT = 9.380191971e-16
+Evolve time = 8.414755806 s; This step = 0.008784882 s; Avg. per step = 0.01124967354 s
+
+STEP 749 starts ...
+STEP 749 ends. TIME = 7.025763786e-13 DT = 9.380191971e-16
+Evolve time = 8.42481889 s; This step = 0.010063084 s; Avg. per step = 0.01124808931 s
+
+STEP 750 starts ...
+STEP 750 ends. TIME = 7.035143978e-13 DT = 9.380191971e-16
+Evolve time = 8.434904186 s; This step = 0.010085296 s; Avg. per step = 0.01124653891 s
+
+STEP 751 starts ...
+STEP 751 ends. TIME = 7.04452417e-13 DT = 9.380191971e-16
+Evolve time = 8.443158567 s; This step = 0.008254381 s; Avg. per step = 0.01124255468 s
+
+STEP 752 starts ...
+re-sorting particles 
+STEP 752 ends. TIME = 7.053904362e-13 DT = 9.380191971e-16
+Evolve time = 8.453665481 s; This step = 0.010506914 s; Avg. per step = 0.01124157644 s
+
+STEP 753 starts ...
+STEP 753 ends. TIME = 7.063284554e-13 DT = 9.380191971e-16
+Evolve time = 8.461999387 s; This step = 0.008333906 s; Avg. per step = 0.01123771499 s
+
+STEP 754 starts ...
+STEP 754 ends. TIME = 7.072664746e-13 DT = 9.380191971e-16
+Evolve time = 8.472015652 s; This step = 0.010016265 s; Avg. per step = 0.01123609503 s
+
+STEP 755 starts ...
+STEP 755 ends. TIME = 7.082044938e-13 DT = 9.380191971e-16
+Evolve time = 8.480302075 s; This step = 0.008286423 s; Avg. per step = 0.01123218818 s
+
+STEP 756 starts ...
+re-sorting particles 
+STEP 756 ends. TIME = 7.09142513e-13 DT = 9.380191971e-16
+Evolve time = 8.490856718 s; This step = 0.010554643 s; Avg. per step = 0.01123129196 s
+
+STEP 757 starts ...
+STEP 757 ends. TIME = 7.100805322e-13 DT = 9.380191971e-16
+Evolve time = 8.498957213 s; This step = 0.008100495 s; Avg. per step = 0.01122715616 s
+
+STEP 758 starts ...
+STEP 758 ends. TIME = 7.110185514e-13 DT = 9.380191971e-16
+Evolve time = 8.509022836 s; This step = 0.010065623 s; Avg. per step = 0.01122562379 s
+
+STEP 759 starts ...
+STEP 759 ends. TIME = 7.119565706e-13 DT = 9.380191971e-16
+Evolve time = 8.517210046 s; This step = 0.00818721 s; Avg. per step = 0.01122162061 s
+
+STEP 760 starts ...
+re-sorting particles 
+STEP 760 ends. TIME = 7.128945898e-13 DT = 9.380191971e-16
+Evolve time = 8.56414369 s; This step = 0.046933644 s; Avg. per step = 0.01126861012 s
+
+STEP 761 starts ...
+STEP 761 ends. TIME = 7.13832609e-13 DT = 9.380191971e-16
+Evolve time = 8.572716313 s; This step = 0.008572623 s; Avg. per step = 0.01126506743 s
+
+STEP 762 starts ...
+STEP 762 ends. TIME = 7.147706282e-13 DT = 9.380191971e-16
+Evolve time = 8.582767749 s; This step = 0.010051436 s; Avg. per step = 0.01126347474 s
+
+STEP 763 starts ...
+STEP 763 ends. TIME = 7.157086474e-13 DT = 9.380191971e-16
+Evolve time = 8.590997838 s; This step = 0.008230089 s; Avg. per step = 0.01125949913 s
+
+STEP 764 starts ...
+re-sorting particles 
+STEP 764 ends. TIME = 7.166466666e-13 DT = 9.380191971e-16
+Evolve time = 8.60159768 s; This step = 0.010599842 s; Avg. per step = 0.01125863571 s
+
+STEP 765 starts ...
+STEP 765 ends. TIME = 7.175846858e-13 DT = 9.380191971e-16
+Evolve time = 8.609715166 s; This step = 0.008117486 s; Avg. per step = 0.01125452963 s
+
+STEP 766 starts ...
+STEP 766 ends. TIME = 7.18522705e-13 DT = 9.380191971e-16
+Evolve time = 8.62002031 s; This step = 0.010305144 s; Avg. per step = 0.01125329022 s
+
+STEP 767 starts ...
+STEP 767 ends. TIME = 7.194607242e-13 DT = 9.380191971e-16
+Evolve time = 8.630049699 s; This step = 0.010029389 s; Avg. per step = 0.01125169452 s
+
+STEP 768 starts ...
+re-sorting particles 
+STEP 768 ends. TIME = 7.203987434e-13 DT = 9.380191971e-16
+Evolve time = 8.638784288 s; This step = 0.008734589 s; Avg. per step = 0.01124841704 s
+
+STEP 769 starts ...
+STEP 769 ends. TIME = 7.213367626e-13 DT = 9.380191971e-16
+Evolve time = 8.648756946 s; This step = 0.009972658 s; Avg. per step = 0.01124675806 s
+
+STEP 770 starts ...
+STEP 770 ends. TIME = 7.222747818e-13 DT = 9.380191971e-16
+Evolve time = 8.657171995 s; This step = 0.008415049 s; Avg. per step = 0.01124308051 s
+
+STEP 771 starts ...
+STEP 771 ends. TIME = 7.232128009e-13 DT = 9.380191971e-16
+Evolve time = 8.667172751 s; This step = 0.010000756 s; Avg. per step = 0.0112414692 s
+
+STEP 772 starts ...
+re-sorting particles 
+STEP 772 ends. TIME = 7.241508201e-13 DT = 9.380191971e-16
+Evolve time = 8.675929198 s; This step = 0.008756447 s; Avg. per step = 0.01123825026 s
+
+STEP 773 starts ...
+STEP 773 ends. TIME = 7.250888393e-13 DT = 9.380191971e-16
+Evolve time = 8.6859096 s; This step = 0.009980402 s; Avg. per step = 0.01123662303 s
+
+STEP 774 starts ...
+STEP 774 ends. TIME = 7.260268585e-13 DT = 9.380191971e-16
+Evolve time = 8.694168825 s; This step = 0.008259225 s; Avg. per step = 0.01123277626 s
+
+STEP 775 starts ...
+STEP 775 ends. TIME = 7.269648777e-13 DT = 9.380191971e-16
+Evolve time = 8.704365873 s; This step = 0.010197048 s; Avg. per step = 0.01123143984 s
+
+STEP 776 starts ...
+re-sorting particles 
+STEP 776 ends. TIME = 7.279028969e-13 DT = 9.380191971e-16
+Evolve time = 8.71323886 s; This step = 0.008872987 s; Avg. per step = 0.01122840059 s
+
+STEP 777 starts ...
+STEP 777 ends. TIME = 7.288409161e-13 DT = 9.380191971e-16
+Evolve time = 8.723192984 s; This step = 0.009954124 s; Avg. per step = 0.0112267606 s
+
+STEP 778 starts ...
+STEP 778 ends. TIME = 7.297789353e-13 DT = 9.380191971e-16
+Evolve time = 8.731518531 s; This step = 0.008325547 s; Avg. per step = 0.01122303153 s
+
+STEP 779 starts ...
+STEP 779 ends. TIME = 7.307169545e-13 DT = 9.380191971e-16
+Evolve time = 8.741476385 s; This step = 0.009957854 s; Avg. per step = 0.01122140743 s
+
+STEP 780 starts ...
+re-sorting particles 
+STEP 780 ends. TIME = 7.316549737e-13 DT = 9.380191971e-16
+Evolve time = 8.786222435 s; This step = 0.04474605 s; Avg. per step = 0.01126438774 s
+
+STEP 781 starts ...
+STEP 781 ends. TIME = 7.325929929e-13 DT = 9.380191971e-16
+Evolve time = 8.796462816 s; This step = 0.010240381 s; Avg. per step = 0.01126307659 s
+
+STEP 782 starts ...
+STEP 782 ends. TIME = 7.335310121e-13 DT = 9.380191971e-16
+Evolve time = 8.804582168 s; This step = 0.008119352 s; Avg. per step = 0.01125905648 s
+
+STEP 783 starts ...
+STEP 783 ends. TIME = 7.344690313e-13 DT = 9.380191971e-16
+Evolve time = 8.814638287 s; This step = 0.010056119 s; Avg. per step = 0.01125752016 s
+
+STEP 784 starts ...
+re-sorting particles 
+STEP 784 ends. TIME = 7.354070505e-13 DT = 9.380191971e-16
+Evolve time = 8.825232017 s; This step = 0.01059373 s; Avg. per step = 0.01125667349 s
+
+STEP 785 starts ...
+STEP 785 ends. TIME = 7.363450697e-13 DT = 9.380191971e-16
+Evolve time = 8.833467203 s; This step = 0.008235186 s; Avg. per step = 0.01125282446 s
+
+STEP 786 starts ...
+STEP 786 ends. TIME = 7.372830889e-13 DT = 9.380191971e-16
+Evolve time = 8.843417819 s; This step = 0.009950616 s; Avg. per step = 0.01125116771 s
+
+STEP 787 starts ...
+STEP 787 ends. TIME = 7.382211081e-13 DT = 9.380191971e-16
+Evolve time = 8.851671983 s; This step = 0.008254164 s; Avg. per step = 0.01124735957 s
+
+STEP 788 starts ...
+re-sorting particles 
+STEP 788 ends. TIME = 7.391591273e-13 DT = 9.380191971e-16
+Evolve time = 8.862174513 s; This step = 0.01050253 s; Avg. per step = 0.01124641436 s
+
+STEP 789 starts ...
+STEP 789 ends. TIME = 7.400971465e-13 DT = 9.380191971e-16
+Evolve time = 8.870346272 s; This step = 0.008171759 s; Avg. per step = 0.01124251746 s
+
+STEP 790 starts ...
+STEP 790 ends. TIME = 7.410351657e-13 DT = 9.380191971e-16
+Evolve time = 8.880636313 s; This step = 0.010290041 s; Avg. per step = 0.01124131179 s
+
+STEP 791 starts ...
+STEP 791 ends. TIME = 7.419731849e-13 DT = 9.380191971e-16
+Evolve time = 8.888829817 s; This step = 0.008193504 s; Avg. per step = 0.01123745868 s
+
+STEP 792 starts ...
+re-sorting particles 
+STEP 792 ends. TIME = 7.429112041e-13 DT = 9.380191971e-16
+Evolve time = 8.899458997 s; This step = 0.01062918 s; Avg. per step = 0.01123669065 s
+
+STEP 793 starts ...
+STEP 793 ends. TIME = 7.438492233e-13 DT = 9.380191971e-16
+Evolve time = 8.907623932 s; This step = 0.008164935 s; Avg. per step = 0.01123281706 s
+
+STEP 794 starts ...
+STEP 794 ends. TIME = 7.447872425e-13 DT = 9.380191971e-16
+Evolve time = 8.917784607 s; This step = 0.010160675 s; Avg. per step = 0.01123146676 s
+
+STEP 795 starts ...
+STEP 795 ends. TIME = 7.457252617e-13 DT = 9.380191971e-16
+Evolve time = 8.926942226 s; This step = 0.009157619 s; Avg. per step = 0.01122885815 s
+
+STEP 796 starts ...
+re-sorting particles 
+STEP 796 ends. TIME = 7.466632809e-13 DT = 9.380191971e-16
+Evolve time = 8.937536466 s; This step = 0.01059424 s; Avg. per step = 0.01122806089 s
+
+STEP 797 starts ...
+STEP 797 ends. TIME = 7.476013001e-13 DT = 9.380191971e-16
+Evolve time = 8.945757942 s; This step = 0.008221476 s; Avg. per step = 0.01122428851 s
+
+STEP 798 starts ...
+STEP 798 ends. TIME = 7.485393193e-13 DT = 9.380191971e-16
+Evolve time = 8.955792265 s; This step = 0.010034323 s; Avg. per step = 0.01122279732 s
+
+STEP 799 starts ...
+STEP 799 ends. TIME = 7.494773385e-13 DT = 9.380191971e-16
+Evolve time = 8.963940176 s; This step = 0.008147911 s; Avg. per step = 0.01121894891 s
+
+STEP 800 starts ...
+re-sorting particles 
+STEP 800 ends. TIME = 7.504153577e-13 DT = 9.380191971e-16
+Evolve time = 9.01028816 s; This step = 0.046347984 s; Avg. per step = 0.0112628602 s
+
+STEP 801 starts ...
+STEP 801 ends. TIME = 7.513533769e-13 DT = 9.380191971e-16
+Evolve time = 9.020498361 s; This step = 0.010210201 s; Avg. per step = 0.01126154602 s
+
+STEP 802 starts ...
+STEP 802 ends. TIME = 7.522913961e-13 DT = 9.380191971e-16
+Evolve time = 9.028915769 s; This step = 0.008417408 s; Avg. per step = 0.01125799971 s
+
+STEP 803 starts ...
+STEP 803 ends. TIME = 7.532294153e-13 DT = 9.380191971e-16
+Evolve time = 9.039015856 s; This step = 0.010100087 s; Avg. per step = 0.01125655773 s
+
+STEP 804 starts ...
+re-sorting particles 
+STEP 804 ends. TIME = 7.541674345e-13 DT = 9.380191971e-16
+Evolve time = 9.047866858 s; This step = 0.008851002 s; Avg. per step = 0.01125356574 s
+
+STEP 805 starts ...
+STEP 805 ends. TIME = 7.551054537e-13 DT = 9.380191971e-16
+Evolve time = 9.057888328 s; This step = 0.01002147 s; Avg. per step = 0.01125203519 s
+
+STEP 806 starts ...
+STEP 806 ends. TIME = 7.560434728e-13 DT = 9.380191971e-16
+Evolve time = 9.066823171 s; This step = 0.008934843 s; Avg. per step = 0.01124916026 s
+
+STEP 807 starts ...
+STEP 807 ends. TIME = 7.56981492e-13 DT = 9.380191971e-16
+Evolve time = 9.076965767 s; This step = 0.010142596 s; Avg. per step = 0.01124778905 s
+
+STEP 808 starts ...
+re-sorting particles 
+STEP 808 ends. TIME = 7.579195112e-13 DT = 9.380191971e-16
+Evolve time = 9.085747818 s; This step = 0.008782051 s; Avg. per step = 0.0112447374 s
+
+STEP 809 starts ...
+STEP 809 ends. TIME = 7.588575304e-13 DT = 9.380191971e-16
+Evolve time = 9.096397946 s; This step = 0.010650128 s; Avg. per step = 0.01124400241 s
+
+STEP 810 starts ...
+STEP 810 ends. TIME = 7.597955496e-13 DT = 9.380191971e-16
+Evolve time = 9.105473842 s; This step = 0.009075896 s; Avg. per step = 0.01124132573 s
+
+STEP 811 starts ...
+STEP 811 ends. TIME = 7.607335688e-13 DT = 9.380191971e-16
+Evolve time = 9.11555774 s; This step = 0.010083898 s; Avg. per step = 0.01123989857 s
+
+STEP 812 starts ...
+re-sorting particles 
+STEP 812 ends. TIME = 7.61671588e-13 DT = 9.380191971e-16
+Evolve time = 9.124365614 s; This step = 0.008807874 s; Avg. per step = 0.01123690347 s
+
+STEP 813 starts ...
+STEP 813 ends. TIME = 7.626096072e-13 DT = 9.380191971e-16
+Evolve time = 9.134799274 s; This step = 0.01043366 s; Avg. per step = 0.01123591547 s
+
+STEP 814 starts ...
+STEP 814 ends. TIME = 7.635476264e-13 DT = 9.380191971e-16
+Evolve time = 9.143020939 s; This step = 0.008221665 s; Avg. per step = 0.01123221246 s
+
+STEP 815 starts ...
+STEP 815 ends. TIME = 7.644856456e-13 DT = 9.380191971e-16
+Evolve time = 9.153082433 s; This step = 0.010061494 s; Avg. per step = 0.01123077599 s
+
+STEP 816 starts ...
+re-sorting particles 
+STEP 816 ends. TIME = 7.654236648e-13 DT = 9.380191971e-16
+Evolve time = 9.161967595 s; This step = 0.008885162 s; Avg. per step = 0.01122790146 s
+
+STEP 817 starts ...
+STEP 817 ends. TIME = 7.66361684e-13 DT = 9.380191971e-16
+Evolve time = 9.171988398 s; This step = 0.010020803 s; Avg. per step = 0.01122642399 s
+
+STEP 818 starts ...
+STEP 818 ends. TIME = 7.672997032e-13 DT = 9.380191971e-16
+Evolve time = 9.180272459 s; This step = 0.008284061 s; Avg. per step = 0.01122282697 s
+
+STEP 819 starts ...
+STEP 819 ends. TIME = 7.682377224e-13 DT = 9.380191971e-16
+Evolve time = 9.190403032 s; This step = 0.010130573 s; Avg. per step = 0.01122149332 s
+
+STEP 820 starts ...
+re-sorting particles 
+STEP 820 ends. TIME = 7.691757416e-13 DT = 9.380191971e-16
+Evolve time = 9.238200365 s; This step = 0.047797333 s; Avg. per step = 0.01126609801 s
+
+STEP 821 starts ...
+STEP 821 ends. TIME = 7.701137608e-13 DT = 9.380191971e-16
+Evolve time = 9.246722916 s; This step = 0.008522551 s; Avg. per step = 0.01126275629 s
+
+STEP 822 starts ...
+STEP 822 ends. TIME = 7.7105178e-13 DT = 9.380191971e-16
+Evolve time = 9.256783568 s; This step = 0.010060652 s; Avg. per step = 0.01126129388 s
+
+STEP 823 starts ...
+STEP 823 ends. TIME = 7.719897992e-13 DT = 9.380191971e-16
+Evolve time = 9.265083065 s; This step = 0.008299497 s; Avg. per step = 0.0112576951 s
+
+STEP 824 starts ...
+re-sorting particles 
+STEP 824 ends. TIME = 7.729278184e-13 DT = 9.380191971e-16
+Evolve time = 9.275693055 s; This step = 0.01060999 s; Avg. per step = 0.01125690905 s
+
+STEP 825 starts ...
+STEP 825 ends. TIME = 7.738658376e-13 DT = 9.380191971e-16
+Evolve time = 9.283835238 s; This step = 0.008142183 s; Avg. per step = 0.01125313362 s
+
+STEP 826 starts ...
+STEP 826 ends. TIME = 7.748038568e-13 DT = 9.380191971e-16
+Evolve time = 9.293910905 s; This step = 0.010075667 s; Avg. per step = 0.01125170812 s
+
+STEP 827 starts ...
+STEP 827 ends. TIME = 7.75741876e-13 DT = 9.380191971e-16
+Evolve time = 9.302174699 s; This step = 0.008263794 s; Avg. per step = 0.01124809516 s
+
+STEP 828 starts ...
+re-sorting particles 
+STEP 828 ends. TIME = 7.766798952e-13 DT = 9.380191971e-16
+Evolve time = 9.312680024 s; This step = 0.010505325 s; Avg. per step = 0.0112471981 s
+
+STEP 829 starts ...
+STEP 829 ends. TIME = 7.776179144e-13 DT = 9.380191971e-16
+Evolve time = 9.320943751 s; This step = 0.008263727 s; Avg. per step = 0.01124359922 s
+
+STEP 830 starts ...
+STEP 830 ends. TIME = 7.785559336e-13 DT = 9.380191971e-16
+Evolve time = 9.330985523 s; This step = 0.010041772 s; Avg. per step = 0.01124215123 s
+
+STEP 831 starts ...
+STEP 831 ends. TIME = 7.794939528e-13 DT = 9.380191971e-16
+Evolve time = 9.339205122 s; This step = 0.008219599 s; Avg. per step = 0.01123851399 s
+
+STEP 832 starts ...
+re-sorting particles 
+STEP 832 ends. TIME = 7.80431972e-13 DT = 9.380191971e-16
+Evolve time = 9.349756135 s; This step = 0.010551013 s; Avg. per step = 0.01123768766 s
+
+STEP 833 starts ...
+STEP 833 ends. TIME = 7.813699912e-13 DT = 9.380191971e-16
+Evolve time = 9.35797276 s; This step = 0.008216625 s; Avg. per step = 0.01123406094 s
+
+STEP 834 starts ...
+STEP 834 ends. TIME = 7.823080104e-13 DT = 9.380191971e-16
+Evolve time = 9.368008139 s; This step = 0.010035379 s; Avg. per step = 0.01123262367 s
+
+STEP 835 starts ...
+STEP 835 ends. TIME = 7.832460296e-13 DT = 9.380191971e-16
+Evolve time = 9.376214833 s; This step = 0.008206694 s; Avg. per step = 0.0112289998 s
+
+STEP 836 starts ...
+re-sorting particles 
+STEP 836 ends. TIME = 7.841840488e-13 DT = 9.380191971e-16
+Evolve time = 9.386980008 s; This step = 0.010765175 s; Avg. per step = 0.01122844499 s
+
+STEP 837 starts ...
+STEP 837 ends. TIME = 7.85122068e-13 DT = 9.380191971e-16
+Evolve time = 9.396959705 s; This step = 0.009979697 s; Avg. per step = 0.01122695305 s
+
+STEP 838 starts ...
+STEP 838 ends. TIME = 7.860600872e-13 DT = 9.380191971e-16
+Evolve time = 9.405158891 s; This step = 0.008199186 s; Avg. per step = 0.01122333997 s
+
+STEP 839 starts ...
+STEP 839 ends. TIME = 7.869981064e-13 DT = 9.380191971e-16
+Evolve time = 9.415469835 s; This step = 0.010310944 s; Avg. per step = 0.01122225249 s
+
+STEP 840 starts ...
+re-sorting particles 
+STEP 840 ends. TIME = 7.879361255e-13 DT = 9.380191971e-16
+Evolve time = 9.460954745 s; This step = 0.04548491 s; Avg. per step = 0.01126304136 s
+
+STEP 841 starts ...
+STEP 841 ends. TIME = 7.888741447e-13 DT = 9.380191971e-16
+Evolve time = 9.471205911 s; This step = 0.010251166 s; Avg. per step = 0.01126183818 s
+
+STEP 842 starts ...
+STEP 842 ends. TIME = 7.898121639e-13 DT = 9.380191971e-16
+Evolve time = 9.479415782 s; This step = 0.008209871 s; Avg. per step = 0.01125821352 s
+
+STEP 843 starts ...
+STEP 843 ends. TIME = 7.907501831e-13 DT = 9.380191971e-16
+Evolve time = 9.489370611 s; This step = 0.009954829 s; Avg. per step = 0.01125666739 s
+
+STEP 844 starts ...
+re-sorting particles 
+STEP 844 ends. TIME = 7.916882023e-13 DT = 9.380191971e-16
+Evolve time = 9.498128023 s; This step = 0.008757412 s; Avg. per step = 0.01125370619 s
+
+STEP 845 starts ...
+STEP 845 ends. TIME = 7.926262215e-13 DT = 9.380191971e-16
+Evolve time = 9.508053866 s; This step = 0.009925843 s; Avg. per step = 0.01125213475 s
+
+STEP 846 starts ...
+STEP 846 ends. TIME = 7.935642407e-13 DT = 9.380191971e-16
+Evolve time = 9.516180839 s; This step = 0.008126973 s; Avg. per step = 0.01124844071 s
+
+STEP 847 starts ...
+STEP 847 ends. TIME = 7.945022599e-13 DT = 9.380191971e-16
+Evolve time = 9.526219025 s; This step = 0.010038186 s; Avg. per step = 0.01124701184 s
+
+STEP 848 starts ...
+re-sorting particles 
+STEP 848 ends. TIME = 7.954402791e-13 DT = 9.380191971e-16
+Evolve time = 9.534892773 s; This step = 0.008673748 s; Avg. per step = 0.01124397733 s
+
+STEP 849 starts ...
+STEP 849 ends. TIME = 7.963782983e-13 DT = 9.380191971e-16
+Evolve time = 9.544943265 s; This step = 0.010050492 s; Avg. per step = 0.01124257157 s
+
+STEP 850 starts ...
+STEP 850 ends. TIME = 7.973163175e-13 DT = 9.380191971e-16
+Evolve time = 9.553204242 s; This step = 0.008260977 s; Avg. per step = 0.01123906381 s
+
+STEP 851 starts ...
+STEP 851 ends. TIME = 7.982543367e-13 DT = 9.380191971e-16
+Evolve time = 9.563386793 s; This step = 0.010182551 s; Avg. per step = 0.01123782232 s
+
+STEP 852 starts ...
+re-sorting particles 
+STEP 852 ends. TIME = 7.991923559e-13 DT = 9.380191971e-16
+Evolve time = 9.572145776 s; This step = 0.008758983 s; Avg. per step = 0.01123491288 s
+
+STEP 853 starts ...
+STEP 853 ends. TIME = 8.001303751e-13 DT = 9.380191971e-16
+Evolve time = 9.582106667 s; This step = 0.009960891 s; Avg. per step = 0.0112334193 s
+
+STEP 854 starts ...
+STEP 854 ends. TIME = 8.010683943e-13 DT = 9.380191971e-16
+Evolve time = 9.592290243 s; This step = 0.010183576 s; Avg. per step = 0.01123218998 s
+
+STEP 855 starts ...
+STEP 855 ends. TIME = 8.020064135e-13 DT = 9.380191971e-16
+Evolve time = 9.600580245 s; This step = 0.008290002 s; Avg. per step = 0.01122874882 s
+
+STEP 856 starts ...
+re-sorting particles 
+STEP 856 ends. TIME = 8.029444327e-13 DT = 9.380191971e-16
+Evolve time = 9.61114418 s; This step = 0.010563935 s; Avg. per step = 0.01122797217 s
+
+STEP 857 starts ...
+STEP 857 ends. TIME = 8.038824519e-13 DT = 9.380191971e-16
+Evolve time = 9.619309621 s; This step = 0.008165441 s; Avg. per step = 0.01122439862 s
+
+STEP 858 starts ...
+STEP 858 ends. TIME = 8.048204711e-13 DT = 9.380191971e-16
+Evolve time = 9.629270277 s; This step = 0.009960656 s; Avg. per step = 0.01122292573 s
+
+STEP 859 starts ...
+STEP 859 ends. TIME = 8.057584903e-13 DT = 9.380191971e-16
+Evolve time = 9.637617994 s; This step = 0.008347717 s; Avg. per step = 0.01121957857 s
+
+STEP 860 starts ...
+re-sorting particles 
+STEP 860 ends. TIME = 8.066965095e-13 DT = 9.380191971e-16
+Evolve time = 9.684699235 s; This step = 0.047081241 s; Avg. per step = 0.01126127818 s
+
+STEP 861 starts ...
+STEP 861 ends. TIME = 8.076345287e-13 DT = 9.380191971e-16
+Evolve time = 9.693127776 s; This step = 0.008428541 s; Avg. per step = 0.01125798813 s
+
+STEP 862 starts ...
+STEP 862 ends. TIME = 8.085725479e-13 DT = 9.380191971e-16
+Evolve time = 9.703199693 s; This step = 0.010071917 s; Avg. per step = 0.01125661217 s
+
+STEP 863 starts ...
+STEP 863 ends. TIME = 8.095105671e-13 DT = 9.380191971e-16
+Evolve time = 9.711497173 s; This step = 0.00829748 s; Avg. per step = 0.01125318328 s
+
+STEP 864 starts ...
+re-sorting particles 
+STEP 864 ends. TIME = 8.104485863e-13 DT = 9.380191971e-16
+Evolve time = 9.72216456 s; This step = 0.010667387 s; Avg. per step = 0.01125250528 s
+
+STEP 865 starts ...
+STEP 865 ends. TIME = 8.113866055e-13 DT = 9.380191971e-16
+Evolve time = 9.730409485 s; This step = 0.008244925 s; Avg. per step = 0.01124902831 s
+
+STEP 866 starts ...
+STEP 866 ends. TIME = 8.123246247e-13 DT = 9.380191971e-16
+Evolve time = 9.740354316 s; This step = 0.009944831 s; Avg. per step = 0.0112475223 s
+
+STEP 867 starts ...
+STEP 867 ends. TIME = 8.132626439e-13 DT = 9.380191971e-16
+Evolve time = 9.748578888 s; This step = 0.008224572 s; Avg. per step = 0.01124403563 s
+
+STEP 868 starts ...
+re-sorting particles 
+STEP 868 ends. TIME = 8.142006631e-13 DT = 9.380191971e-16
+Evolve time = 9.75927602 s; This step = 0.010697132 s; Avg. per step = 0.01124340555 s
+
+STEP 869 starts ...
+STEP 869 ends. TIME = 8.151386823e-13 DT = 9.380191971e-16
+Evolve time = 9.767375189 s; This step = 0.008099169 s; Avg. per step = 0.01123978733 s
+
+STEP 870 starts ...
+STEP 870 ends. TIME = 8.160767015e-13 DT = 9.380191971e-16
+Evolve time = 9.777428311 s; This step = 0.010053122 s; Avg. per step = 0.01123842335 s
+
+STEP 871 starts ...
+STEP 871 ends. TIME = 8.170147207e-13 DT = 9.380191971e-16
+Evolve time = 9.787471438 s; This step = 0.010043127 s; Avg. per step = 0.01123705102 s
+
+STEP 872 starts ...
+re-sorting particles 
+STEP 872 ends. TIME = 8.179527399e-13 DT = 9.380191971e-16
+Evolve time = 9.796251608 s; This step = 0.00878017 s; Avg. per step = 0.0112342335 s
+
+STEP 873 starts ...
+STEP 873 ends. TIME = 8.188907591e-13 DT = 9.380191971e-16
+Evolve time = 9.806244035 s; This step = 0.009992427 s; Avg. per step = 0.01123281104 s
+
+STEP 874 starts ...
+STEP 874 ends. TIME = 8.198287782e-13 DT = 9.380191971e-16
+Evolve time = 9.814625131 s; This step = 0.008381096 s; Avg. per step = 0.0112295482 s
+
+STEP 875 starts ...
+STEP 875 ends. TIME = 8.207667974e-13 DT = 9.380191971e-16
+Evolve time = 9.824648016 s; This step = 0.010022885 s; Avg. per step = 0.01122816916 s
+
+STEP 876 starts ...
+re-sorting particles 
+STEP 876 ends. TIME = 8.217048166e-13 DT = 9.380191971e-16
+Evolve time = 9.833494891 s; This step = 0.008846875 s; Avg. per step = 0.01122545079 s
+
+STEP 877 starts ...
+STEP 877 ends. TIME = 8.226428358e-13 DT = 9.380191971e-16
+Evolve time = 9.843504972 s; This step = 0.010010081 s; Avg. per step = 0.01122406496 s
+
+STEP 878 starts ...
+STEP 878 ends. TIME = 8.23580855e-13 DT = 9.380191971e-16
+Evolve time = 9.851808554 s; This step = 0.008303582 s; Avg. per step = 0.01122073867 s
+
+STEP 879 starts ...
+STEP 879 ends. TIME = 8.245188742e-13 DT = 9.380191971e-16
+Evolve time = 9.861845093 s; This step = 0.010036539 s; Avg. per step = 0.01121939146 s
+
+STEP 880 starts ...
+re-sorting particles 
+STEP 880 ends. TIME = 8.254568934e-13 DT = 9.380191971e-16
+Evolve time = 9.907437541 s; This step = 0.045592448 s; Avg. per step = 0.01125845175 s
+
+STEP 881 starts ...
+STEP 881 ends. TIME = 8.263949126e-13 DT = 9.380191971e-16
+Evolve time = 9.917688365 s; This step = 0.010250824 s; Avg. per step = 0.01125730802 s
+
+STEP 882 starts ...
+STEP 882 ends. TIME = 8.273329318e-13 DT = 9.380191971e-16
+Evolve time = 9.925949295 s; This step = 0.00826093 s; Avg. per step = 0.01125391077 s
+
+STEP 883 starts ...
+STEP 883 ends. TIME = 8.28270951e-13 DT = 9.380191971e-16
+Evolve time = 9.935978239 s; This step = 0.010028944 s; Avg. per step = 0.01125252349 s
+
+STEP 884 starts ...
+re-sorting particles 
+STEP 884 ends. TIME = 8.292089702e-13 DT = 9.380191971e-16
+Evolve time = 9.94471621 s; This step = 0.008737971 s; Avg. per step = 0.01124967897 s
+
+STEP 885 starts ...
+STEP 885 ends. TIME = 8.301469894e-13 DT = 9.380191971e-16
+Evolve time = 9.95469543 s; This step = 0.00997922 s; Avg. per step = 0.01124824342 s
+
+STEP 886 starts ...
+STEP 886 ends. TIME = 8.310850086e-13 DT = 9.380191971e-16
+Evolve time = 9.962850379 s; This step = 0.008154949 s; Avg. per step = 0.01124475212 s
+
+STEP 887 starts ...
+STEP 887 ends. TIME = 8.320230278e-13 DT = 9.380191971e-16
+Evolve time = 9.9728764 s; This step = 0.010026021 s; Avg. per step = 0.01124337813 s
+
+STEP 888 starts ...
+re-sorting particles 
+STEP 888 ends. TIME = 8.32961047e-13 DT = 9.380191971e-16
+Evolve time = 9.983482636 s; This step = 0.010606236 s; Avg. per step = 0.01124266063 s
+
+STEP 889 starts ...
+STEP 889 ends. TIME = 8.338990662e-13 DT = 9.380191971e-16
+Evolve time = 9.991641052 s; This step = 0.008158416 s; Avg. per step = 0.01123919128 s
+
+STEP 890 starts ...
+STEP 890 ends. TIME = 8.348370854e-13 DT = 9.380191971e-16
+Evolve time = 10.00171558 s; This step = 0.010074526 s; Avg. per step = 0.01123788267 s
+
+STEP 891 starts ...
+STEP 891 ends. TIME = 8.357751046e-13 DT = 9.380191971e-16
+Evolve time = 10.00987335 s; This step = 0.008157773 s; Avg. per step = 0.01123442576 s
+
+STEP 892 starts ...
+re-sorting particles 
+STEP 892 ends. TIME = 8.367131238e-13 DT = 9.380191971e-16
+Evolve time = 10.02037141 s; This step = 0.010498062 s; Avg. per step = 0.01123360024 s
+
+STEP 893 starts ...
+STEP 893 ends. TIME = 8.37651143e-13 DT = 9.380191971e-16
+Evolve time = 10.02854581 s; This step = 0.008174398 s; Avg. per step = 0.01123017448 s
+
+STEP 894 starts ...
+STEP 894 ends. TIME = 8.385891622e-13 DT = 9.380191971e-16
+Evolve time = 10.03854432 s; This step = 0.009998514 s; Avg. per step = 0.01122879678 s
+
+STEP 895 starts ...
+STEP 895 ends. TIME = 8.395271814e-13 DT = 9.380191971e-16
+Evolve time = 10.04677687 s; This step = 0.008232545 s; Avg. per step = 0.01122544902 s
+
+STEP 896 starts ...
+re-sorting particles 
+STEP 896 ends. TIME = 8.404652006e-13 DT = 9.380191971e-16
+Evolve time = 10.0574235 s; This step = 0.010646629 s; Avg. per step = 0.01122480301 s
+
+STEP 897 starts ...
+STEP 897 ends. TIME = 8.414032198e-13 DT = 9.380191971e-16
+Evolve time = 10.0656556 s; This step = 0.008232097 s; Avg. per step = 0.01122146666 s
+
+STEP 898 starts ...
+STEP 898 ends. TIME = 8.42341239e-13 DT = 9.380191971e-16
+Evolve time = 10.07560433 s; This step = 0.009948731 s; Avg. per step = 0.01122004936 s
+
+STEP 899 starts ...
+STEP 899 ends. TIME = 8.432792582e-13 DT = 9.380191971e-16
+Evolve time = 10.08386918 s; This step = 0.008264856 s; Avg. per step = 0.01121676216 s
+
+STEP 900 starts ...
+re-sorting particles 
+STEP 900 ends. TIME = 8.442172774e-13 DT = 9.380191971e-16
+Evolve time = 10.13078949 s; This step = 0.046920307 s; Avg. per step = 0.01125643277 s
+
+STEP 901 starts ...
+STEP 901 ends. TIME = 8.451552966e-13 DT = 9.380191971e-16
+Evolve time = 10.13927704 s; This step = 0.008487549 s; Avg. per step = 0.01125335964 s
+
+STEP 902 starts ...
+STEP 902 ends. TIME = 8.460933158e-13 DT = 9.380191971e-16
+Evolve time = 10.14923082 s; This step = 0.009953784 s; Avg. per step = 0.01125191887 s
+
+STEP 903 starts ...
+STEP 903 ends. TIME = 8.47031335e-13 DT = 9.380191971e-16
+Evolve time = 10.15741986 s; This step = 0.008189037 s; Avg. per step = 0.01124852698 s
+
+STEP 904 starts ...
+re-sorting particles 
+STEP 904 ends. TIME = 8.479693542e-13 DT = 9.380191971e-16
+Evolve time = 10.16802518 s; This step = 0.01060532 s; Avg. per step = 0.01124781546 s
+
+STEP 905 starts ...
+STEP 905 ends. TIME = 8.489073734e-13 DT = 9.380191971e-16
+Evolve time = 10.17799596 s; This step = 0.009970776 s; Avg. per step = 0.01124640437 s
+
+STEP 906 starts ...
+STEP 906 ends. TIME = 8.498453926e-13 DT = 9.380191971e-16
+Evolve time = 10.18622087 s; This step = 0.00822491 s; Avg. per step = 0.01124306939 s
+
+STEP 907 starts ...
+STEP 907 ends. TIME = 8.507834118e-13 DT = 9.380191971e-16
+Evolve time = 10.19632519 s; This step = 0.010104322 s; Avg. per step = 0.01124181388 s
+
+STEP 908 starts ...
+re-sorting particles 
+STEP 908 ends. TIME = 8.51721431e-13 DT = 9.380191971e-16
+Evolve time = 10.20505287 s; This step = 0.008727684 s; Avg. per step = 0.01123904501 s
+
+STEP 909 starts ...
+STEP 909 ends. TIME = 8.526594501e-13 DT = 9.380191971e-16
+Evolve time = 10.21501425 s; This step = 0.009961383 s; Avg. per step = 0.01123763944 s
+
+STEP 910 starts ...
+STEP 910 ends. TIME = 8.535974693e-13 DT = 9.380191971e-16
+Evolve time = 10.22330093 s; This step = 0.008286673 s; Avg. per step = 0.01123439662 s
+
+STEP 911 starts ...
+STEP 911 ends. TIME = 8.545354885e-13 DT = 9.380191971e-16
+Evolve time = 10.23330015 s; This step = 0.00999922 s; Avg. per step = 0.01123304078 s
+
+STEP 912 starts ...
+re-sorting particles 
+STEP 912 ends. TIME = 8.554735077e-13 DT = 9.380191971e-16
+Evolve time = 10.24199718 s; This step = 0.008697034 s; Avg. per step = 0.01123026007 s
+
+STEP 913 starts ...
+STEP 913 ends. TIME = 8.564115269e-13 DT = 9.380191971e-16
+Evolve time = 10.2519375 s; This step = 0.009940323 s; Avg. per step = 0.01122884721 s
+
+STEP 914 starts ...
+STEP 914 ends. TIME = 8.573495461e-13 DT = 9.380191971e-16
+Evolve time = 10.26015001 s; This step = 0.008212508 s; Avg. per step = 0.01122554706 s
+
+STEP 915 starts ...
+STEP 915 ends. TIME = 8.582875653e-13 DT = 9.380191971e-16
+Evolve time = 10.27018232 s; This step = 0.010032312 s; Avg. per step = 0.01122424298 s
+
+STEP 916 starts ...
+re-sorting particles 
+STEP 916 ends. TIME = 8.592255845e-13 DT = 9.380191971e-16
+Evolve time = 10.27891171 s; This step = 0.008729383 s; Avg. per step = 0.01122151933 s
+
+STEP 917 starts ...
+STEP 917 ends. TIME = 8.601636037e-13 DT = 9.380191971e-16
+Evolve time = 10.28882815 s; This step = 0.00991644 s; Avg. per step = 0.01122009613 s
+
+STEP 918 starts ...
+STEP 918 ends. TIME = 8.611016229e-13 DT = 9.380191971e-16
+Evolve time = 10.29717394 s; This step = 0.008345795 s; Avg. per step = 0.01121696508 s
+
+STEP 919 starts ...
+STEP 919 ends. TIME = 8.620396421e-13 DT = 9.380191971e-16
+Evolve time = 10.30712074 s; This step = 0.009946796 s; Avg. per step = 0.01121558296 s
+
+STEP 920 starts ...
+re-sorting particles 
+STEP 920 ends. TIME = 8.629776613e-13 DT = 9.380191971e-16
+Evolve time = 10.35275811 s; This step = 0.045637375 s; Avg. per step = 0.01125299795 s
+
+STEP 921 starts ...
+STEP 921 ends. TIME = 8.639156805e-13 DT = 9.380191971e-16
+Evolve time = 10.36299212 s; This step = 0.010234009 s; Avg. per step = 0.01125189156 s
+
+STEP 922 starts ...
+STEP 922 ends. TIME = 8.648536997e-13 DT = 9.380191971e-16
+Evolve time = 10.37305891 s; This step = 0.010066783 s; Avg. per step = 0.01125060619 s
+
+STEP 923 starts ...
+STEP 923 ends. TIME = 8.657917189e-13 DT = 9.380191971e-16
+Evolve time = 10.38135692 s; This step = 0.008298019 s; Avg. per step = 0.01124740729 s
+
+STEP 924 starts ...
+re-sorting particles 
+STEP 924 ends. TIME = 8.667297381e-13 DT = 9.380191971e-16
+Evolve time = 10.39198632 s; This step = 0.010629395 s; Avg. per step = 0.01124673844 s
+
+STEP 925 starts ...
+STEP 925 ends. TIME = 8.676677573e-13 DT = 9.380191971e-16
+Evolve time = 10.40021986 s; This step = 0.008233537 s; Avg. per step = 0.01124348093 s
+
+STEP 926 starts ...
+STEP 926 ends. TIME = 8.686057765e-13 DT = 9.380191971e-16
+Evolve time = 10.41014524 s; This step = 0.009925388 s; Avg. per step = 0.0112420575 s
+
+STEP 927 starts ...
+STEP 927 ends. TIME = 8.695437957e-13 DT = 9.380191971e-16
+Evolve time = 10.41842731 s; This step = 0.008282065 s; Avg. per step = 0.01123886441 s
+
+STEP 928 starts ...
+re-sorting particles 
+STEP 928 ends. TIME = 8.704818149e-13 DT = 9.380191971e-16
+Evolve time = 10.42892975 s; This step = 0.010502441 s; Avg. per step = 0.01123807085 s
+
+STEP 929 starts ...
+STEP 929 ends. TIME = 8.714198341e-13 DT = 9.380191971e-16
+Evolve time = 10.43722785 s; This step = 0.008298101 s; Avg. per step = 0.01123490619 s
+
+STEP 930 starts ...
+STEP 930 ends. TIME = 8.723578533e-13 DT = 9.380191971e-16
+Evolve time = 10.44744681 s; This step = 0.010218963 s; Avg. per step = 0.01123381378 s
+
+STEP 931 starts ...
+STEP 931 ends. TIME = 8.732958725e-13 DT = 9.380191971e-16
+Evolve time = 10.45570159 s; This step = 0.008254777 s; Avg. per step = 0.01123061395 s
+
+STEP 932 starts ...
+re-sorting particles 
+STEP 932 ends. TIME = 8.742338917e-13 DT = 9.380191971e-16
+Evolve time = 10.46626158 s; This step = 0.010559986 s; Avg. per step = 0.0112298944 s
+
+STEP 933 starts ...
+STEP 933 ends. TIME = 8.751719109e-13 DT = 9.380191971e-16
+Evolve time = 10.4743922 s; This step = 0.008130624 s; Avg. per step = 0.01122657256 s
+
+STEP 934 starts ...
+STEP 934 ends. TIME = 8.761099301e-13 DT = 9.380191971e-16
+Evolve time = 10.48446082 s; This step = 0.010068614 s; Avg. per step = 0.01122533278 s
+
+STEP 935 starts ...
+STEP 935 ends. TIME = 8.770479493e-13 DT = 9.380191971e-16
+Evolve time = 10.49265379 s; This step = 0.008192971 s; Avg. per step = 0.01122208961 s
+
+STEP 936 starts ...
+re-sorting particles 
+STEP 936 ends. TIME = 8.779859685e-13 DT = 9.380191971e-16
+Evolve time = 10.50327368 s; This step = 0.010619891 s; Avg. per step = 0.01122144624 s
+
+STEP 937 starts ...
+STEP 937 ends. TIME = 8.789239877e-13 DT = 9.380191971e-16
+Evolve time = 10.51139957 s; This step = 0.008125894 s; Avg. per step = 0.01121814255 s
+
+STEP 938 starts ...
+STEP 938 ends. TIME = 8.798620069e-13 DT = 9.380191971e-16
+Evolve time = 10.52133891 s; This step = 0.00993934 s; Avg. per step = 0.01121677922 s
+
+STEP 939 starts ...
+STEP 939 ends. TIME = 8.808000261e-13 DT = 9.380191971e-16
+Evolve time = 10.53136771 s; This step = 0.010028795 s; Avg. per step = 0.01121551406 s
+
+STEP 940 starts ...
+re-sorting particles 
+STEP 940 ends. TIME = 8.817380453e-13 DT = 9.380191971e-16
+Evolve time = 10.57747825 s; This step = 0.046110545 s; Avg. per step = 0.01125263644 s
+
+STEP 941 starts ...
+STEP 941 ends. TIME = 8.826760645e-13 DT = 9.380191971e-16
+Evolve time = 10.58767845 s; This step = 0.010200198 s; Avg. per step = 0.01125151801 s
+
+STEP 942 starts ...
+STEP 942 ends. TIME = 8.836140837e-13 DT = 9.380191971e-16
+Evolve time = 10.59590052 s; This step = 0.008222067 s; Avg. per step = 0.01124830204 s
+
+STEP 943 starts ...
+STEP 943 ends. TIME = 8.845521028e-13 DT = 9.380191971e-16
+Evolve time = 10.60604329 s; This step = 0.010142776 s; Avg. per step = 0.01124712969 s
+
+STEP 944 starts ...
+re-sorting particles 
+STEP 944 ends. TIME = 8.85490122e-13 DT = 9.380191971e-16
+Evolve time = 10.61508895 s; This step = 0.009045654 s; Avg. per step = 0.01124479761 s
+
+STEP 945 starts ...
+STEP 945 ends. TIME = 8.864281412e-13 DT = 9.380191971e-16
+Evolve time = 10.6250916 s; This step = 0.010002655 s; Avg. per step = 0.01124348318 s
+
+STEP 946 starts ...
+STEP 946 ends. TIME = 8.873661604e-13 DT = 9.380191971e-16
+Evolve time = 10.63348396 s; This step = 0.008392354 s; Avg. per step = 0.0112404693 s
+
+STEP 947 starts ...
+STEP 947 ends. TIME = 8.883041796e-13 DT = 9.380191971e-16
+Evolve time = 10.64421177 s; This step = 0.010727819 s; Avg. per step = 0.01123992796 s
+
+STEP 948 starts ...
+re-sorting particles 
+STEP 948 ends. TIME = 8.892421988e-13 DT = 9.380191971e-16
+Evolve time = 10.65339505 s; This step = 0.009183276 s; Avg. per step = 0.01123775849 s
+
+STEP 949 starts ...
+STEP 949 ends. TIME = 8.90180218e-13 DT = 9.380191971e-16
+Evolve time = 10.66338762 s; This step = 0.009992567 s; Avg. per step = 0.01123644638 s
+
+STEP 950 starts ...
+STEP 950 ends. TIME = 8.911182372e-13 DT = 9.380191971e-16
+Evolve time = 10.67162223 s; This step = 0.008234609 s; Avg. per step = 0.01123328655 s
+
+STEP 951 starts ...
+STEP 951 ends. TIME = 8.920562564e-13 DT = 9.380191971e-16
+Evolve time = 10.6816573 s; This step = 0.01003507 s; Avg. per step = 0.0112320266 s
+
+STEP 952 starts ...
+re-sorting particles 
+STEP 952 ends. TIME = 8.929942756e-13 DT = 9.380191971e-16
+Evolve time = 10.69037231 s; This step = 0.008715009 s; Avg. per step = 0.01122938267 s
+
+STEP 953 starts ...
+STEP 953 ends. TIME = 8.939322948e-13 DT = 9.380191971e-16
+Evolve time = 10.70034586 s; This step = 0.009973558 s; Avg. per step = 0.01122806492 s
+
+STEP 954 starts ...
+STEP 954 ends. TIME = 8.94870314e-13 DT = 9.380191971e-16
+Evolve time = 10.70872052 s; This step = 0.00837466 s; Avg. per step = 0.01122507392 s
+
+STEP 955 starts ...
+STEP 955 ends. TIME = 8.958083332e-13 DT = 9.380191971e-16
+Evolve time = 10.71970358 s; This step = 0.010983059 s; Avg. per step = 0.01122482051 s
+
+STEP 956 starts ...
+re-sorting particles 
+STEP 956 ends. TIME = 8.967463524e-13 DT = 9.380191971e-16
+Evolve time = 10.73039982 s; This step = 0.010696238 s; Avg. per step = 0.0112242676 s
+
+STEP 957 starts ...
+STEP 957 ends. TIME = 8.976843716e-13 DT = 9.380191971e-16
+Evolve time = 10.73848263 s; This step = 0.008082807 s; Avg. per step = 0.01122098498 s
+
+STEP 958 starts ...
+STEP 958 ends. TIME = 8.986223908e-13 DT = 9.380191971e-16
+Evolve time = 10.74902913 s; This step = 0.0105465 s; Avg. per step = 0.01122028093 s
+
+STEP 959 starts ...
+STEP 959 ends. TIME = 8.9956041e-13 DT = 9.380191971e-16
+Evolve time = 10.75716389 s; This step = 0.008134761 s; Avg. per step = 0.01121706349 s
+
+STEP 960 starts ...
+re-sorting particles 
+STEP 960 ends. TIME = 9.004984292e-13 DT = 9.380191971e-16
+Evolve time = 10.80653435 s; This step = 0.049370457 s; Avg. per step = 0.01125680661 s
+
+STEP 961 starts ...
+STEP 961 ends. TIME = 9.014364484e-13 DT = 9.380191971e-16
+Evolve time = 10.8149829 s; This step = 0.008448556 s; Avg. per step = 0.01125388439 s
+
+STEP 962 starts ...
+STEP 962 ends. TIME = 9.023744676e-13 DT = 9.380191971e-16
+Evolve time = 10.82541755 s; This step = 0.010434644 s; Avg. per step = 0.01125303279 s
+
+STEP 963 starts ...
+STEP 963 ends. TIME = 9.033124868e-13 DT = 9.380191971e-16
+Evolve time = 10.83355865 s; This step = 0.008141103 s; Avg. per step = 0.0112498013 s
+
+STEP 964 starts ...
+re-sorting particles 
+STEP 964 ends. TIME = 9.04250506e-13 DT = 9.380191971e-16
+Evolve time = 10.84411076 s; This step = 0.010552109 s; Avg. per step = 0.01124907755 s
+
+STEP 965 starts ...
+STEP 965 ends. TIME = 9.051885252e-13 DT = 9.380191971e-16
+Evolve time = 10.85287978 s; This step = 0.008769018 s; Avg. per step = 0.01124650754 s
+
+STEP 966 starts ...
+STEP 966 ends. TIME = 9.061265444e-13 DT = 9.380191971e-16
+Evolve time = 10.86290781 s; This step = 0.010028037 s; Avg. per step = 0.01124524618 s
+
+STEP 967 starts ...
+STEP 967 ends. TIME = 9.070645636e-13 DT = 9.380191971e-16
+Evolve time = 10.87111988 s; This step = 0.008212071 s; Avg. per step = 0.0112421095 s
+
+STEP 968 starts ...
+re-sorting particles 
+STEP 968 ends. TIME = 9.080025828e-13 DT = 9.380191971e-16
+Evolve time = 10.88164859 s; This step = 0.010528705 s; Avg. per step = 0.01124137251 s
+
+STEP 969 starts ...
+STEP 969 ends. TIME = 9.08940602e-13 DT = 9.380191971e-16
+Evolve time = 10.88985628 s; This step = 0.008207688 s; Avg. per step = 0.01123824177 s
+
+STEP 970 starts ...
+STEP 970 ends. TIME = 9.098786212e-13 DT = 9.380191971e-16
+Evolve time = 10.89999153 s; This step = 0.010135257 s; Avg. per step = 0.01123710467 s
+
+STEP 971 starts ...
+STEP 971 ends. TIME = 9.108166404e-13 DT = 9.380191971e-16
+Evolve time = 10.90852653 s; This step = 0.008535001 s; Avg. per step = 0.01123432187 s
+
+STEP 972 starts ...
+re-sorting particles 
+STEP 972 ends. TIME = 9.117546596e-13 DT = 9.380191971e-16
+Evolve time = 10.91910332 s; This step = 0.01057679 s; Avg. per step = 0.0112336454 s
+
+STEP 973 starts ...
+STEP 973 ends. TIME = 9.126926788e-13 DT = 9.380191971e-16
+Evolve time = 10.92905799 s; This step = 0.00995467 s; Avg. per step = 0.01123233093 s
+
+STEP 974 starts ...
+STEP 974 ends. TIME = 9.13630698e-13 DT = 9.380191971e-16
+Evolve time = 10.93735054 s; This step = 0.008292549 s; Avg. per step = 0.01122931267 s
+
+STEP 975 starts ...
+STEP 975 ends. TIME = 9.145687172e-13 DT = 9.380191971e-16
+Evolve time = 10.94745633 s; This step = 0.010105785 s; Avg. per step = 0.01122816034 s
+
+STEP 976 starts ...
+re-sorting particles 
+STEP 976 ends. TIME = 9.155067364e-13 DT = 9.380191971e-16
+Evolve time = 10.95636611 s; This step = 0.00890978 s; Avg. per step = 0.01122578495 s
+
+STEP 977 starts ...
+STEP 977 ends. TIME = 9.164447555e-13 DT = 9.380191971e-16
+Evolve time = 10.96629425 s; This step = 0.009928146 s; Avg. per step = 0.01122445676 s
+
+STEP 978 starts ...
+STEP 978 ends. TIME = 9.173827747e-13 DT = 9.380191971e-16
+Evolve time = 10.97452662 s; This step = 0.008232367 s; Avg. per step = 0.01122139736 s
+
+STEP 979 starts ...
+STEP 979 ends. TIME = 9.183207939e-13 DT = 9.380191971e-16
+Evolve time = 10.98467525 s; This step = 0.010148627 s; Avg. per step = 0.01122030158 s
+
+STEP 980 starts ...
+re-sorting particles 
+STEP 980 ends. TIME = 9.192588131e-13 DT = 9.380191971e-16
+Evolve time = 11.0299643 s; This step = 0.04528905 s; Avg. per step = 0.01125506561 s
+
+STEP 981 starts ...
+STEP 981 ends. TIME = 9.201968323e-13 DT = 9.380191971e-16
+Evolve time = 11.04023361 s; This step = 0.010269307 s; Avg. per step = 0.01125406076 s
+
+STEP 982 starts ...
+STEP 982 ends. TIME = 9.211348515e-13 DT = 9.380191971e-16
+Evolve time = 11.04854699 s; This step = 0.008313381 s; Avg. per step = 0.01125106618 s
+
+STEP 983 starts ...
+STEP 983 ends. TIME = 9.220728707e-13 DT = 9.380191971e-16
+Evolve time = 11.05857252 s; This step = 0.010025532 s; Avg. per step = 0.01124981945 s
+
+STEP 984 starts ...
+re-sorting particles 
+STEP 984 ends. TIME = 9.230108899e-13 DT = 9.380191971e-16
+Evolve time = 11.06734488 s; This step = 0.008772358 s; Avg. per step = 0.0112473017 s
+
+STEP 985 starts ...
+STEP 985 ends. TIME = 9.239489091e-13 DT = 9.380191971e-16
+Evolve time = 11.07732402 s; This step = 0.009979148 s; Avg. per step = 0.01124601424 s
+
+STEP 986 starts ...
+STEP 986 ends. TIME = 9.248869283e-13 DT = 9.380191971e-16
+Evolve time = 11.0856319 s; This step = 0.008307879 s; Avg. per step = 0.01124303439 s
+
+STEP 987 starts ...
+STEP 987 ends. TIME = 9.258249475e-13 DT = 9.380191971e-16
+Evolve time = 11.09573011 s; This step = 0.010098209 s; Avg. per step = 0.01124187448 s
+
+STEP 988 starts ...
+re-sorting particles 
+STEP 988 ends. TIME = 9.267629667e-13 DT = 9.380191971e-16
+Evolve time = 11.10450597 s; This step = 0.00877586 s; Avg. per step = 0.01123937852 s
+
+STEP 989 starts ...
+STEP 989 ends. TIME = 9.277009859e-13 DT = 9.380191971e-16
+Evolve time = 11.11452354 s; This step = 0.01001757 s; Avg. per step = 0.01123814312 s
+
+STEP 990 starts ...
+STEP 990 ends. TIME = 9.286390051e-13 DT = 9.380191971e-16
+Evolve time = 11.12464744 s; This step = 0.010123896 s; Avg. per step = 0.01123701762 s
+
+STEP 991 starts ...
+STEP 991 ends. TIME = 9.295770243e-13 DT = 9.380191971e-16
+Evolve time = 11.13301224 s; This step = 0.008364797 s; Avg. per step = 0.01123411931 s
+
+STEP 992 starts ...
+re-sorting particles 
+STEP 992 ends. TIME = 9.305150435e-13 DT = 9.380191971e-16
+Evolve time = 11.14369029 s; This step = 0.010678054 s; Avg. per step = 0.01123355876 s
+
+STEP 993 starts ...
+STEP 993 ends. TIME = 9.314530627e-13 DT = 9.380191971e-16
+Evolve time = 11.15176696 s; This step = 0.008076675 s; Avg. per step = 0.01123037962 s
+
+STEP 994 starts ...
+STEP 994 ends. TIME = 9.323910819e-13 DT = 9.380191971e-16
+Evolve time = 11.16178373 s; This step = 0.010016767 s; Avg. per step = 0.01122915868 s
+
+STEP 995 starts ...
+STEP 995 ends. TIME = 9.333291011e-13 DT = 9.380191971e-16
+Evolve time = 11.17001134 s; This step = 0.008227609 s; Avg. per step = 0.01122614205 s
+
+STEP 996 starts ...
+re-sorting particles 
+STEP 996 ends. TIME = 9.342671203e-13 DT = 9.380191971e-16
+Evolve time = 11.18053594 s; This step = 0.010524604 s; Avg. per step = 0.0112254377 s
+
+STEP 997 starts ...
+STEP 997 ends. TIME = 9.352051395e-13 DT = 9.380191971e-16
+Evolve time = 11.1887549 s; This step = 0.008218954 s; Avg. per step = 0.01122242217 s
+
+STEP 998 starts ...
+STEP 998 ends. TIME = 9.361431587e-13 DT = 9.380191971e-16
+Evolve time = 11.19872848 s; This step = 0.009973585 s; Avg. per step = 0.01122117083 s
+
+STEP 999 starts ...
+STEP 999 ends. TIME = 9.370811779e-13 DT = 9.380191971e-16
+Evolve time = 11.20701082 s; This step = 0.008282341 s; Avg. per step = 0.01121822905 s
+
+STEP 1000 starts ...
+re-sorting particles 
+STEP 1000 ends. TIME = 9.380191971e-13 DT = 9.380191971e-16
+Evolve time = 11.25571827 s; This step = 0.048707448 s; Avg. per step = 0.01125571827 s
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ THE END ]
+*
+* No recorded warnings.
+********************************************************************************
+
+Total Time                     : 11.40674203
+
+
+TinyProfiler total time across processes [min...avg...max]: 11.41 ... 11.41 ... 11.41
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+FabArray::ParallelCopy_finish()                             12000      1.207      1.934      2.546  22.32%
+FillBoundary_finish()                                       15495      0.654      1.717       2.42  21.21%
+FillBoundary_nowait()                                       15495      0.779      1.342      1.997  17.51%
+FabArray::ParallelCopy_nowait()                             12000     0.8125      1.033        1.2  10.52%
+FlushFormatOpenPMD::WriteToFile()                              51     0.8293     0.9208      1.118   9.80%
+OwnerMask()                                                  9000      0.212     0.4015     0.5342   4.68%
+WarpXOpenPMDPlot::WriteOpenPMDFields()                         51     0.3847     0.4697     0.5019   4.40%
+ParticleCopyPlan::doHandShake                                2004    0.05304     0.3486     0.4802   4.21%
+OverrideSync_nowait()                                        9000     0.2148     0.2863     0.4487   3.93%
+FabArray::setVal()                                          15015     0.2412     0.3081     0.4456   3.91%
+Redistribute_partition                                       2004     0.1097     0.1835     0.3305   2.90%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1331     0.1296     0.1878     0.2958   2.59%
+WarpXOpenPMDPlot::WriteOpenPMDParticles()                      51     0.1008     0.1596     0.2319   2.03%
+Filter::ApplyStencil(MultiFab)                               3000     0.1496     0.1771     0.2312   2.03%
+OverrideSync_finish()                                        9000     0.1803     0.1911     0.2248   1.97%
+PhysicalParticleContainer::Evolve::GatherAndPush             1253    0.08518     0.1214      0.186   1.63%
+WarpX::EvolveB()                                             2000      0.123     0.1423     0.1798   1.58%
+ParticleCopyPlan::build                                      2004     0.1552     0.1585     0.1621   1.42%
+WarpX::shiftMF()                                             3177     0.1065     0.1207     0.1477   1.30%
+ParticleContainer::RedistributeGPU()                         2004    0.09537     0.1214     0.1412   1.24%
+MultiFab::Copy()                                             3177    0.06174    0.08695       0.14   1.23%
+WarpX::Evolve::step                                          1000     0.1027     0.1119     0.1177   1.03%
+WarpX::EvolveE()                                             1000    0.06856    0.08043     0.1035   0.91%
+DenseBins<T>::buildGPU                                        670    0.03537    0.04737    0.07156   0.63%
+WarpXParticleContainer::ApplyBoundaryConditions()            2000    0.04772    0.05628    0.07117   0.62%
+PhysicalParticleContainer::Evolve()                          1000    0.03873    0.04998    0.07071   0.62%
+amrex::communicateParticlesStart                             2004    0.04766    0.05582    0.06794   0.60%
+PhysicalParticleContainer::AddPlasma()                        526   0.009311    0.02795    0.06672   0.58%
+WarpX::OneStep_nosub()                                       1000    0.05714    0.06012    0.06477   0.57%
+WarpX::SyncCurrent()                                         1000      0.057    0.05945    0.06398   0.56%
+ParticleContainer::SortParticlesByBin()                       500    0.02965    0.04008    0.06074   0.53%
+main()                                                          1   0.001717   0.006122    0.05436   0.48%
+DistributionMapping::LeastUsedCPUs()                            2  5.021e-05    0.04824    0.05264   0.46%
+ParticleContainer::addParticles                                51    0.01939    0.03388    0.05173   0.45%
+amrex::communicateParticlesFinish                            2004  0.0006701    0.01149    0.04807   0.42%
+amrex::unpackBuffer                                          2004    0.02685    0.03253    0.04374   0.38%
+ParticleCopyPlan::buildMPIFinish                             2004  0.0007172   0.008432    0.04334   0.38%
+amrex::packBuffer                                            2004    0.03573    0.03788    0.04107   0.36%
+amrex::computeNeighborProcs                                  2000    0.02515    0.03094    0.03944   0.35%
+amrex::unpackRemotes                                         2004  0.0007242    0.01508    0.02381   0.21%
+LaserParticleContainer::Evolve()                             1000    0.01721     0.0182    0.01958   0.17%
+ParticleCopyPlan::buildMPIStart                              2004    0.01555    0.01759    0.01924   0.17%
+MultiParticleContainer::doQedEvents()                        1000    0.01605    0.01632    0.01669   0.15%
+FabArray::FillBoundary()                                    15495    0.01293    0.01358    0.01422   0.12%
+CoarsenIO::Coarsen()                                          156    0.00691   0.008437    0.01135   0.10%
+FabArrayBase::getFB()                                       15495   0.009653    0.01018    0.01073   0.09%
+OverrideSync()                                               9000   0.008111   0.008567   0.009175   0.08%
+WarpXCommUtil::FillBoundary                                 15495   0.008197   0.008553    0.00888   0.08%
+FabArrayBase::getCPC()                                      12000   0.007873   0.008174   0.008679   0.08%
+Diagnostics::FilterComputePackFlush()                        1002   0.008173   0.008387   0.008527   0.07%
+WarpX::InitData()                                               1   0.001513   0.006677   0.007498   0.07%
+WarpX::Evolve()                                                 1   0.005429   0.005668   0.006966   0.06%
+WarpX::UpdateAuxilaryData()                                  1054   0.005821   0.005962   0.006104   0.05%
+MultiParticleContainer::doQedBreitWheeler()                  1000   0.005613   0.005704   0.005836   0.05%
+MultiParticleContainer::doFieldIonization()                  1000    0.00554   0.005661   0.005788   0.05%
+WarpX::SyncRho()                                             1000   0.005411   0.005544   0.005717   0.05%
+MultiParticleContainer::doCollisions()                       1000   0.005475   0.005545   0.005707   0.05%
+MultiParticleContainer::doQedQuantumSync()                   1000    0.00543   0.005529   0.005627   0.05%
+MultiParticleContainer::doQEDSchwinger()                     1000   0.005335   0.005478   0.005606   0.05%
+PhysicalParticleContainer::ConvertUnits()                     102   0.003047   0.003809   0.005361   0.05%
+LaserParticleContainer::Evolve::ParticlePush                   77    0.00172   0.002626     0.0041   0.04%
+FabArray::ParallelCopy()                                     3000   0.002978   0.003102   0.003267   0.03%
+FabArrayBase::FB::FB()                                         18  0.0004959  0.0007731   0.001115   0.01%
+ParticleContainer::defineBufferMap                           2004  0.0008885  0.0009292   0.000972   0.01%
+WarpX::PrintGlobalWarnings                                      2  8.891e-05  0.0001991  0.0004435   0.00%
+ParticleBufferMap::define                                       4  0.0002848  0.0002887  0.0002939   0.00%
+FabArrayBase::CPC::define()                                     9  0.0001285  0.0001836  0.0002565   0.00%
+PhysicalParticleContainer::PushP()                              2  0.0001065  0.0001481  0.0002277   0.00%
+ParticleContainer::copyParticles                               51   6.76e-05  7.617e-05  8.724e-05   0.00%
+BilinearFilter::ComputeStencils()                               1   6.25e-05  6.408e-05  6.585e-05   0.00%
+WarpX::ComputeSpaceChargeField                                  1  1.421e-05  2.775e-05  3.888e-05   0.00%
+ParticleContainer::clearParticles()                            51  2.318e-05  2.578e-05  3.052e-05   0.00%
+PhysicalParticleContainer::AddParticles()                       2  1.709e-05  1.739e-05  1.782e-05   0.00%
+DistributionMapping::SFCProcessorMapDoIt()                      2  1.003e-05  1.291e-05  1.564e-05   0.00%
+DistributionMapping::Distribute()                               2  4.463e-06  4.897e-06   5.48e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+main()                                                          1      11.41      11.41      11.41 100.00%
+WarpX::Evolve()                                                 1      11.29      11.29      11.29  99.00%
+WarpX::Evolve::step                                          1000      11.28      11.28      11.28  98.91%
+WarpX::OneStep_nosub()                                       1000      5.954      6.055      6.186  54.22%
+WarpXCommUtil::FillBoundary                                 15495      2.664      3.092       3.25  28.49%
+FabArray::FillBoundary()                                    15495      2.655      3.084      3.241  28.41%
+WarpX::SyncCurrent()                                         1000      2.491      2.695      2.817  24.70%
+OverrideSync()                                               9000      2.064      2.229      2.548  22.33%
+FabArray::ParallelCopy_finish()                             12000      1.207      1.934      2.546  22.32%
+FillBoundary_finish()                                       15495      0.654      1.717       2.42  21.21%
+FillBoundary_nowait()                                       15495     0.7895      1.353      2.009  17.61%
+Diagnostics::FilterComputePackFlush()                        1002      1.678        1.7      1.932  16.93%
+FlushFormatOpenPMD::WriteToFile()                              51       1.56      1.588      1.822  15.97%
+OverrideSync_finish()                                        9000     0.7153      1.119      1.602  14.05%
+FabArray::ParallelCopy()                                     3000      1.186      1.432      1.598  14.01%
+OverrideSync_nowait()                                        9000     0.8968      1.102      1.449  12.70%
+FabArray::ParallelCopy_nowait()                             12000     0.8205      1.041      1.209  10.60%
+ParticleContainer::RedistributeGPU()                         2004     0.8906      1.023      1.094   9.59%
+WarpX::shiftMF()                                             3177     0.7454     0.8085     0.8618   7.56%
+ParticleCopyPlan::build                                      2004     0.2686     0.5556     0.6846   6.00%
+PhysicalParticleContainer::Evolve()                          1000     0.2515     0.3565     0.5485   4.81%
+OwnerMask()                                                  9000      0.212     0.4015     0.5342   4.68%
+WarpXOpenPMDPlot::WriteOpenPMDFields()                         51     0.3847     0.4697     0.5019   4.40%
+ParticleCopyPlan::buildMPIStart                              2004    0.07093     0.3662     0.4983   4.37%
+ParticleCopyPlan::doHandShake                                2004    0.05304     0.3486     0.4802   4.21%
+FabArray::setVal()                                          15015     0.2412     0.3081     0.4456   3.91%
+Redistribute_partition                                       2004     0.1097     0.1835     0.3305   2.90%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition    1331     0.1296     0.1878     0.2958   2.59%
+WarpXOpenPMDPlot::WriteOpenPMDParticles()                      51     0.1339     0.1974     0.2654   2.33%
+Filter::ApplyStencil(MultiFab)                               3000     0.1496     0.1771     0.2312   2.03%
+PhysicalParticleContainer::Evolve::GatherAndPush             1253    0.08518     0.1214      0.186   1.63%
+WarpX::EvolveB()                                             2000      0.123     0.1423     0.1798   1.58%
+MultiFab::Copy()                                             3177    0.06174    0.08695       0.14   1.23%
+ParticleContainer::SortParticlesByBin()                       500    0.06477    0.08715      0.132   1.16%
+WarpX::InitData()                                               1    0.05977     0.1079     0.1123   0.98%
+WarpX::EvolveE()                                             1000    0.06856    0.08043     0.1035   0.91%
+DenseBins<T>::buildGPU                                        670    0.03537    0.04737    0.07156   0.63%
+WarpXParticleContainer::ApplyBoundaryConditions()            2000    0.04772    0.05628    0.07117   0.62%
+amrex::communicateParticlesStart                             2004    0.04766    0.05582    0.06794   0.60%
+PhysicalParticleContainer::AddPlasma()                        526   0.009311    0.02795    0.06672   0.58%
+DistributionMapping::SFCProcessorMapDoIt()                      2  6.475e-05    0.04826    0.05265   0.46%
+DistributionMapping::LeastUsedCPUs()                            2  5.021e-05    0.04824    0.05264   0.46%
+ParticleContainer::copyParticles                               51    0.01951    0.03398    0.05183   0.45%
+ParticleContainer::addParticles                                51    0.01939    0.03388    0.05173   0.45%
+amrex::communicateParticlesFinish                            2004  0.0006701    0.01149    0.04807   0.42%
+amrex::unpackBuffer                                          2004    0.02685    0.03253    0.04374   0.38%
+ParticleCopyPlan::buildMPIFinish                             2004  0.0007172   0.008432    0.04334   0.38%
+amrex::packBuffer                                            2004    0.03573    0.03788    0.04107   0.36%
+amrex::computeNeighborProcs                                  2000    0.02515    0.03094    0.03944   0.35%
+MultiParticleContainer::doQedEvents()                        1000    0.02709    0.02755    0.02815   0.25%
+LaserParticleContainer::Evolve()                             1000    0.02083    0.02349    0.02772   0.24%
+amrex::unpackRemotes                                         2004  0.0007242    0.01508    0.02381   0.21%
+FabArrayBase::getFB()                                       15495    0.01017    0.01095    0.01161   0.10%
+CoarsenIO::Coarsen()                                          156    0.00691   0.008437    0.01135   0.10%
+FabArrayBase::getCPC()                                      12000   0.008001   0.008357   0.008853   0.08%
+WarpX::UpdateAuxilaryData()                                  1054   0.005821   0.005962   0.006104   0.05%
+MultiParticleContainer::doQedBreitWheeler()                  1000   0.005613   0.005704   0.005836   0.05%
+MultiParticleContainer::doFieldIonization()                  1000    0.00554   0.005661   0.005788   0.05%
+WarpX::SyncRho()                                             1000   0.005411   0.005544   0.005717   0.05%
+MultiParticleContainer::doCollisions()                       1000   0.005475   0.005545   0.005707   0.05%
+MultiParticleContainer::doQedQuantumSync()                   1000    0.00543   0.005529   0.005627   0.05%
+MultiParticleContainer::doQEDSchwinger()                     1000   0.005335   0.005478   0.005606   0.05%
+PhysicalParticleContainer::ConvertUnits()                     102   0.003047   0.003809   0.005361   0.05%
+LaserParticleContainer::Evolve::ParticlePush                   77    0.00172   0.002626     0.0041   0.04%
+ParticleContainer::defineBufferMap                           2004   0.001174   0.001218   0.001265   0.01%
+FabArrayBase::FB::FB()                                         18  0.0004959  0.0007731   0.001115   0.01%
+PhysicalParticleContainer::AddParticles()                       2  0.0002165  0.0003845   0.000619   0.01%
+WarpX::PrintGlobalWarnings                                      2  8.891e-05  0.0001991  0.0004435   0.00%
+ParticleBufferMap::define                                       4  0.0002848  0.0002887  0.0002939   0.00%
+FabArrayBase::CPC::define()                                     9  0.0001285  0.0001836  0.0002565   0.00%
+PhysicalParticleContainer::PushP()                              2  0.0001065  0.0001481  0.0002277   0.00%
+BilinearFilter::ComputeStencils()                               1   6.25e-05  6.408e-05  6.585e-05   0.00%
+WarpX::ComputeSpaceChargeField                                  1  1.994e-05  3.377e-05  4.521e-05   0.00%
+ParticleContainer::clearParticles()                            51  2.318e-05  2.578e-05  3.052e-05   0.00%
+DistributionMapping::Distribute()                               2  4.463e-06  4.897e-06   5.48e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+Unused ParmParse Variables:
+  [TOP]::warpx.serialize_initial_conditions(nvals = 1)  :: [1]
+  [TOP]::electrons.addIntegerAttributes(nvals = 1)  :: [regionofinterest]
+  [TOP]::electrons.attribute.regionofinterest(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [(z>12.0e-6) * (z<13.0e-6)]
+  [TOP]::electrons.addRealAttributes(nvals = 1)  :: [initialenergy]
+  [TOP]::electrons.attribute.initialenergy(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [ ux*ux + uy*uy + uz*uz]
+  [TOP]::FP.probe_geometry(nvals = 1)  :: [Line]
+  [TOP]::FP.x1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.y1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.z1_probe(nvals = 1)  :: [12e-6]
+  [TOP]::FP.resolution(nvals = 1)  :: [300]
+  [TOP]::FP.do_moving_window_FP(nvals = 1)  :: [1]
+
+Total GPU global memory (MB) spread across MPI: [16128 ... 16128]
+Free  GPU global memory (MB) spread across MPI: [15710 ... 15734]
+[The         Arena] space (MB) allocated spread across MPI: [12096 ... 12096]
+[The         Arena] space (MB) used      spread across MPI: [0 ... 0]
+[The  Pinned Arena] space (MB) allocated spread across MPI: [8 ... 8]
+[The  Pinned Arena] space (MB) used      spread across MPI: [0 ... 0]
+AMReX (22.01) finalized

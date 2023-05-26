@@ -11,14 +11,10 @@ module load hdf5/1.10.7
 
 export PYTHON_PATH=/sw/andes/python/3.7/anaconda-base
 
-export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling
+export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard
 export SZ_ROOT=$PROJHOME/ExternalDependencies/SZ
 export SZ_INCLUDE_DIR=$SZ_ROOT/install/include/sz
 export SZ_LIBRARY=$SZ_ROOT/install/lib64/libSZ.so
 export ZFP_ROOT=$PROJHOME/ExternalDependencies/zfp
 export ZFP_INCLUDE_DIR=$ZFP_ROOT/install/lib64/libzfp.so
 export ZFP_LIBRARY=$ZFP_ROOT/install/include
-#export ADIOS2_ROOT=$PROJHOME/ExternalDependencies/ADIOS2
-#export ADIOS2_DIR=$ADIOS2_ROOT/build
-#
-#export LD_LIBRARY_PATH=$PROJHOME/ExternalDependencies/ADIOS2/install/lib64:$LD_LIBRARY_PATH

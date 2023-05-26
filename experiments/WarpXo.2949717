@@ -1,0 +1,23 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 2949717: <WarpX> in cluster <summit> Done
+
+Job <WarpX> was submitted from host <login3> by user <jw447> in cluster <summit> at Thu May 18 22:51:48 2023
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <jw447> in cluster <summit> at Thu May 18 22:52:55 2023
+                            <42*b25n16>
+                            <42*b28n05>
+</ccs/home/jw447> was used as the home directory.
+</gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/experiments> was used as the working directory.
+Started at Thu May 18 22:52:55 2023
+Terminated at Thu May 18 22:53:33 2023
+Results reported at Thu May 18 22:53:33 2023
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <WarpXe.2949717> for stderr output of this job.
+
