@@ -11,12 +11,12 @@
 #   https://docs.olcf.ornl.gov/systems/summit_user_guide.html#cuda-aware-mpi
 
 #BSUB -P csc143
-#BSUB -W 00:10
-#BSUB -nnodes 2
+#BSUB -W 01:00
+#BSUB -nnodes 5
 #BSUB -alloc_flags smt4
-#BSUB -J WarpX
-#BSUB -o WarpXo.%J
-#BSUB -e WarpXe.%J
+#BSUB -J WarpXIO
+#BSUB -o WarpXIOo.%J
+#BSUB -e WarpXIOe.%J
 
 
 # make output group-readable by default
@@ -51,4 +51,4 @@ EOL
 export OMP_NUM_THREADS=1
 
 # run WarpX
-jsrun -n 12 -r 6 -a 1 -g 1 -c 4 -l GPU-CPU -d packed -b rs --smpiargs="-gpu" /gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/WarpX/build/bin/warpx laser_driven_electron_accl_3d > output.txt
+jsrun -n 30 -r 6 -a 1 -g 1 -c 4 -l GPU-CPU -d packed -b rs --smpiargs="-gpu" /gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/WarpX/build/bin/warpx laser_driven_electron_accl_3d > outputIO.txt

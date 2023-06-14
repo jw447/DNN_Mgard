@@ -1,0 +1,655 @@
+Initializing CUDA...
+CUDA initialized with 1 GPU per MPI rank; 30 GPU(s) used in total
+MPI initialized with 30 MPI processes
+MPI initialized with thread support level 3
+AMReX (22.01) initialized
+WarpX (22.01)
+PICSAR (7b5449f92a4b)
+Level 0: dt = 2.345047993e-16 ; dx = 1.171875e-07 ; dy = 1.171875e-07 ; dz = 1.328125e-07
+
+Grids Summary:
+  Level 0   512 grids  134217728 cells  100 % of domain
+            smallest grid: 64 x 64 x 64  biggest grid: 64 x 64 x 64
+
+
+STEP 1 starts ...
+
+Unused ParmParse Variables:
+  [TOP]::warpx.serialize_initial_conditions(nvals = 1)  :: [1]
+  [TOP]::electrons.addIntegerAttributes(nvals = 1)  :: [regionofinterest]
+  [TOP]::electrons.attribute.regionofinterest(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [(z>12.0e-6) * (z<13.0e-6)]
+  [TOP]::electrons.addRealAttributes(nvals = 1)  :: [initialenergy]
+  [TOP]::electrons.attribute.initialenergy(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [ ux*ux + uy*uy + uz*uz]
+  [TOP]::FP.probe_geometry(nvals = 1)  :: [Line]
+  [TOP]::FP.x1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.y1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.z1_probe(nvals = 1)  :: [12e-6]
+  [TOP]::FP.resolution(nvals = 1)  :: [300]
+  [TOP]::FP.do_moving_window_FP(nvals = 1)  :: [1]
+
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ FIRST STEP ]
+*
+* No recorded warnings.
+********************************************************************************
+
+STEP 1 ends. TIME = 2.345047993e-16 DT = 2.345047993e-16
+Evolve time = 0.065564887 s; This step = 0.065564887 s; Avg. per step = 0.065564887 s
+
+STEP 2 starts ...
+STEP 2 ends. TIME = 4.690095985e-16 DT = 2.345047993e-16
+Evolve time = 0.125717947 s; This step = 0.06015306 s; Avg. per step = 0.0628589735 s
+
+STEP 3 starts ...
+STEP 3 ends. TIME = 7.035143978e-16 DT = 2.345047993e-16
+Evolve time = 0.175112634 s; This step = 0.049394687 s; Avg. per step = 0.058370878 s
+
+STEP 4 starts ...
+re-sorting particles 
+STEP 4 ends. TIME = 9.380191971e-16 DT = 2.345047993e-16
+Evolve time = 0.235647898 s; This step = 0.060535264 s; Avg. per step = 0.0589119745 s
+
+STEP 5 starts ...
+STEP 5 ends. TIME = 1.172523996e-15 DT = 2.345047993e-16
+Evolve time = 0.285061981 s; This step = 0.049414083 s; Avg. per step = 0.0570123962 s
+
+STEP 6 starts ...
+STEP 6 ends. TIME = 1.407028796e-15 DT = 2.345047993e-16
+Evolve time = 0.341241187 s; This step = 0.056179206 s; Avg. per step = 0.05687353117 s
+
+STEP 7 starts ...
+STEP 7 ends. TIME = 1.641533595e-15 DT = 2.345047993e-16
+Evolve time = 0.389580433 s; This step = 0.048339246 s; Avg. per step = 0.05565434757 s
+
+STEP 8 starts ...
+re-sorting particles 
+STEP 8 ends. TIME = 1.876038394e-15 DT = 2.345047993e-16
+Evolve time = 0.448836141 s; This step = 0.059255708 s; Avg. per step = 0.05610451762 s
+
+STEP 9 starts ...
+STEP 9 ends. TIME = 2.110543193e-15 DT = 2.345047993e-16
+Evolve time = 0.497271591 s; This step = 0.04843545 s; Avg. per step = 0.055252399 s
+
+STEP 10 starts ...
+STEP 10 ends. TIME = 2.345047993e-15 DT = 2.345047993e-16
+Evolve time = 0.553228867 s; This step = 0.055957276 s; Avg. per step = 0.0553228867 s
+
+STEP 11 starts ...
+STEP 11 ends. TIME = 2.579552792e-15 DT = 2.345047993e-16
+Evolve time = 0.601818673 s; This step = 0.048589806 s; Avg. per step = 0.05471078845 s
+
+STEP 12 starts ...
+re-sorting particles 
+STEP 12 ends. TIME = 2.814057591e-15 DT = 2.345047993e-16
+Evolve time = 0.661872805 s; This step = 0.060054132 s; Avg. per step = 0.05515606708 s
+
+STEP 13 starts ...
+STEP 13 ends. TIME = 3.048562391e-15 DT = 2.345047993e-16
+Evolve time = 0.71038786 s; This step = 0.048515055 s; Avg. per step = 0.05464522 s
+
+STEP 14 starts ...
+STEP 14 ends. TIME = 3.28306719e-15 DT = 2.345047993e-16
+Evolve time = 0.766175273 s; This step = 0.055787413 s; Avg. per step = 0.05472680521 s
+
+STEP 15 starts ...
+STEP 15 ends. TIME = 3.517571989e-15 DT = 2.345047993e-16
+Evolve time = 0.814690325 s; This step = 0.048515052 s; Avg. per step = 0.05431268833 s
+
+STEP 16 starts ...
+re-sorting particles 
+STEP 16 ends. TIME = 3.752076788e-15 DT = 2.345047993e-16
+Evolve time = 0.875638284 s; This step = 0.060947959 s; Avg. per step = 0.05472739275 s
+
+STEP 17 starts ...
+STEP 17 ends. TIME = 3.986581588e-15 DT = 2.345047993e-16
+Evolve time = 0.924231772 s; This step = 0.048593488 s; Avg. per step = 0.05436657482 s
+
+STEP 18 starts ...
+STEP 18 ends. TIME = 4.221086387e-15 DT = 2.345047993e-16
+Evolve time = 0.980281743 s; This step = 0.056049971 s; Avg. per step = 0.05446009683 s
+
+STEP 19 starts ...
+STEP 19 ends. TIME = 4.455591186e-15 DT = 2.345047993e-16
+Evolve time = 1.036724903 s; This step = 0.05644316 s; Avg. per step = 0.05456446858 s
+
+STEP 20 starts ...
+re-sorting particles 
+STEP 20 ends. TIME = 4.690095985e-15 DT = 2.345047993e-16
+Evolve time = 1.913163396 s; This step = 0.876438493 s; Avg. per step = 0.0956581698 s
+
+STEP 21 starts ...
+STEP 21 ends. TIME = 4.924600785e-15 DT = 2.345047993e-16
+Evolve time = 1.96898013 s; This step = 0.055816734 s; Avg. per step = 0.09376095857 s
+
+STEP 22 starts ...
+STEP 22 ends. TIME = 5.159105584e-15 DT = 2.345047993e-16
+Evolve time = 2.017754183 s; This step = 0.048774053 s; Avg. per step = 0.09171609923 s
+
+STEP 23 starts ...
+STEP 23 ends. TIME = 5.393610383e-15 DT = 2.345047993e-16
+Evolve time = 2.074290565 s; This step = 0.056536382 s; Avg. per step = 0.0901865463 s
+
+STEP 24 starts ...
+re-sorting particles 
+STEP 24 ends. TIME = 5.628115182e-15 DT = 2.345047993e-16
+Evolve time = 2.126509732 s; This step = 0.052219167 s; Avg. per step = 0.08860457217 s
+
+STEP 25 starts ...
+STEP 25 ends. TIME = 5.862619982e-15 DT = 2.345047993e-16
+Evolve time = 2.183306461 s; This step = 0.056796729 s; Avg. per step = 0.08733225844 s
+
+STEP 26 starts ...
+STEP 26 ends. TIME = 6.097124781e-15 DT = 2.345047993e-16
+Evolve time = 2.231895451 s; This step = 0.04858899 s; Avg. per step = 0.08584213273 s
+
+STEP 27 starts ...
+STEP 27 ends. TIME = 6.33162958e-15 DT = 2.345047993e-16
+Evolve time = 2.288781616 s; This step = 0.056886165 s; Avg. per step = 0.08476968948 s
+
+STEP 28 starts ...
+re-sorting particles 
+STEP 28 ends. TIME = 6.56613438e-15 DT = 2.345047993e-16
+Evolve time = 2.341393323 s; This step = 0.052611707 s; Avg. per step = 0.08362119011 s
+
+STEP 29 starts ...
+STEP 29 ends. TIME = 6.800639179e-15 DT = 2.345047993e-16
+Evolve time = 2.397616792 s; This step = 0.056223469 s; Avg. per step = 0.0826764411 s
+
+STEP 30 starts ...
+STEP 30 ends. TIME = 7.035143978e-15 DT = 2.345047993e-16
+Evolve time = 2.446803679 s; This step = 0.049186887 s; Avg. per step = 0.08156012263 s
+
+STEP 31 starts ...
+STEP 31 ends. TIME = 7.269648777e-15 DT = 2.345047993e-16
+Evolve time = 2.50438316 s; This step = 0.057579481 s; Avg. per step = 0.08078655355 s
+
+STEP 32 starts ...
+re-sorting particles 
+STEP 32 ends. TIME = 7.504153577e-15 DT = 2.345047993e-16
+Evolve time = 2.557078998 s; This step = 0.052695838 s; Avg. per step = 0.07990871869 s
+
+STEP 33 starts ...
+STEP 33 ends. TIME = 7.738658376e-15 DT = 2.345047993e-16
+Evolve time = 2.614026639 s; This step = 0.056947641 s; Avg. per step = 0.07921292845 s
+
+STEP 34 starts ...
+STEP 34 ends. TIME = 7.973163175e-15 DT = 2.345047993e-16
+Evolve time = 2.663488636 s; This step = 0.049461997 s; Avg. per step = 0.07833790106 s
+
+STEP 35 starts ...
+STEP 35 ends. TIME = 8.207667974e-15 DT = 2.345047993e-16
+Evolve time = 2.720797053 s; This step = 0.057308417 s; Avg. per step = 0.07773705866 s
+
+STEP 36 starts ...
+re-sorting particles 
+STEP 36 ends. TIME = 8.442172774e-15 DT = 2.345047993e-16
+Evolve time = 2.781297373 s; This step = 0.06050032 s; Avg. per step = 0.07725826036 s
+
+STEP 37 starts ...
+STEP 37 ends. TIME = 8.676677573e-15 DT = 2.345047993e-16
+Evolve time = 2.830899796 s; This step = 0.049602423 s; Avg. per step = 0.0765108053 s
+
+STEP 38 starts ...
+STEP 38 ends. TIME = 8.911182372e-15 DT = 2.345047993e-16
+Evolve time = 2.887824631 s; This step = 0.056924835 s; Avg. per step = 0.07599538503 s
+
+STEP 39 starts ...
+STEP 39 ends. TIME = 9.145687172e-15 DT = 2.345047993e-16
+Evolve time = 2.93727607 s; This step = 0.049451439 s; Avg. per step = 0.07531477103 s
+
+STEP 40 starts ...
+re-sorting particles 
+STEP 40 ends. TIME = 9.380191971e-15 DT = 2.345047993e-16
+Evolve time = 3.940259205 s; This step = 1.002983135 s; Avg. per step = 0.09850648012 s
+
+STEP 41 starts ...
+STEP 41 ends. TIME = 9.61469677e-15 DT = 2.345047993e-16
+Evolve time = 3.988962165 s; This step = 0.04870296 s; Avg. per step = 0.09729176012 s
+
+STEP 42 starts ...
+STEP 42 ends. TIME = 9.849201569e-15 DT = 2.345047993e-16
+Evolve time = 4.046609016 s; This step = 0.057646851 s; Avg. per step = 0.09634783371 s
+
+STEP 43 starts ...
+STEP 43 ends. TIME = 1.008370637e-14 DT = 2.345047993e-16
+Evolve time = 4.096168661 s; This step = 0.049559645 s; Avg. per step = 0.0952597363 s
+
+STEP 44 starts ...
+re-sorting particles 
+STEP 44 ends. TIME = 1.031821117e-14 DT = 2.345047993e-16
+Evolve time = 4.157242855 s; This step = 0.061074194 s; Avg. per step = 0.09448279216 s
+
+STEP 45 starts ...
+STEP 45 ends. TIME = 1.055271597e-14 DT = 2.345047993e-16
+Evolve time = 4.206698515 s; This step = 0.04945566 s; Avg. per step = 0.09348218922 s
+
+STEP 46 starts ...
+STEP 46 ends. TIME = 1.078722077e-14 DT = 2.345047993e-16
+Evolve time = 4.263898552 s; This step = 0.057200037 s; Avg. per step = 0.09269344678 s
+
+STEP 47 starts ...
+STEP 47 ends. TIME = 1.102172557e-14 DT = 2.345047993e-16
+Evolve time = 4.314001445 s; This step = 0.050102893 s; Avg. per step = 0.09178726479 s
+
+STEP 48 starts ...
+re-sorting particles 
+STEP 48 ends. TIME = 1.125623036e-14 DT = 2.345047993e-16
+Evolve time = 4.375613719 s; This step = 0.061612274 s; Avg. per step = 0.09115861915 s
+
+STEP 49 starts ...
+STEP 49 ends. TIME = 1.149073516e-14 DT = 2.345047993e-16
+Evolve time = 4.425985851 s; This step = 0.050372132 s; Avg. per step = 0.09032624186 s
+
+STEP 50 starts ...
+STEP 50 ends. TIME = 1.172523996e-14 DT = 2.345047993e-16
+Evolve time = 4.483667925 s; This step = 0.057682074 s; Avg. per step = 0.0896733585 s
+
+STEP 51 starts ...
+STEP 51 ends. TIME = 1.195974476e-14 DT = 2.345047993e-16
+Evolve time = 4.533707947 s; This step = 0.050040022 s; Avg. per step = 0.08889623425 s
+
+STEP 52 starts ...
+re-sorting particles 
+STEP 52 ends. TIME = 1.219424956e-14 DT = 2.345047993e-16
+Evolve time = 4.594142785 s; This step = 0.060434838 s; Avg. per step = 0.08834889971 s
+
+STEP 53 starts ...
+STEP 53 ends. TIME = 1.242875436e-14 DT = 2.345047993e-16
+Evolve time = 4.652182642 s; This step = 0.058039857 s; Avg. per step = 0.08777703098 s
+
+STEP 54 starts ...
+STEP 54 ends. TIME = 1.266325916e-14 DT = 2.345047993e-16
+Evolve time = 4.702072903 s; This step = 0.049890261 s; Avg. per step = 0.08707542413 s
+
+STEP 55 starts ...
+STEP 55 ends. TIME = 1.289776396e-14 DT = 2.345047993e-16
+Evolve time = 4.759920277 s; This step = 0.057847374 s; Avg. per step = 0.08654400504 s
+
+STEP 56 starts ...
+re-sorting particles 
+STEP 56 ends. TIME = 1.313226876e-14 DT = 2.345047993e-16
+Evolve time = 4.813350211 s; This step = 0.053429934 s; Avg. per step = 0.08595268234 s
+
+STEP 57 starts ...
+STEP 57 ends. TIME = 1.336677356e-14 DT = 2.345047993e-16
+Evolve time = 4.871953141 s; This step = 0.05860293 s; Avg. per step = 0.08547286212 s
+
+STEP 58 starts ...
+STEP 58 ends. TIME = 1.360127836e-14 DT = 2.345047993e-16
+Evolve time = 4.922222158 s; This step = 0.050269017 s; Avg. per step = 0.08486589928 s
+
+STEP 59 starts ...
+STEP 59 ends. TIME = 1.383578316e-14 DT = 2.345047993e-16
+Evolve time = 4.981028139 s; This step = 0.058805981 s; Avg. per step = 0.08442420575 s
+
+STEP 60 starts ...
+re-sorting particles 
+STEP 60 ends. TIME = 1.407028796e-14 DT = 2.345047993e-16
+Evolve time = 5.742984227 s; This step = 0.761956088 s; Avg. per step = 0.09571640378 s
+
+STEP 61 starts ...
+STEP 61 ends. TIME = 1.430479276e-14 DT = 2.345047993e-16
+Evolve time = 5.800284265 s; This step = 0.057300038 s; Avg. per step = 0.0950866273 s
+
+STEP 62 starts ...
+STEP 62 ends. TIME = 1.453929755e-14 DT = 2.345047993e-16
+Evolve time = 5.850886597 s; This step = 0.050602332 s; Avg. per step = 0.09436913866 s
+
+STEP 63 starts ...
+STEP 63 ends. TIME = 1.477380235e-14 DT = 2.345047993e-16
+Evolve time = 5.910116005 s; This step = 0.059229408 s; Avg. per step = 0.09381136516 s
+
+STEP 64 starts ...
+re-sorting particles 
+STEP 64 ends. TIME = 1.500830715e-14 DT = 2.345047993e-16
+Evolve time = 5.963802659 s; This step = 0.053686654 s; Avg. per step = 0.09318441655 s
+
+STEP 65 starts ...
+STEP 65 ends. TIME = 1.524281195e-14 DT = 2.345047993e-16
+Evolve time = 6.021908532 s; This step = 0.058105873 s; Avg. per step = 0.09264474665 s
+
+STEP 66 starts ...
+STEP 66 ends. TIME = 1.547731675e-14 DT = 2.345047993e-16
+Evolve time = 6.072465422 s; This step = 0.05055689 s; Avg. per step = 0.09200705185 s
+
+STEP 67 starts ...
+STEP 67 ends. TIME = 1.571182155e-14 DT = 2.345047993e-16
+Evolve time = 6.130857126 s; This step = 0.058391704 s; Avg. per step = 0.09150533024 s
+
+STEP 68 starts ...
+re-sorting particles 
+STEP 68 ends. TIME = 1.594632635e-14 DT = 2.345047993e-16
+Evolve time = 6.185952496 s; This step = 0.05509537 s; Avg. per step = 0.09096988965 s
+
+STEP 69 starts ...
+STEP 69 ends. TIME = 1.618083115e-14 DT = 2.345047993e-16
+Evolve time = 6.244207305 s; This step = 0.058254809 s; Avg. per step = 0.09049575804 s
+
+STEP 70 starts ...
+STEP 70 ends. TIME = 1.641533595e-14 DT = 2.345047993e-16
+Evolve time = 6.303092484 s; This step = 0.058885179 s; Avg. per step = 0.09004417834 s
+
+STEP 71 starts ...
+STEP 71 ends. TIME = 1.664984075e-14 DT = 2.345047993e-16
+Evolve time = 6.35461384 s; This step = 0.051521356 s; Avg. per step = 0.08950160338 s
+
+STEP 72 starts ...
+re-sorting particles 
+STEP 72 ends. TIME = 1.688434555e-14 DT = 2.345047993e-16
+Evolve time = 6.41741176 s; This step = 0.06279792 s; Avg. per step = 0.08913071889 s
+
+STEP 73 starts ...
+STEP 73 ends. TIME = 1.711885035e-14 DT = 2.345047993e-16
+Evolve time = 6.468406547 s; This step = 0.050994787 s; Avg. per step = 0.08860830886 s
+
+STEP 74 starts ...
+STEP 74 ends. TIME = 1.735335515e-14 DT = 2.345047993e-16
+Evolve time = 6.527159059 s; This step = 0.058752512 s; Avg. per step = 0.08820485215 s
+
+STEP 75 starts ...
+STEP 75 ends. TIME = 1.758785995e-14 DT = 2.345047993e-16
+Evolve time = 6.578167406 s; This step = 0.051008347 s; Avg. per step = 0.08770889875 s
+
+STEP 76 starts ...
+re-sorting particles 
+STEP 76 ends. TIME = 1.782236474e-14 DT = 2.345047993e-16
+Evolve time = 6.64036996 s; This step = 0.062202554 s; Avg. per step = 0.08737328895 s
+
+STEP 77 starts ...
+STEP 77 ends. TIME = 1.805686954e-14 DT = 2.345047993e-16
+Evolve time = 6.691364116 s; This step = 0.050994156 s; Avg. per step = 0.08690083268 s
+
+STEP 78 starts ...
+STEP 78 ends. TIME = 1.829137434e-14 DT = 2.345047993e-16
+Evolve time = 6.749887193 s; This step = 0.058523077 s; Avg. per step = 0.08653701529 s
+
+STEP 79 starts ...
+STEP 79 ends. TIME = 1.852587914e-14 DT = 2.345047993e-16
+Evolve time = 6.80074542 s; This step = 0.050858227 s; Avg. per step = 0.08608538506 s
+
+STEP 80 starts ...
+re-sorting particles 
+STEP 80 ends. TIME = 1.876038394e-14 DT = 2.345047993e-16
+Evolve time = 7.881458673 s; This step = 1.080713253 s; Avg. per step = 0.09851823341 s
+
+STEP 81 starts ...
+STEP 81 ends. TIME = 1.899488874e-14 DT = 2.345047993e-16
+Evolve time = 7.930524396 s; This step = 0.049065723 s; Avg. per step = 0.09790770859 s
+
+STEP 82 starts ...
+STEP 82 ends. TIME = 1.922939354e-14 DT = 2.345047993e-16
+Evolve time = 7.990871005 s; This step = 0.060346609 s; Avg. per step = 0.0974496464 s
+
+STEP 83 starts ...
+STEP 83 ends. TIME = 1.946389834e-14 DT = 2.345047993e-16
+Evolve time = 8.042128717 s; This step = 0.051257712 s; Avg. per step = 0.09689311707 s
+
+STEP 84 starts ...
+re-sorting particles 
+STEP 84 ends. TIME = 1.969840314e-14 DT = 2.345047993e-16
+Evolve time = 8.104981508 s; This step = 0.062852791 s; Avg. per step = 0.0964878751 s
+
+STEP 85 starts ...
+STEP 85 ends. TIME = 1.993290794e-14 DT = 2.345047993e-16
+Evolve time = 8.156744301 s; This step = 0.051762793 s; Avg. per step = 0.09596169766 s
+
+STEP 86 starts ...
+STEP 86 ends. TIME = 2.016741274e-14 DT = 2.345047993e-16
+Evolve time = 8.215492571 s; This step = 0.05874827 s; Avg. per step = 0.09552898338 s
+
+STEP 87 starts ...
+STEP 87 ends. TIME = 2.040191754e-14 DT = 2.345047993e-16
+Evolve time = 8.275148436 s; This step = 0.059655865 s; Avg. per step = 0.09511664869 s
+
+STEP 88 starts ...
+re-sorting particles 
+STEP 88 ends. TIME = 2.063642234e-14 DT = 2.345047993e-16
+Evolve time = 8.329368608 s; This step = 0.054220172 s; Avg. per step = 0.094651916 s
+
+STEP 89 starts ...
+STEP 89 ends. TIME = 2.087092714e-14 DT = 2.345047993e-16
+Evolve time = 8.388423297 s; This step = 0.059054689 s; Avg. per step = 0.09425194716 s
+
+STEP 90 starts ...
+STEP 90 ends. TIME = 2.110543193e-14 DT = 2.345047993e-16
+Evolve time = 8.440965107 s; This step = 0.05254181 s; Avg. per step = 0.09378850119 s
+
+STEP 91 starts ...
+STEP 91 ends. TIME = 2.133993673e-14 DT = 2.345047993e-16
+Evolve time = 8.500439606 s; This step = 0.059474499 s; Avg. per step = 0.09341142424 s
+
+STEP 92 starts ...
+re-sorting particles 
+STEP 92 ends. TIME = 2.157444153e-14 DT = 2.345047993e-16
+Evolve time = 8.555514631 s; This step = 0.055075025 s; Avg. per step = 0.09299472425 s
+
+STEP 93 starts ...
+STEP 93 ends. TIME = 2.180894633e-14 DT = 2.345047993e-16
+Evolve time = 8.615479782 s; This step = 0.059965151 s; Avg. per step = 0.09263956755 s
+
+STEP 94 starts ...
+STEP 94 ends. TIME = 2.204345113e-14 DT = 2.345047993e-16
+Evolve time = 8.66819818 s; This step = 0.052718398 s; Avg. per step = 0.09221487426 s
+
+STEP 95 starts ...
+STEP 95 ends. TIME = 2.227795593e-14 DT = 2.345047993e-16
+Evolve time = 8.72864587 s; This step = 0.06044769 s; Avg. per step = 0.09188048284 s
+
+STEP 96 starts ...
+re-sorting particles 
+STEP 96 ends. TIME = 2.251246073e-14 DT = 2.345047993e-16
+Evolve time = 8.7842632 s; This step = 0.05561733 s; Avg. per step = 0.09150274167 s
+
+STEP 97 starts ...
+STEP 97 ends. TIME = 2.274696553e-14 DT = 2.345047993e-16
+Evolve time = 8.84371391 s; This step = 0.05945071 s; Avg. per step = 0.09117230835 s
+
+STEP 98 starts ...
+STEP 98 ends. TIME = 2.298147033e-14 DT = 2.345047993e-16
+Evolve time = 8.895771927 s; This step = 0.052058017 s; Avg. per step = 0.09077318293 s
+
+STEP 99 starts ...
+STEP 99 ends. TIME = 2.321597513e-14 DT = 2.345047993e-16
+Evolve time = 8.954215943 s; This step = 0.058444016 s; Avg. per step = 0.09044662569 s
+
+STEP 100 starts ...
+re-sorting particles 
+STEP 100 ends. TIME = 2.345047993e-14 DT = 2.345047993e-16
+Evolve time = 9.682801283 s; This step = 0.72858534 s; Avg. per step = 0.09682801283 s
+
+**** WARNINGS ******************************************************************
+* GLOBAL warning list  after  [ THE END ]
+*
+* No recorded warnings.
+********************************************************************************
+
+Total Time                     : 11.86662964
+
+
+TinyProfiler total time across processes [min...avg...max]: 11.87 ... 11.87 ... 11.87
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+FlushFormatOpenPMD::WriteToFile()                               6       4.16      4.538      5.094  42.92%
+FabArray::ParallelCopy_finish()                              1207      1.048       1.58      1.813  15.28%
+FillBoundary_finish()                                        1560      0.998      1.224      1.501  12.64%
+WarpXOpenPMDPlot::WriteOpenPMDFields()                          6     0.7758     0.8053     0.8608   7.25%
+FillBoundary_nowait()                                        1560     0.4068     0.6051     0.8095   6.82%
+FabArray::ParallelCopy_nowait()                              1207     0.4562     0.5369     0.6193   5.22%
+WarpXOpenPMDPlot::WriteOpenPMDParticles()                       6    0.04884     0.2012     0.4939   4.16%
+ParticleCopyPlan::doHandShake                                 204    0.02722     0.3016     0.4272   3.60%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition     484          0    0.08393     0.4101   3.46%
+WarpX::InitData()                                               1   0.003623     0.3107     0.3235   2.73%
+Redistribute_partition                                        204   0.002859    0.07045     0.2817   2.37%
+PhysicalParticleContainer::Evolve::GatherAndPush              271          0    0.05262     0.2633   2.22%
+Filter::ApplyStencil(MultiFab)                                307     0.2128     0.2355     0.2498   2.10%
+FabArray::setVal()                                           1536     0.1718      0.188     0.2085   1.76%
+OwnerMask()                                                   900     0.1631     0.1711      0.184   1.55%
+WarpX::EvolveB()                                              200     0.1516     0.1579     0.1666   1.40%
+OverrideSync_finish()                                         900     0.1234     0.1253     0.1299   1.09%
+OverrideSync_nowait()                                         900    0.09947     0.1056     0.1109   0.93%
+WarpX::EvolveE()                                              100    0.09639    0.09887      0.104   0.88%
+ParticleContainer::addParticles                                 6  7.826e-05    0.01986    0.09893   0.83%
+WarpX::shiftMF()                                              312    0.05755    0.05982    0.06773   0.57%
+WarpXParticleContainer::ApplyBoundaryConditions()             200   0.002453    0.01604    0.06608   0.56%
+DenseBins<T>::buildGPU                                        857    0.05523    0.05784    0.06421   0.54%
+ParticleContainer::SortParticlesByBin()                        50    0.02469    0.03276    0.05776   0.49%
+MultiFab::Copy()                                              312    0.05156    0.05243    0.05472   0.46%
+PhysicalParticleContainer::AddPlasma()                         53   0.005576    0.01704    0.05417   0.46%
+CoarsenIO::Coarsen()                                           28    0.02974    0.03222    0.03728   0.31%
+WarpX::Evolve::step                                           100     0.0127    0.02245    0.03652   0.31%
+PhysicalParticleContainer::Evolve()                           100    0.00179   0.009133    0.03133   0.26%
+ParticleContainer::RedistributeGPU()                          204    0.01183    0.01562     0.0284   0.24%
+LaserParticleContainer::Evolve()                              100   0.001701   0.007452    0.02729   0.23%
+LaserParticleContainer::Evolve::ParticlePush                  213          0   0.005732    0.02499   0.21%
+amrex::communicateParticlesStart                              204   0.005659   0.008081    0.02279   0.19%
+amrex::computeNeighborProcs                                   200    0.01528    0.01806    0.02096   0.18%
+ParticleCopyPlan::build                                       204     0.0167    0.01767    0.01967   0.17%
+amrex::communicateParticlesFinish                             204   7.47e-05   0.002417    0.01699   0.14%
+WarpX::SyncCurrent()                                          100    0.01087    0.01276     0.0152   0.13%
+ablastr::particles::deposit_charge::ChargeDeposition           35          0    0.00258    0.01182   0.10%
+amrex::unpackBuffer                                           204   0.006472   0.007499    0.01109   0.09%
+WarpX::OneStep_nosub()                                        100   0.008752   0.009244    0.01002   0.08%
+FabArrayBase::FB::FB()                                         18   0.007216   0.008625    0.00994   0.08%
+amrex::unpackRemotes                                          204  5.388e-05   0.002604   0.008747   0.07%
+amrex::packBuffer                                             204   0.005866   0.006877   0.007761   0.07%
+Diagnostics::FilterComputePackFlush()                         102    0.00161   0.002492   0.004705   0.04%
+ParticleCopyPlan::buildMPIStart                               204   0.001465   0.002567   0.004542   0.04%
+main()                                                          1   0.001671   0.001837   0.004403   0.04%
+PhysicalParticleContainer::PushP()                              2  2.637e-05  0.0007605   0.003637   0.03%
+WarpX::PrintGlobalWarnings                                      2  9.752e-05   0.001289   0.003261   0.03%
+DistributionMapping::LeastUsedCPUs()                            2  3.788e-05   0.002523   0.002719   0.02%
+FabArrayBase::CPC::define()                                    10   0.001666   0.002023   0.002341   0.02%
+PhysicalParticleContainer::ConvertUnits()                      12    0.00016  0.0006446   0.002306   0.02%
+FabArray::FillBoundary()                                     1560   0.001603   0.001676   0.001777   0.01%
+MultiParticleContainer::doQedEvents()                         100   0.001629   0.001692   0.001742   0.01%
+MultiFab::Add()                                                 7   0.001597   0.001622   0.001695   0.01%
+FabArrayBase::getFB()                                        1560   0.001227   0.001343   0.001425   0.01%
+FabArrayBase::getCPC()                                       1207  0.0009875   0.001212   0.001415   0.01%
+WarpXCommUtil::FillBoundary                                  1560    0.00103   0.001077    0.00115   0.01%
+OverrideSync()                                                900  0.0009443   0.001009   0.001125   0.01%
+WarpX::UpdateAuxilaryData()                                   109  0.0006467  0.0006641  0.0006971   0.01%
+WarpX::SyncRho()                                              100  0.0005997  0.0006227  0.0006718   0.01%
+WarpX::Evolve()                                                 1  0.0005791   0.000601  0.0006619   0.01%
+MultiParticleContainer::doQedBreitWheeler()                   100  0.0005792  0.0006049   0.000638   0.01%
+MultiParticleContainer::doCollisions()                        100  0.0005611  0.0005803  0.0006028   0.01%
+MultiParticleContainer::doFieldIonization()                   100  0.0005733  0.0005858  0.0005942   0.01%
+MultiParticleContainer::doQedQuantumSync()                    100  0.0005495  0.0005637  0.0005777   0.00%
+MultiParticleContainer::doQEDSchwinger()                      100  0.0005434  0.0005609  0.0005763   0.00%
+ParticleCopyPlan::buildMPIFinish                              204    8.2e-05  0.0001689  0.0004893   0.00%
+ParticleBufferMap::define                                       4  0.0004584  0.0004694  0.0004857   0.00%
+FabArray::ParallelCopy()                                      307  0.0003759  0.0004113  0.0004739   0.00%
+ParticleContainer::defineBufferMap                            204  0.0001185  0.0001413  0.0001829   0.00%
+BilinearFilter::ComputeStencils()                               1  6.473e-05  6.655e-05  6.956e-05   0.00%
+DistributionMapping::SFCProcessorMapDoIt()                      2  5.319e-05  5.654e-05  5.976e-05   0.00%
+WarpX::ComputeSpaceChargeField                                  1  1.436e-05  3.832e-05  5.933e-05   0.00%
+PhysicalParticleContainer::AddParticles()                       2  1.729e-05  1.794e-05  1.891e-05   0.00%
+DistributionMapping::Distribute()                               2  1.643e-05   1.72e-05  1.786e-05   0.00%
+ParticleContainer::copyParticles                                6  7.981e-06   1.07e-05  1.554e-05   0.00%
+ParticleContainer::clearParticles()                             6  2.916e-06  4.944e-06  6.245e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Name                                                       NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+----------------------------------------------------------------------------------------------------------
+main()                                                          1      11.87      11.87      11.87  99.99%
+WarpX::Evolve()                                                 1      9.713      9.715      9.716  81.87%
+WarpX::Evolve::step                                           100       9.68      9.682      9.686  81.62%
+Diagnostics::FilterComputePackFlush()                         102      5.793      5.818      6.257  52.73%
+FlushFormatOpenPMD::WriteToFile()                               6      5.533      5.565      6.004  50.59%
+WarpX::OneStep_nosub()                                        100      3.701      3.732      3.765  31.73%
+WarpX::SyncCurrent()                                          100        1.6      2.172      2.333  19.66%
+WarpX::InitData()                                               1      2.147      2.149      2.149  18.11%
+WarpXCommUtil::FillBoundary                                  1560      1.708      1.841       1.97  16.60%
+FabArray::FillBoundary()                                     1560      1.707       1.84      1.969  16.59%
+FabArray::ParallelCopy_finish()                              1207      1.048       1.58      1.813  15.28%
+FabArray::ParallelCopy()                                      307     0.9836      1.529      1.723  14.52%
+FillBoundary_finish()                                        1560      0.998      1.224      1.501  12.64%
+OverrideSync()                                                900     0.8206      0.909      1.182   9.96%
+WarpXOpenPMDPlot::WriteOpenPMDFields()                          6     0.7758     0.8053     0.8608   7.25%
+FillBoundary_nowait()                                        1560     0.4158     0.6151     0.8205   6.91%
+OverrideSync_finish()                                         900     0.3523     0.4546     0.7356   6.20%
+PhysicalParticleContainer::Evolve()                           100    0.00179     0.1388     0.6805   5.73%
+FabArray::ParallelCopy_nowait()                              1207     0.4593     0.5401     0.6225   5.25%
+WarpXOpenPMDPlot::WriteOpenPMDParticles()                       6    0.04909     0.2217     0.5914   4.98%
+ParticleContainer::RedistributeGPU()                          204     0.3686     0.4545     0.5111   4.31%
+OverrideSync_nowait()                                         900     0.4262     0.4534     0.4723   3.98%
+ParticleCopyPlan::build                                       204    0.06838     0.3399     0.4627   3.90%
+ParticleCopyPlan::buildMPIStart                               204    0.03158     0.3042     0.4289   3.61%
+ParticleCopyPlan::doHandShake                                 204    0.02722     0.3016     0.4272   3.60%
+WarpXParticleContainer::DepositCurrent::CurrentDeposition     484          0    0.08393     0.4101   3.46%
+WarpX::shiftMF()                                              312     0.3385     0.3459     0.3539   2.98%
+Redistribute_partition                                        204   0.002859    0.07045     0.2817   2.37%
+PhysicalParticleContainer::Evolve::GatherAndPush              271          0    0.05262     0.2633   2.22%
+Filter::ApplyStencil(MultiFab)                                307     0.2128     0.2355     0.2498   2.10%
+FabArray::setVal()                                           1536     0.1718      0.188     0.2085   1.76%
+OwnerMask()                                                   900     0.1631     0.1711      0.184   1.55%
+WarpX::EvolveB()                                              200     0.1516     0.1579     0.1666   1.40%
+ParticleContainer::SortParticlesByBin()                        50    0.07999    0.09031      0.121   1.02%
+WarpX::EvolveE()                                              100    0.09639    0.09887      0.104   0.88%
+ParticleContainer::copyParticles                                6  9.202e-05    0.01988    0.09894   0.83%
+ParticleContainer::addParticles                                 6  7.826e-05    0.01986    0.09893   0.83%
+LaserParticleContainer::Evolve()                              100   0.001701    0.02006    0.08296   0.70%
+WarpXParticleContainer::ApplyBoundaryConditions()             200   0.002453    0.01604    0.06608   0.56%
+DenseBins<T>::buildGPU                                        857    0.05523    0.05784    0.06421   0.54%
+MultiFab::Copy()                                              312    0.05156    0.05243    0.05472   0.46%
+PhysicalParticleContainer::AddPlasma()                         53   0.005576    0.01704    0.05417   0.46%
+CoarsenIO::Coarsen()                                           28    0.02974    0.03222    0.03728   0.31%
+LaserParticleContainer::Evolve::ParticlePush                  213          0   0.005732    0.02499   0.21%
+amrex::communicateParticlesStart                              204   0.005659   0.008081    0.02279   0.19%
+amrex::computeNeighborProcs                                   200    0.01528    0.01806    0.02096   0.18%
+amrex::communicateParticlesFinish                             204   7.47e-05   0.002417    0.01699   0.14%
+ablastr::particles::deposit_charge::ChargeDeposition           35          0    0.00258    0.01182   0.10%
+PhysicalParticleContainer::AddParticles()                       2   0.004258    0.00573    0.01173   0.10%
+FabArrayBase::getFB()                                        1560    0.00857   0.009968    0.01117   0.09%
+amrex::unpackBuffer                                           204   0.006472   0.007499    0.01109   0.09%
+FabArrayBase::FB::FB()                                         18   0.007216   0.008625    0.00994   0.08%
+amrex::unpackRemotes                                          204  5.388e-05   0.002604   0.008747   0.07%
+amrex::packBuffer                                             204   0.005866   0.006877   0.007761   0.07%
+PhysicalParticleContainer::PushP()                              2  2.637e-05  0.0007605   0.003637   0.03%
+FabArrayBase::getCPC()                                       1207   0.002838   0.003235    0.00354   0.03%
+WarpX::PrintGlobalWarnings                                      2  9.752e-05   0.001289   0.003261   0.03%
+MultiParticleContainer::doQedEvents()                         100   0.002769    0.00286   0.002936   0.02%
+DistributionMapping::SFCProcessorMapDoIt()                      2  0.0001119   0.002596   0.002792   0.02%
+DistributionMapping::LeastUsedCPUs()                            2  3.788e-05   0.002523   0.002719   0.02%
+FabArrayBase::CPC::define()                                    10   0.001666   0.002023   0.002341   0.02%
+PhysicalParticleContainer::ConvertUnits()                      12    0.00016  0.0006446   0.002306   0.02%
+MultiFab::Add()                                                 7   0.001597   0.001622   0.001695   0.01%
+WarpX::UpdateAuxilaryData()                                   109  0.0006467  0.0006641  0.0006971   0.01%
+WarpX::SyncRho()                                              100  0.0005997  0.0006227  0.0006718   0.01%
+ParticleContainer::defineBufferMap                            204  0.0005801  0.0006107  0.0006568   0.01%
+MultiParticleContainer::doQedBreitWheeler()                   100  0.0005792  0.0006049   0.000638   0.01%
+MultiParticleContainer::doCollisions()                        100  0.0005611  0.0005803  0.0006028   0.01%
+MultiParticleContainer::doFieldIonization()                   100  0.0005733  0.0005858  0.0005942   0.01%
+MultiParticleContainer::doQedQuantumSync()                    100  0.0005495  0.0005637  0.0005777   0.00%
+MultiParticleContainer::doQEDSchwinger()                      100  0.0005434  0.0005609  0.0005763   0.00%
+ParticleCopyPlan::buildMPIFinish                              204    8.2e-05  0.0001689  0.0004893   0.00%
+ParticleBufferMap::define                                       4  0.0004584  0.0004694  0.0004857   0.00%
+BilinearFilter::ComputeStencils()                               1  6.473e-05  6.655e-05  6.956e-05   0.00%
+WarpX::ComputeSpaceChargeField                                  1  2.004e-05  4.448e-05   6.53e-05   0.00%
+DistributionMapping::Distribute()                               2  1.643e-05   1.72e-05  1.786e-05   0.00%
+ParticleContainer::clearParticles()                             6  2.916e-06  4.944e-06  6.245e-06   0.00%
+----------------------------------------------------------------------------------------------------------
+
+Unused ParmParse Variables:
+  [TOP]::warpx.serialize_initial_conditions(nvals = 1)  :: [1]
+  [TOP]::electrons.addIntegerAttributes(nvals = 1)  :: [regionofinterest]
+  [TOP]::electrons.attribute.regionofinterest(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [(z>12.0e-6) * (z<13.0e-6)]
+  [TOP]::electrons.addRealAttributes(nvals = 1)  :: [initialenergy]
+  [TOP]::electrons.attribute.initialenergy(x,y,z,ux,uy,uz,t)(nvals = 1)  :: [ ux*ux + uy*uy + uz*uz]
+  [TOP]::FP.probe_geometry(nvals = 1)  :: [Line]
+  [TOP]::FP.x1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.y1_probe(nvals = 1)  :: [0]
+  [TOP]::FP.z1_probe(nvals = 1)  :: [12e-6]
+  [TOP]::FP.resolution(nvals = 1)  :: [300]
+  [TOP]::FP.do_moving_window_FP(nvals = 1)  :: [1]
+
+Total GPU global memory (MB) spread across MPI: [16128 ... 16128]
+Free  GPU global memory (MB) spread across MPI: [14834 ... 15066]
+[The         Arena] space (MB) allocated spread across MPI: [12096 ... 12096]
+[The         Arena] space (MB) used      spread across MPI: [0 ... 0]
+[The  Pinned Arena] space (MB) allocated spread across MPI: [37 ... 208]
+[The  Pinned Arena] space (MB) used      spread across MPI: [0 ... 0]
+AMReX (22.01) finalized
