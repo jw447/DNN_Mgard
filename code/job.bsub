@@ -12,7 +12,7 @@ source ../evn_scripts/evn.bash.summit
 
 WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
 NYX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-EXASKY-NYX-512x512x512
-MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/code/Multiprecision-data-refactoring
+MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/Multiprecision-data-refactoring
 
 #data=$WARPX_DIR/openpmd00300_jx.dat
 data=$NYX_DIR/baryon_density.f32
