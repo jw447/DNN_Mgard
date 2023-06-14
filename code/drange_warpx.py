@@ -32,10 +32,12 @@ def getMinMax(ts):
 
 def main():
 
-    ts_start   = 0
-    ts_end     = 100
-    for v in np.arange(ts_start, ts_end, 2):
-        getMinMax(v)
+    #ts_start   = 0
+    #ts_end     = 100
+    #for v in np.arange(ts_start, ts_end, 2):
+    getMinMax(30)
+    getMinMax(60)
+    getMinMax(90)
 
 main()
 

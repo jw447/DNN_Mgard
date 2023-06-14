@@ -2,4 +2,7 @@
 *.sz
 *.zfp
 *.bp
-
+*.bin
+*.tar.gz
+*.f32
+ExternalDependencies/

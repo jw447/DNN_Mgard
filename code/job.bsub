@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#BSUB -P csc143
+#BSUB -W 02:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags smt4
+#BSUB -J run_mgard 
+#BSUB -o run_mgardo.%J
+#BSUB -e run_mgarde.%J
+
+source ../evn_scripts/evn.bash.summit
+
+WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
+NYX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-EXASKY-NYX-512x512x512
+MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/code/Multiprecision-data-refactoring
+
+#data=$WARPX_DIR/openpmd00300_jx.dat
+data=$NYX_DIR/baryon_density.f32
+#$MGARD_DIR/build/test/test_refactor      ${data} 2 32 3 128 128 128
+
+#echo "=====c gen ========"
+#while IFS= read -r line; do
+#    $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 11586.2231066 0 $line
+#done < c_gen.txt
+#echo "=============================================================="
+
+#echo "=====c0 gen ========"
+#while IFS= read -r line; do
+#    $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 11586.2231066 0 $line
+#done < c0_gen.txt
+#echo "=============================================================="
+
+#echo "=====c1 gen ========"
+#while IFS= read -r line; do
+#    $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 11586.2231066 0 $line
+#done < c1_gen.txt
+#echo "=============================================================="
+
+echo "=====c2 gen ========"
+while IFS= read -r line; do
+    $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 11586.2231066 0 $line
+done < c2_gen.txt
+echo "=============================================================="
+
