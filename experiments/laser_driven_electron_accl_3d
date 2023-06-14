@@ -1,8 +1,8 @@
 #################################
 ####### GENERAL PARAMETERS ######
 #################################
-max_step = 1000           # for production, run for longer time, e.g. max_step = 1000
-amr.n_cell = 128 128 128   # for production, run with finer mesh, e.g. amr.n_cell = 64 64 512
+max_step = 100           # for production, run for longer time, e.g. max_step = 1000
+amr.n_cell = 512 512 512  # for production, run with finer mesh, e.g. amr.n_cell = 64 64 512
 amr.max_grid_size = 64   # maximum size of each AMReX box, used to decompose the domain
 amr.blocking_factor = 32 # minimum size of each AMReX box, used to decompose the domain
 geometry.dims = 3
@@ -73,13 +73,13 @@ laser1.profile_focal_distance = 100.e-6  # Focal distance from the antenna (in m
 laser1.wavelength = 0.8e-6               # The wavelength of the laser (in m)
 
 # Diagnostics
-diagnostics.diags_names = diag1
-diag1.intervals = 20
-diag1.diag_type = Full
+diagnostics.diags_names = diag_io
+diag_io.intervals = 20
+diag_io.diag_type = Full
 #diag1.fields_to_plot = Ex Ey Ez Bx By Bz jx jy jz rho
-diag1.fields_to_plot = Ex Bx jx 
-diag1.format = openpmd
-diag1.openpmd_backend=bp
+diag_io.fields_to_plot = Ex Bx jx rho 
+diag_io.format = openpmd
+diag_io.openpmd_backend=bp
 
 # Reduced Diagnostics
 warpx.reduced_diags_names               = FP

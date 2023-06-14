@@ -1,0 +1,26 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 2985652: <WarpXIO> in cluster <summit> Done
+
+Job <WarpXIO> was submitted from host <login1> by user <jw447> in cluster <summit> at Tue Jun  6 14:40:20 2023
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <jw447> in cluster <summit> at Tue Jun  6 14:41:06 2023
+                            <42*h34n11>
+                            <42*h34n12>
+                            <42*h34n13>
+                            <42*h50n05>
+                            <42*h50n09>
+</ccs/home/jw447> was used as the home directory.
+</gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/experiments> was used as the working directory.
+Started at Tue Jun  6 14:41:06 2023
+Terminated at Tue Jun  6 14:41:43 2023
+Results reported at Tue Jun  6 14:41:43 2023
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <WarpXIOe.2985652> for stderr output of this job.
+
