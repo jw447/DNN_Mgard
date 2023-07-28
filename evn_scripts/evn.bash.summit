@@ -18,3 +18,10 @@ export SZ_LIBRARY=$SZ_ROOT/install/lib64/libSZ.so
 export ZFP_ROOT=$PROJHOME/ExternalDependencies/zfp
 export ZFP_INCLUDE_DIR=$ZFP_ROOT/install/lib64/libzfp.so
 export ZFP_LIBRARY=$ZFP_ROOT/install/include
+
+export HACC_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/EXASKY-HACC-data-medium-size
+export HURR_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-Hurricane-ISABEL-100x500x500
+export NYX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-EXASKY-NYX-512x512x512
+export QMCP_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-QMCPack/115x69x69x288/
+export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
+
