@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#BSUB -P csc143
+#BSUB -W 02:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags smt4
+#BSUB -J run_mgard 
+#BSUB -o run_mgardo.%J
+#BSUB -e run_mgarde.%J
+
+source ../evn_scripts/evn.bash.summit
+
+export count=10000
+export offsetNumber=60000 #0 10000 20000 30000 40000 50000 60000
+
+data=$QMCP/einspline_115_69_69_288.f32  #valueRange = 10.152030
+$MGARD_DIR/build/test/test_refactor      ${data} 2 32 3 500 500 100
+#abserr=1.0
+#echo "===== name=hurr_cloud48_log, c_gen_full, offset=$offsetNumber, count=$count ========"
+#awk "$offsetNumber<=NR && NR<$offsetNumber+$count" c_gen.txt | 
+#while read line; do
+#  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line
+#done
+#echo "=============================================================="
+
+

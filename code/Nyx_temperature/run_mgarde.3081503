@@ -1,0 +1,8 @@
+
+Lmod is automatically replacing "xl/16.1.1-10" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cmake/3.18.4     2) spectrum-mpi/10.4.0.3-20210112
+
+User defined signal 2
