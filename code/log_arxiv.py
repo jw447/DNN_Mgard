@@ -14,7 +14,7 @@ if __name__ == "__main__":
         with open(fname, "r") as f:
             try:
                 logname = f.readline().split(" ", 3)[1].split("/")[-1].replace(".dat", "")
-                dest_dir = appname.capitalize()+"_"+logname.lower()
+                dest_dir = appname.capitalize()+"_"+logname.lower().replace(".bin", "").replace(".f32", "").replace(".log10", "_log")
                 print(fname_base, fname_idx, appname, fname_e, dest_dir)
                 if os.path.exists(dest_dir):
                     pass
