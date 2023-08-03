@@ -21,16 +21,16 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-
-#$data=$WARPX_DIR/openpmd00080_ex.dat
-#$valueRange=7172488797
-#$abserr=$(bc <<< "$valueRange*$relerr")
-#$echo "===== name=$data  ========"
-#$for i in {1..50}; do
-#$       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-#$done
-#$wait
-
+#
+#data=$WARPX_DIR/openpmd00080_ex.dat
+#valueRange=7172488797
+#abserr=$(bc <<< "$valueRange*$relerr")
+#echo "===== name=$data  ========"
+#for i in {1..50}; do
+#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+#done
+#wait
+#
 #data=$WARPX_DIR/openpmd00080_jx.dat
 #valueRange=794902727015
 #abserr=$(bc <<< "$valueRange*$relerr")
@@ -39,7 +39,7 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-
+#
 #data=$WARPX_DIR/openpmd00080_rho.dat
 #valueRange=9587519.83
 #abserr=$(bc <<< "$valueRange*$relerr")
