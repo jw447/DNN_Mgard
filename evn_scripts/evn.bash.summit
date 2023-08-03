@@ -20,7 +20,7 @@ export ZFP_INCLUDE_DIR=$ZFP_ROOT/install/lib64/libzfp.so
 export ZFP_LIBRARY=$ZFP_ROOT/install/include
 export MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/Multiprecision-data-refactoring
 
-export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
+export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_512
 export HURR_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-Hurricane-ISABEL-100x500x500
 export NYX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-EXASKY-NYX-512x512x512
 export CESM_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-CESM-ATM-cleared-1800x3600

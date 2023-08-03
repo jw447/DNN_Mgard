@@ -6,12 +6,14 @@ import numpy as np
 import adios2 as ad
 from tqdm import tqdm
 
-nx = 128 
-ny = 128 
-nz = 128 
+nx = 512 
+ny = 512 
+nz = 512 
 
-path_orig = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/experiments/diags/diag1/"
-path_dest = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128"
+#path_orig = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/experiments/diags/diag1/"
+#path_dest = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128"
+path_orig = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/experiments/diags/diag_io/"
+path_dest = "/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_512"
 
 def getMinMax(ts):
 
@@ -27,17 +29,11 @@ def getMinMax(ts):
     data = fr.read("/data/{}/fields/j/x".format(int(ts*10)), [0, 0, 0], [nx, ny, nz])
     print("ts = {}, var = {}, min = {}, max = {}".format(int(ts*10), "Jx", np.min(data), np.max(data))) 
 
-#    data = fr.read("/data/{}/fields/rho".format(int(ts*10)), [0, 0, 0], [nx, ny, nz])
-#    print("ts = {}, var = {}, min = {}, max = {}".format(int(ts*10), "RHO", np.min(data), np.max(data))) 
+    data = fr.read("/data/{}/fields/rho".format(int(ts*10)), [0, 0, 0], [nx, ny, nz])
+    print("ts = {}, var = {}, min = {}, max = {}".format(int(ts*10), "RHO", np.min(data), np.max(data))) 
 
 def main():
-
-    #ts_start   = 0
-    #ts_end     = 100
-    #for v in np.arange(ts_start, ts_end, 2):
-    getMinMax(30)
-    getMinMax(60)
-    getMinMax(90)
+    getMinMax(8)
 
 main()
 

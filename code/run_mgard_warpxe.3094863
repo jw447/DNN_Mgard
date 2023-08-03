@@ -1,0 +1,7 @@
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 25: =/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_512/openpmd00080_ex.dat: No such file or directory
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 26: =7172488797: command not found
+(standard_in) 1: syntax error
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 27: =: command not found
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 28: ===== name=  ========: command not found
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 29: syntax error near unexpected token `do'
+/ccs/home/jw447/.lsbatch/1691045482.3094863.shell: line 29: `$for i in {1..50}; do'
