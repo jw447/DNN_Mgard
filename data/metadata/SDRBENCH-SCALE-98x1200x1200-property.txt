@@ -1,0 +1,168 @@
+=============================================
+The property of PRES-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+98704.820312 98742.546875 98775.820312 98801.726562 98818.468750 98857.578125 98852.312500 98842.695312 98830.648438 98817.835938 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 2285.463135
+max = 101820.218750
+valueRange = 99534.755615
+avgValue = 42841.461343
+entropy = 7.106110
+zeromean_variance = 1136690878.250547
+=============================================
+The property of QC-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.003012
+valueRange = 0.003012
+avgValue = 0.000006
+entropy = 3.924437
+zeromean_variance = 0.000002
+=============================================
+The property of QG-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.014881
+valueRange = 0.014881
+avgValue = 0.000015
+entropy = 7.479719
+zeromean_variance = 0.000055
+=============================================
+The property of QI-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.001601
+valueRange = 0.001601
+avgValue = 0.000004
+entropy = 4.008612
+zeromean_variance = 0.000001
+=============================================
+The property of QR-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.006372
+valueRange = 0.006372
+avgValue = 0.000013
+entropy = 7.500079
+zeromean_variance = 0.000010
+=============================================
+The property of QS-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.000757
+valueRange = 0.000757
+avgValue = 0.000006
+entropy = 7.494644
+zeromean_variance = 0.000000
+=============================================
+The property of QV-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.012563 0.012578 0.012590 0.012599 0.012606 0.012638 0.012647 0.012658 0.012671 0.012686 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 0.019523
+valueRange = 0.019523
+avgValue = 0.004301
+entropy = 7.392109
+zeromean_variance = 0.000058
+=============================================
+The property of RH-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+32.826328 32.940609 33.084766 33.227097 33.337921 33.608292 33.653629 33.714611 33.732353 33.769905 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 0.000000
+max = 204.472931
+valueRange = 204.472931
+avgValue = 44.645348
+entropy = 7.115817
+zeromean_variance = 4167.404806
+=============================================
+The property of T-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+308.779999 308.746552 308.692871 308.634796 308.588257 308.497833 308.485168 308.467163 308.473785 308.472443 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = 181.915298
+max = 314.630127
+valueRange = 132.714828
+avgValue = 251.063043
+entropy = 6.621527
+zeromean_variance = 1273.920961
+=============================================
+The property of U-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+-2.790301 -2.862238 -2.888209 -2.922849 -2.955916 -3.000849 -3.034960 -3.041001 -3.039267 -3.030028 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = -71.754318
+max = 46.676640
+valueRange = 118.430958
+avgValue = 5.797900
+entropy = 7.236870
+zeromean_variance = 411.672633
+=============================================
+The property of V-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+-0.006003 0.033884 0.055717 0.071934 0.083578 0.123290 0.135022 0.152051 0.173417 0.201406 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = -40.154949
+max = 59.421127
+valueRange = 99.576077
+avgValue = -0.412713
+entropy = 7.383151
+zeromean_variance = 144.528913
+=============================================
+The property of W-98x1200x1200.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.010121 0.024285 0.019647 0.013188 0.018674 0.010519 -0.009623 -0.011944 -0.012588 -0.020232 ....
+------------------------
+numOfElem = 141120000
+totalDataSize = 564480000 bytes (538.330078 MB)
+min = -37.121399
+max = 26.771179
+valueRange = 63.892578
+avgValue = -0.019420
+entropy = 7.448678
+zeromean_variance = 28.663036

@@ -1,0 +1,14 @@
+=============================================
+The property of einspline_115_69_69_288.f32 :
+This is little-endian system.
+The first 10 values are: 
+-2.341361 -2.341361 2.177117 2.496278 -2.342006 2.342006 2.529034 -2.141112 2.177645 2.496978 ....
+------------------------
+numOfElem = 157684320
+totalDataSize = 630737280 bytes (601.517944 MB)
+min = -16.505009
+max = 16.505009
+valueRange = 33.010017
+avgValue = 0.008473
+entropy = 7.565581
+zeromean_variance = 0.561939

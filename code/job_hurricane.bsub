@@ -4,32 +4,47 @@
 #BSUB -W 02:00
 #BSUB -nnodes 1
 #BSUB -alloc_flags smt4
-#BSUB -J run_mgard 
-#BSUB -o run_mgardo.%J
-#BSUB -e run_mgarde.%J
+#BSUB -J run_mgard_hurricane 
+#BSUB -o run_mgard_hurricaneo.%J
+#BSUB -e run_mgard_hurricanee.%J
 
 source ../evn_scripts/evn.bash.summit
 
-export count=10000
-export offsetNumber=60000 #0 10000 20000 30000 40000 50000 60000
+count=$((65536/50))
+relerr=0.1
 
-data=$HURR_DIR/CLOUDf48.log10.bin.f32  #valueRange = 10.152030
-#$MGARD_DIR/build/test/test_refactor      ${data} 2 32 3 500 500 100
-abserr=1.0
-echo "===== name=hurr_cloud48_log, c_gen_full, offset=$offsetNumber, count=$count ========"
-awk "$offsetNumber<=NR && NR<$offsetNumber+$count" c_gen.txt | 
-while read line; do
-  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line
+data=$HURR_DIR/CLOUDf48.log10.bin.f32
+valueRange=10.152030
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 done
-echo "=============================================================="
+wait
 
-#data=$HURR_DIR/QCLOUDf48.log10.bin.f32 #valueRange = 35.105674
-##$MGARD_DIR/build/test/test_refactor      ${data} 2 32 3 500 500 100
-#abserr=3.5
-#echo "===== name=hurr_qcloud48_log, c_gen_full, offset=$offsetNumber, count=$count ========"
-#awk "$offsetNumber<=NR && NR<$offsetNumber+$count" c_gen.txt | 
-#while read line; do
-#  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line
-#done
-#echo "=============================================================="
+data=$HURR_DIR/PRECIPf48.log10.bin.f32
+valueRange=35.801388
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
 
+data=$HURR_DIR/QGRAUPf48.log10.bin.f32
+valueRange=35.765643
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
+
+data=$HURR_DIR/QICEf48.log10.bin.f32
+valueRange=18.683064
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait

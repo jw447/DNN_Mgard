@@ -18,10 +18,11 @@ export SZ_LIBRARY=$SZ_ROOT/install/lib64/libSZ.so
 export ZFP_ROOT=$PROJHOME/ExternalDependencies/zfp
 export ZFP_INCLUDE_DIR=$ZFP_ROOT/install/lib64/libzfp.so
 export ZFP_LIBRARY=$ZFP_ROOT/install/include
+export MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/Multiprecision-data-refactoring
 
-export HACC_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/EXASKY-HACC-data-medium-size
+export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
 export HURR_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-Hurricane-ISABEL-100x500x500
 export NYX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-EXASKY-NYX-512x512x512
-export QMCP_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-QMCPack/115x69x69x288/
-export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
+export CESM_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-CESM-ATM-cleared-1800x3600
+export SCAL_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-SCALE_98x1200x1200
 

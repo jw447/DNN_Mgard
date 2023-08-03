@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#BSUB -P csc143
+#BSUB -W 02:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags smt4
+#BSUB -J run_mgard_cesm 
+#BSUB -o run_mgard_cesmo.%J
+#BSUB -e run_mgard_cesme.%J
+
+#source ../evn_scripts/evn.bash.summit
+
+count=$((65536/50))
+relerr=0.1
+
+#data=$CESM_DIR/AEROD_v_1_1800_3600.dat
+#valueRange=0.571555
+#abserr=$(bc <<< "$valueRange*$relerr")
+#echo "===== name=$data  ========"
+#for i in {1..50}; do
+#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+#done
+#wait
+
+#data=$CESM_DIR/CLDHGH_1_1800_3600.dat
+#valueRange=0.920754
+#abserr=$(bc <<< "$valueRange*$relerr")
+#echo "===== name=$data  ========"
+#for i in {1..50}; do
+#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+#done
+#wait
+
+#data=$CESM_DIR/LANDFRAC_1_1800_3600.dat
+#valueRange=1.000000
+#abserr=$(bc <<< "$valueRange*$relerr")
+#echo "===== name=$data  ========"
+#for i in {1..50}; do
+#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+#done
+#wait
+
+data=$CESM_DIR/PSL_1_1800_3600.dat
+valueRange=7084.632812
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
+
+
+
+

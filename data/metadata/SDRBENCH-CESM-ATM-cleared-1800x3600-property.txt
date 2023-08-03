@@ -1,0 +1,1079 @@
+SDRBENCH-CESM-ATM-cleared-1800x3600
+=============================================
+The property of AEROD_v_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.009552 0.009552 0.009552 0.009551 0.009551 0.009551 0.009551 0.009551 0.009550 0.009550 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.571555
+valueRange = 0.571555
+avgValue = 0.057474
+entropy = 6.714564
+zeromean_variance = 0.054773
+=============================================
+The property of CLDHGH_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.074489 0.074489 0.074490 0.074490 0.074490 0.074490 0.074490 0.074490 0.074491 0.074491 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.920754
+valueRange = 0.920754
+avgValue = 0.198807
+entropy = 7.103401
+zeromean_variance = 0.092000
+=============================================
+The property of CLDLOW_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.976537
+valueRange = 0.976537
+avgValue = 0.318487
+entropy = 6.982911
+zeromean_variance = 0.067909
+=============================================
+The property of CLDMED_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.549420 0.549363 0.549307 0.549250 0.549194 0.549137 0.549081 0.549024 0.548968 0.548911 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.830428
+valueRange = 0.830428
+avgValue = 0.153967
+entropy = 7.122338
+zeromean_variance = 0.081480
+=============================================
+The property of CLDTOT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.549468 0.549411 0.549355 0.549298 0.549242 0.549185 0.549129 0.549072 0.549016 0.548959 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.008910
+max = 0.980049
+valueRange = 0.971139
+avgValue = 0.452978
+entropy = 7.023862
+zeromean_variance = 0.033589
+=============================================
+The property of FLDS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+197.246658 197.226486 197.206314 197.186142 197.165955 197.145752 197.125565 197.105347 197.085144 197.064911 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 111.133118
+max = 436.666412
+valueRange = 325.533295
+avgValue = 283.435253
+entropy = 6.768071
+zeromean_variance = 8408.923759
+=============================================
+The property of FLDSC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+126.205223 126.201019 126.196815 126.192612 126.188416 126.184212 126.180008 126.175804 126.171608 126.167404 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 92.846107
+max = 418.239380
+valueRange = 325.393272
+avgValue = 257.102800
+entropy = 6.851068
+zeromean_variance = 8874.697338
+=============================================
+The property of FLNS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+90.281754 90.275467 90.269188 90.262932 90.256683 90.250450 90.244232 90.238029 90.231842 90.225670 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 2.364752
+max = 177.684265
+valueRange = 175.319514
+avgValue = 58.461789
+entropy = 6.863335
+zeromean_variance = 1382.787441
+=============================================
+The property of FLNSC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+161.323196 161.300934 161.278702 161.256454 161.234222 161.212006 161.189789 161.167587 161.145386 161.123184 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 33.335693
+max = 179.871475
+valueRange = 146.535782
+avgValue = 84.794243
+entropy = 6.741230
+zeromean_variance = 857.341957
+=============================================
+The property of FLNT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+199.053299 199.048248 199.043198 199.038147 199.033096 199.028046 199.023010 199.017960 199.012924 199.007889 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 140.125900
+max = 320.225983
+valueRange = 180.100082
+avgValue = 222.718686
+entropy = 6.704787
+zeromean_variance = 1500.092336
+=============================================
+The property of FLNTC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+226.350327 226.336853 226.323380 226.309906 226.296432 226.282974 226.269516 226.256058 226.242599 226.229156 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 148.674500
+max = 324.029327
+valueRange = 175.354828
+avgValue = 242.301474
+entropy = 6.668748
+zeromean_variance = 1866.138286
+=============================================
+The property of FLUT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+200.762802 200.757736 200.752686 200.747635 200.742599 200.737549 200.732498 200.727463 200.722427 200.717392 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 140.811096
+max = 321.594086
+valueRange = 180.782990
+avgValue = 223.922174
+entropy = 6.703362
+zeromean_variance = 1507.862275
+=============================================
+The property of FLUTC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+228.059830 228.046341 228.032867 228.019409 228.005936 227.992477 227.979019 227.965561 227.952103 227.938660 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 149.345123
+max = 325.380005
+valueRange = 176.034882
+avgValue = 243.504962
+entropy = 6.668475
+zeromean_variance = 1879.432568
+=============================================
+The property of FREQSH_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.945002 0.945007 0.945011 0.945016 0.945020 0.945025 0.945029 0.945034 0.945038 0.945043 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.005559
+max = 1.000000
+valueRange = 0.994441
+avgValue = 0.564149
+entropy = 7.039104
+zeromean_variance = 0.076172
+=============================================
+The property of FREQZM_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.948675
+valueRange = 0.948675
+avgValue = 0.151324
+entropy = 5.754789
+zeromean_variance = 0.149447
+=============================================
+The property of FSDS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+405.058472 405.065125 405.071777 405.078461 405.085114 405.091766 405.098450 405.105103 405.111786 405.118439 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 458.066467
+valueRange = 458.066467
+avgValue = 190.699450
+entropy = 6.703930
+zeromean_variance = 18965.835282
+=============================================
+The property of FSDSC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+471.817902 471.818085 471.818268 471.818451 471.818665 471.818848 471.819031 471.819214 471.819427 471.819611 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 478.471008
+valueRange = 478.471008
+avgValue = 247.181619
+entropy = 6.628611
+zeromean_variance = 25859.422140
+=============================================
+The property of FSDTOA_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 548.492737
+valueRange = 548.492737
+avgValue = 325.963580
+entropy = 6.646048
+zeromean_variance = 43602.965685
+=============================================
+The property of FSNS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+62.384445 62.390289 62.396133 62.401978 62.407814 62.413651 62.419487 62.425320 62.431149 62.436974 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 374.014618
+valueRange = 374.014618
+avgValue = 138.947252
+entropy = 6.773907
+zeromean_variance = 13065.442397
+=============================================
+The property of FSNSC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+81.027840 81.032532 81.037216 81.041901 81.046585 81.051262 81.055939 81.060608 81.065277 81.069939 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 378.979706
+valueRange = 378.979706
+avgValue = 186.178661
+entropy = 6.718167
+zeromean_variance = 18910.119094
+=============================================
+The property of FSNT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+150.191605 150.195251 150.198898 150.202545 150.206192 150.209839 150.213470 150.217102 150.220749 150.224380 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 458.655640
+valueRange = 458.655640
+avgValue = 204.628039
+entropy = 6.679762
+zeromean_variance = 19780.951870
+=============================================
+The property of FSNTC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+152.472092 152.476395 152.480682 152.484970 152.489243 152.493530 152.497803 152.502075 152.506348 152.510605 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 465.281342
+valueRange = 465.281342
+avgValue = 246.553904
+entropy = 6.630573
+zeromean_variance = 28905.320177
+=============================================
+The property of FSNTOA_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+155.650818 155.654465 155.658112 155.661758 155.665405 155.669037 155.672684 155.676315 155.679947 155.683578 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 462.844299
+valueRange = 462.844299
+avgValue = 207.676232
+entropy = 6.676371
+zeromean_variance = 20129.422063
+=============================================
+The property of FSNTOAC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+157.930984 157.935272 157.939560 157.943848 157.948135 157.952408 157.956680 157.960953 157.965225 157.969482 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 469.536499
+valueRange = 469.536499
+avgValue = 249.566255
+entropy = 6.625001
+zeromean_variance = 29394.478987
+=============================================
+The property of FSUTOA_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+392.841888 392.838226 392.834564 392.830933 392.827271 392.823639 392.820007 392.816345 392.812714 392.809082 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 393.674561
+valueRange = 393.674561
+avgValue = 118.287348
+entropy = 6.768404
+zeromean_variance = 17816.716073
+=============================================
+The property of ICEFRAC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 1.000000
+valueRange = 1.000000
+avgValue = 0.117213
+entropy = 1.997089
+zeromean_variance = 0.233124
+=============================================
+The property of LANDFRAC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 1.000000
+valueRange = 1.000000
+avgValue = 0.342847
+entropy = 1.493721
+zeromean_variance = 0.243183
+=============================================
+The property of LHFLX_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+-0.970307 -0.969230 -0.968153 -0.967078 -0.966004 -0.964931 -0.963860 -0.962789 -0.961720 -0.960651 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -5.227981
+max = 543.463135
+valueRange = 548.691115
+avgValue = 63.415212
+entropy = 7.338448
+zeromean_variance = 46848.010832
+=============================================
+The property of LWCF_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+27.297029 27.288605 27.280182 27.271761 27.263340 27.254923 27.246506 27.238092 27.229681 27.221270 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.330791
+max = 112.600220
+valueRange = 112.931011
+avgValue = 19.582788
+entropy = 7.148066
+zeromean_variance = 1608.168577
+=============================================
+The property of OCNFRAC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 1.000000
+valueRange = 1.000000
+avgValue = 0.539940
+entropy = 3.141043
+zeromean_variance = 0.232062
+=============================================
+The property of ODV_bcar1_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.014418
+valueRange = 0.014418
+avgValue = 0.000161
+entropy = 7.052267
+zeromean_variance = 0.000050
+=============================================
+The property of ODV_bcar2_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000056 0.000056 0.000056 0.000056 0.000056 0.000056 0.000056 0.000056 0.000056 0.000056 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.018967
+valueRange = 0.018967
+avgValue = 0.000534
+entropy = 6.820359
+zeromean_variance = 0.000082
+=============================================
+The property of ODV_dust1_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000102 0.000102 0.000102 0.000102 0.000102 0.000102 0.000102 0.000102 0.000102 0.000102 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.184634
+valueRange = 0.184634
+avgValue = 0.006322
+entropy = 6.940588
+zeromean_variance = 0.007679
+=============================================
+The property of ODV_dust2_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000058 0.000058 0.000058 0.000058 0.000058 0.000058 0.000058 0.000058 0.000058 0.000058 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.174426
+valueRange = 0.174426
+avgValue = 0.005482
+entropy = 6.943656
+zeromean_variance = 0.006909
+=============================================
+The property of ODV_dust3_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000014 0.000014 0.000014 0.000014 0.000014 0.000014 0.000014 0.000014 0.000014 0.000014 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.096076
+valueRange = 0.096076
+avgValue = 0.001780
+entropy = 6.950505
+zeromean_variance = 0.002166
+=============================================
+The property of ODV_dust4_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000003 0.000003 0.000003 0.000003 0.000003 0.000003 0.000003 0.000003 0.000003 0.000003 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.105469
+valueRange = 0.105469
+avgValue = 0.000910
+entropy = 6.971228
+zeromean_variance = 0.002699
+=============================================
+The property of ODV_ocar1_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.019742
+valueRange = 0.019742
+avgValue = 0.000198
+entropy = 7.043765
+zeromean_variance = 0.000094
+=============================================
+The property of ODV_ocar2_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000074 0.000074 0.000074 0.000074 0.000074 0.000074 0.000074 0.000074 0.000074 0.000074 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.067498
+valueRange = 0.067498
+avgValue = 0.001182
+entropy = 6.866048
+zeromean_variance = 0.001073
+=============================================
+The property of ODV_SSLTA_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000673 0.000673 0.000673 0.000672 0.000672 0.000672 0.000672 0.000672 0.000672 0.000672 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.078465
+valueRange = 0.078465
+avgValue = 0.014135
+entropy = 6.863750
+zeromean_variance = 0.000833
+=============================================
+The property of ODV_SSLTC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000425 0.000425 0.000425 0.000425 0.000425 0.000425 0.000425 0.000425 0.000425 0.000425 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.051866
+valueRange = 0.051866
+avgValue = 0.008936
+entropy = 6.837330
+zeromean_variance = 0.000372
+=============================================
+The property of ODV_sulf_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.008147 0.008147 0.008147 0.008147 0.008146 0.008146 0.008146 0.008146 0.008146 0.008146 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.191556
+valueRange = 0.191556
+avgValue = 0.017832
+entropy = 6.757070
+zeromean_variance = 0.006350
+=============================================
+The property of PBLH_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+173.545792 173.555573 173.565338 173.575073 173.584808 173.594513 173.604202 173.613861 173.623520 173.633148 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 154.579880
+max = 1500.264526
+valueRange = 1345.684647
+avgValue = 490.756777
+entropy = 7.007088
+zeromean_variance = 167904.852582
+=============================================
+The property of PCONVB_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+68538.523438 68538.312500 68538.093750 68537.875000 68537.664062 68537.445312 68537.234375 68537.015625 68536.796875 68536.578125 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 51674.835938
+max = 103208.000000
+valueRange = 51533.164062
+avgValue = 96359.284865
+entropy = 6.381181
+zeromean_variance = 445533413.928508
+=============================================
+The property of PCONVT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+68538.523438 68538.312500 68538.093750 68537.875000 68537.664062 68537.445312 68537.234375 68537.015625 68536.796875 68536.578125 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 39025.273438
+max = 103207.453125
+valueRange = 64182.179688
+avgValue = 90656.116793
+entropy = 6.562340
+zeromean_variance = 539021898.417963
+=============================================
+The property of PHIS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+27464.458984 27464.689453 27464.919922 27465.150391 27465.380859 27465.613281 27465.843750 27466.076172 27466.308594 27466.541016 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -919.972046
+max = 53711.910156
+valueRange = 54631.882202
+avgValue = 3699.826709
+entropy = 7.782081
+zeromean_variance = 583199845.068767
+=============================================
+The property of PRECC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 7.458650
+zeromean_variance = 0.000000
+=============================================
+The property of PRECCDZM_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 5.773265
+zeromean_variance = 0.000000
+=============================================
+The property of PRECL_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 7.220829
+zeromean_variance = 0.000000
+=============================================
+The property of PRECSC_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 4.645326
+zeromean_variance = 0.000000
+=============================================
+The property of PRECSH_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 7.388335
+zeromean_variance = 0.000000
+=============================================
+The property of PRECSL_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 7.473245
+zeromean_variance = 0.000000
+=============================================
+The property of PRECT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.000000
+valueRange = 0.000000
+avgValue = 0.000000
+entropy = 7.234067
+zeromean_variance = 0.000000
+=============================================
+The property of PS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+68538.523438 68538.312500 68538.093750 68537.875000 68537.664062 68537.445312 68537.234375 68537.015625 68536.796875 68536.578125 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 51674.835938
+max = 103210.531250
+valueRange = 51535.695312
+avgValue = 96502.213119
+entropy = 6.372430
+zeromean_variance = 451828284.324024
+=============================================
+The property of PSL_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+98989.898438 98989.882812 98989.867188 98989.851562 98989.843750 98989.828125 98989.812500 98989.796875 98989.781250 98989.765625 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 97432.632812
+max = 104517.265625
+valueRange = 7084.632812
+avgValue = 100713.766726
+entropy = 6.165232
+zeromean_variance = 1808892.525521
+=============================================
+The property of QFLX_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+-0.000000 -0.000000 -0.000000 -0.000000 -0.000000 -0.000000 -0.000000 -0.000000 -0.000000 -0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000002
+max = 0.000217
+valueRange = 0.000219
+avgValue = 0.000025
+entropy = 7.316409
+zeromean_variance = 0.000000
+=============================================
+The property of QREFHT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000419 0.000420 0.000420 0.000420 0.000420 0.000420 0.000420 0.000420 0.000420 0.000420 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000097
+max = 0.019657
+valueRange = 0.019560
+avgValue = 0.006887
+entropy = 7.203573
+zeromean_variance = 0.000045
+=============================================
+The property of RHREFHT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+106.009422 106.005554 106.001694 105.997833 105.993988 105.990143 105.986305 105.982475 105.978653 105.974838 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 19.985655
+max = 115.626579
+valueRange = 95.640924
+avgValue = 84.380267
+entropy = 6.655321
+zeromean_variance = 397.374268
+=============================================
+The property of SHFLX_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+-17.847878 -17.841612 -17.835354 -17.829102 -17.822859 -17.816624 -17.810394 -17.804174 -17.797962 -17.791758 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -78.497185
+max = 326.216217
+valueRange = 404.713402
+avgValue = 11.505645
+entropy = 7.334911
+zeromean_variance = 13484.276411
+=============================================
+The property of SNOWHICE_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 0.660623
+valueRange = 0.660623
+avgValue = 0.053167
+entropy = 2.014457
+zeromean_variance = 0.094716
+=============================================
+The property of SNOWHLND_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+1.000001 1.000001 1.000001 1.000001 1.000001 1.000001 1.000001 1.000001 1.000001 1.000001 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -0.000000
+max = 1.000210
+valueRange = 1.000210
+avgValue = 0.127623
+entropy = 2.804450
+zeromean_variance = 0.240379
+=============================================
+The property of SOLIN_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 548.492676 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 548.492737
+valueRange = 548.492737
+avgValue = 325.963580
+entropy = 6.646048
+zeromean_variance = 43602.965685
+=============================================
+The property of SRFRAD_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+259.631104 259.616791 259.602448 259.588104 259.573761 259.559418 259.545044 259.530670 259.516296 259.501892 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 112.943924
+max = 713.713745
+valueRange = 600.769821
+avgValue = 422.382506
+entropy = 6.976098
+zeromean_variance = 32777.970595
+=============================================
+The property of SWCF_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+-2.280162 -2.280806 -2.281448 -2.282089 -2.282728 -2.283365 -2.284002 -2.284636 -2.285269 -2.285901 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -200.759491
+max = 0.000100
+valueRange = 200.759591
+avgValue = -41.890023
+entropy = 6.865144
+zeromean_variance = 5222.721197
+=============================================
+The property of TAUX_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.000660 0.000642 0.000623 0.000605 0.000586 0.000567 0.000549 0.000530 0.000512 0.000493 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -1.479052
+max = 1.180089
+valueRange = 2.659141
+avgValue = -0.018790
+entropy = 7.396178
+zeromean_variance = 0.028603
+=============================================
+The property of TAUY_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.019926 0.019923 0.019919 0.019916 0.019912 0.019909 0.019905 0.019901 0.019898 0.019894 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = -1.145208
+max = 1.290407
+valueRange = 2.435614
+avgValue = 0.000112
+entropy = 7.399736
+zeromean_variance = 0.010515
+=============================================
+The property of TGCLDIWP_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+30.818106 30.817106 30.816107 30.815109 30.814116 30.813122 30.812130 30.811140 30.810152 30.809164 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000000
+max = 108.541107
+valueRange = 108.541107
+avgValue = 22.119693
+entropy = 7.160137
+zeromean_variance = 1252.010616
+=============================================
+The property of TGCLDLWP_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+23.376406 23.376509 23.376610 23.376711 23.376812 23.376913 23.377014 23.377115 23.377214 23.377316 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.000169
+max = 693.262817
+valueRange = 693.262649
+avgValue = 120.222482
+entropy = 7.149949
+zeromean_variance = 59014.676672
+=============================================
+The property of TMQ_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+0.908830 0.908817 0.908803 0.908790 0.908776 0.908763 0.908749 0.908736 0.908722 0.908708 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 0.431454
+max = 55.315334
+valueRange = 54.883881
+avgValue = 16.868302
+entropy = 7.187299
+zeromean_variance = 337.356092
+=============================================
+The property of TREFHT_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+243.271317 243.272461 243.273590 243.274704 243.275833 243.276962 243.278076 243.279190 243.280304 243.281403 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 231.527847
+max = 305.850464
+valueRange = 74.322617
+avgValue = 275.711611
+entropy = 6.505165
+zeromean_variance = 472.235440
+=============================================
+The property of TREFMNAV_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+241.705902 241.707306 241.708710 241.710114 241.711517 241.712906 241.714310 241.715698 241.717072 241.718460 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 227.771759
+max = 301.674011
+valueRange = 73.902252
+avgValue = 273.769298
+entropy = 6.519205
+zeromean_variance = 534.825067
+=============================================
+The property of TREFMXAV_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+244.766190 244.767044 244.767899 244.768753 244.769608 244.770462 244.771301 244.772156 244.772995 244.773834 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 233.244751
+max = 313.712708
+valueRange = 80.467957
+avgValue = 277.790909
+entropy = 6.504760
+zeromean_variance = 421.664127
+=============================================
+The property of TROP_P_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+27328.166016 27328.152344 27328.140625 27328.126953 27328.115234 27328.103516 27328.089844 27328.078125 27328.066406 27328.052734 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 8138.251953
+max = 29092.386719
+valueRange = 20954.134766
+avgValue = 18539.595152
+entropy = 6.741598
+zeromean_variance = 47378601.773794
+=============================================
+The property of TROP_T_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+214.255722 214.255676 214.255615 214.255569 214.255508 214.255463 214.255402 214.255356 214.255295 214.255249 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 185.656845
+max = 218.205124
+valueRange = 32.548279
+avgValue = 205.339593
+entropy = 6.432132
+zeromean_variance = 92.303578
+=============================================
+The property of TROP_Z_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+6217.175781 6217.155273 6217.135254 6217.114746 6217.094238 6217.073730 6217.052734 6217.032227 6217.011719 6216.991211 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 5501.561523
+max = 17611.023438
+valueRange = 12109.461914
+avgValue = 12235.517447
+entropy = 6.795903
+zeromean_variance = 12033776.252278
+=============================================
+The property of TS_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+239.941742 239.943802 239.945877 239.947937 239.949982 239.952042 239.954086 239.956131 239.958160 239.960190 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 228.432846
+max = 308.943970
+valueRange = 80.511124
+avgValue = 276.169964
+entropy = 6.515242
+zeromean_variance = 515.906845
+=============================================
+The property of TSMN_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+226.990921 226.994797 226.998672 227.002533 227.006393 227.010254 227.014114 227.017960 227.021805 227.025635 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 211.035019
+max = 303.356781
+valueRange = 92.321762
+avgValue = 270.010428
+entropy = 6.553231
+zeromean_variance = 862.966793
+=============================================
+The property of TSMX_1_1800_3600.dat :
+This is little-endian system.
+The first 10 values are: 
+254.608887 254.609100 254.609329 254.609558 254.609772 254.610001 254.610229 254.610458 254.610672 254.610901 ....
+------------------------
+numOfElem = 6480000
+totalDataSize = 25920000 bytes (24.719238 MB)
+min = 241.619339
+max = 336.633942
+valueRange = 95.014603
+avgValue = 282.771077
+entropy = 6.476401
+zeromean_variance = 355.073557

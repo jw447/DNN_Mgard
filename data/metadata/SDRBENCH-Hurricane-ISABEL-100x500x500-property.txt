@@ -1,0 +1,280 @@
+=============================================
+The property of CLOUDf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.002048
+valueRange = 0.002048
+avgValue = 0.000009
+entropy = 1.373796
+zeromean_variance = 0.000001
+=============================================
+The property of CLOUDf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-12.840710 -12.840710 -12.840710 -12.840710 -12.840710 -12.840710 -12.840710 -12.840710 -12.840710 -12.840710 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -12.840710
+max = -2.688680
+valueRange = 10.152030
+avgValue = -11.921165
+entropy = 3.050977
+zeromean_variance = 23.837245
+=============================================
+The property of Pf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -3411.740723
+max = 3224.397949
+valueRange = 6636.138672
+avgValue = 375.941090
+entropy = 7.292140
+zeromean_variance = 475038.443929
+=============================================
+The property of PRECIPf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.007506
+valueRange = 0.007506
+avgValue = 0.000012
+entropy = 7.469055
+zeromean_variance = 0.000014
+=============================================
+The property of PRECIPf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-37.925987 -37.925987 -37.925987 -37.925987 -37.925987 -37.925987 -37.925987 -37.925987 -37.925987 -37.925987 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -37.925987
+max = -2.124599
+valueRange = 35.801388
+avgValue = -9.055679
+entropy = 6.892448
+zeromean_variance = 139.846158
+=============================================
+The property of QCLOUDf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.002048
+valueRange = 0.002048
+avgValue = 0.000006
+entropy = 0.662330
+zeromean_variance = 0.000001
+=============================================
+The property of QCLOUDf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-37.794353 -37.794353 -37.794353 -37.794353 -37.794353 -37.794353 -37.794353 -37.794353 -37.794353 -37.794353 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -37.794353
+max = -2.688680
+valueRange = 35.105674
+avgValue = -36.200182
+entropy = 2.528660
+zeromean_variance = 303.298241
+=============================================
+The property of QGRAUPf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.007295
+valueRange = 0.007295
+avgValue = 0.000004
+entropy = 7.422313
+zeromean_variance = 0.000013
+=============================================
+The property of QGRAUPf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-37.902607 -37.902607 -37.902607 -37.902607 -37.902607 -37.902607 -37.902607 -37.902607 -37.902607 -37.902607 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -37.902607
+max = -2.136964
+valueRange = 35.765643
+avgValue = -11.753401
+entropy = 6.767604
+zeromean_variance = 117.182581
+=============================================
+The property of QICEf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.000846
+valueRange = 0.000846
+avgValue = 0.000002
+entropy = 1.140779
+zeromean_variance = 0.000000
+=============================================
+The property of QICEf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-21.755507 -21.755507 -21.755507 -21.755507 -21.755507 -21.755507 -21.755507 -21.755507 -21.755507 -21.755507 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -21.755507
+max = -3.072443
+valueRange = 18.683064
+avgValue = -20.285834
+entropy = 2.869605
+zeromean_variance = 83.553546
+=============================================
+The property of QRAINf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.006335
+valueRange = 0.006335
+avgValue = 0.000007
+entropy = 7.408208
+zeromean_variance = 0.000010
+=============================================
+The property of QRAINf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-37.929665 -37.929665 -37.929665 -37.929665 -37.929665 -37.929665 -37.929665 -37.929665 -37.929665 -37.929665 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -37.929665
+max = -2.198278
+valueRange = 35.731387
+avgValue = -12.552243
+entropy = 6.762755
+zeromean_variance = 118.561494
+=============================================
+The property of QSNOWf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.000856
+valueRange = 0.000856
+avgValue = 0.000002
+entropy = 7.447305
+zeromean_variance = 0.000000
+=============================================
+The property of QSNOWf48.log10.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+-37.847187 -37.847187 -37.847187 -37.847187 -37.847187 -37.847187 -37.847187 -37.847187 -37.847187 -37.847187 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -37.847187
+max = -3.067513
+valueRange = 34.779674
+avgValue = -10.406488
+entropy = 6.821850
+zeromean_variance = 138.271777
+=============================================
+The property of QVAPORf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = 0.000000
+max = 0.020421
+valueRange = 0.020421
+avgValue = 0.002281
+entropy = 7.389244
+zeromean_variance = 0.000080
+=============================================
+The property of TCf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -76.554489
+max = 29.646656
+valueRange = 106.201145
+avgValue = -30.793033
+entropy = 7.197273
+zeromean_variance = 1057.496685
+=============================================
+The property of Uf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -53.022568
+max = 39.558197
+valueRange = 92.580765
+avgValue = -2.222879
+entropy = 7.358883
+zeromean_variance = 105.799365
+=============================================
+The property of Vf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -45.614632
+max = 48.085793
+valueRange = 93.700424
+avgValue = 3.553099
+entropy = 7.352912
+zeromean_variance = 128.978473
+=============================================
+The property of Wf48.bin.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 ....
+------------------------
+numOfElem = 25000000
+totalDataSize = 100000000 bytes (95.367432 MB)
+min = -3.241147
+max = 13.333214
+valueRange = 16.574361
+avgValue = 0.003800
+entropy = 7.402050
+zeromean_variance = 25.444118

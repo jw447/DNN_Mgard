@@ -1,0 +1,84 @@
+=============================================
+The property of baryon_density.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.351769 0.347896 0.332649 0.333017 0.335995 0.332088 0.330095 0.332220 0.340661 0.359716 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = 0.057997
+max = 115862.289062
+valueRange = 115862.231066
+avgValue = 1.000000
+entropy = 7.096366
+zeromean_variance = 3355905581.865564
+=============================================
+The property of dark_matter_density.f32 :
+This is little-endian system.
+The first 10 values are: 
+0.167209 0.105386 0.335973 0.225317 0.272478 0.281225 0.203254 0.461171 0.232751 0.457310 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = 0.000000
+max = 13778.934570
+valueRange = 13778.934570
+avgValue = 1.000000
+entropy = 7.187933
+zeromean_variance = 47451053.148666
+=============================================
+The property of temperature.f32 :
+This is little-endian system.
+The first 10 values are: 
+5862.722168 5827.063965 5711.414062 5731.778809 5807.744629 5806.893555 5767.558105 5775.048340 5832.648438 5982.488770 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = 2280.975830
+max = 4782583.500000
+valueRange = 4780302.524170
+avgValue = 8453.289277
+entropy = 7.006938
+zeromean_variance = 5683602035511.926758
+=============================================
+The property of velocity_x.f32 :
+This is little-endian system.
+The first 10 values are: 
+2978767.000000 2974844.250000 2967034.750000 2969113.500000 2980490.250000 3033760.750000 3081941.500000 3108592.000000 3129977.000000 3131810.500000 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = -50416856.000000
+max = 31866786.000000
+valueRange = 82283642.000000
+avgValue = 353.901399
+entropy = 7.358357
+zeromean_variance = 127604813033062.796875
+=============================================
+The property of velocity_y.f32 :
+This is little-endian system.
+The first 10 values are: 
+-334971.875000 -335336.437500 -328303.156250 -294931.187500 -221542.625000 -137355.015625 -63232.992188 -11958.277344 14763.615234 31679.503906 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = -43932888.000000
+max = 56505648.000000
+valueRange = 100438536.000000
+avgValue = 52.965996
+entropy = 7.392920
+zeromean_variance = 62470426507062.742188
+=============================================
+The property of velocity_z.f32 :
+This is little-endian system.
+The first 10 values are: 
+3175547.500000 3286378.250000 3381583.250000 3466722.500000 3509238.750000 3530704.750000 3536065.250000 3542673.250000 3552263.500000 3555079.250000 ....
+------------------------
+numOfElem = 134217728
+totalDataSize = 536870912 bytes (512.000000 MB)
+min = -38937960.000000
+max = 33386284.000000
+valueRange = 72324244.000000
+avgValue = -65.696792
+entropy = 7.373498
+zeromean_variance = 18705654093610.796875
