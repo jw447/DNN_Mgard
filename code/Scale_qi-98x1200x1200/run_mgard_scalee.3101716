@@ -1,0 +1,25 @@
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:34:06:130 3040692 main: Cannot connect to JSMD server
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+Error: error in ptssup_mkcltsock_afunix()
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:38:51:822 3036490 main: Cannot connect to JSMD server
+08-08-2023 11:38:51:822 3038586 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:38:51:824 3041860 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:38:51:895 3038306 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:39:24:264 3042883 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:39:24:434 3040990 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:39:27:434 3042403 main: Cannot connect to JSMD server
+User defined signal 2

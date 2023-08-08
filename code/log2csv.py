@@ -10,7 +10,7 @@ if __name__ == "__main__":
     print("Running log2csv program...")
 
     #logfiles = glob("{}/run_mgard_*o.*".format("Cesm_aerod_v_1_1800_3600"))
-    logfiles = glob("Scale_qc-98x1200x1200/run_mgard_*o.*")
+    logfiles = glob("*/run_mgard_*o.*")
     for logname in logfiles:
         print("Converting {}".format(logname))
         with open(logname, "r") as logfile:

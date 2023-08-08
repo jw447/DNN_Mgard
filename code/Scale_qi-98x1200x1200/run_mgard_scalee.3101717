@@ -1,0 +1,5 @@
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+Error: error in ptssup_mkcltsock_afunix()
+08-08-2023 11:34:06:124 3037044 main: Cannot connect to JSMD server
+User defined signal 2

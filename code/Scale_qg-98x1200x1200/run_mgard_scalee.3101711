@@ -1,0 +1,4 @@
+/ccs/home/jw447/.lsbatch/1691507049.3101711.shell: line 38: 3041183 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507049.3101711.shell: line 38: 3041014 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507049.3101711.shell: line 38: 3040602 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+User defined signal 2

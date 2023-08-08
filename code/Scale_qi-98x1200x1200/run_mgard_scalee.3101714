@@ -1,0 +1,12 @@
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3040336 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3040888 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3039894 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3036650 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3040776 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3041157 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3041470 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3040473 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3042470 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3040112 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691507072.3101714.shell: line 47: 3043989 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+User defined signal 2
