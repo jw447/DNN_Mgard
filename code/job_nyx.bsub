@@ -11,16 +11,16 @@
 source ../evn_scripts/evn.bash.summit
 
 count=$((65536/50))
-relerr=0.00001
+relerr=0.0000001
 
-#data=$NYX_DIR/baryon_density.f32
-#valueRange=115862.231066
-#abserr=$(bc <<< "$valueRange*$relerr")
-#echo "===== name=$data  ========"
-#for i in {1..50}; do
-#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-#done
-#wait
+data=$NYX_DIR/baryon_density.f32
+valueRange=115862.231066
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
 
 #data=$NYX_DIR/dark_matter_density.f32
 #valueRange=13778.934570
@@ -48,4 +48,3 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-

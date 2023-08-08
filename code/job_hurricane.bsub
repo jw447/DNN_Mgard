@@ -11,7 +11,7 @@
 source ../evn_scripts/evn.bash.summit
 
 count=$((65536/50))
-relerr=0.00001
+relerr=0.0000001
 
 #data=$HURR_DIR/CLOUDf48.log10.bin.f32
 #valueRange=10.152030
@@ -40,11 +40,11 @@ relerr=0.00001
 #done
 #wait
 
-#data=$HURR_DIR/QICEf48.log10.bin.f32
-#valueRange=18.683064
-#abserr=$(bc <<< "$valueRange*$relerr")
-#echo "===== name=$data  ========"
-#for i in {1..50}; do
-#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-#done
-#wait
+data=$HURR_DIR/QICEf48.log10.bin.f32
+valueRange=18.683064
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait

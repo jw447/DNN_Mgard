@@ -11,7 +11,7 @@
 source ../evn_scripts/evn.bash.summit
 
 count=$((65536/50))
-relerr=0.00001
+relerr=0.1
 
 #data=$SCAL_DIR/PRES-98x1200x1200.f32
 #valueRange=99534.755615
@@ -21,7 +21,7 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-#
+
 #data=$SCAL_DIR/QC-98x1200x1200.f32
 #valueRange=0.003012
 #abserr=$(bc <<< "$valueRange*$relerr")
@@ -30,7 +30,7 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-#
+
 #data=$SCAL_DIR/QG-98x1200x1200.f32
 #valueRange=0.014881
 #abserr=$(bc <<< "$valueRange*$relerr")
@@ -39,12 +39,12 @@ relerr=0.00001
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
-#
-#data=$SCAL_DIR/QI-98x1200x1200.f32
-#valueRange=0.001601
-#abserr=$(bc <<< "$valueRange*$relerr")
-#echo "===== name=$data  ========"
-#for i in {1..50}; do
-#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-#done
-#wait
+
+data=$SCAL_DIR/QI-98x1200x1200.f32
+valueRange=0.001601
+abserr=$(bc <<< "$valueRange*$relerr")
+echo "===== name=$data  ========"
+for i in {1..50}; do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
