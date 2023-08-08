@@ -10,7 +10,7 @@
 
 source ../evn_scripts/evn.bash.summit
 
-count=$((65536/50))
+count=$((65536/128))
 relerr=0.1
 
 #data=$SCAL_DIR/PRES-98x1200x1200.f32

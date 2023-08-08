@@ -10,7 +10,7 @@
 
 source ../evn_scripts/evn.bash.summit
 
-count=$((65536/50))
+count=$((65536/128))
 relerr=0.0000001
 
 #data=$HURR_DIR/CLOUDf48.log10.bin.f32
