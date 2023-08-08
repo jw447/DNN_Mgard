@@ -60,7 +60,7 @@ if __name__ == "__main__":
                 "PSNR":                psnr,
             })
             csvdata = csvdata.drop_duplicates()
-            csvdata.to_csv(csvname)
+            csvdata.to_csv(csvname, index=False)
         except:
             print("Please check {}. Skipping..".format(logname))
 
