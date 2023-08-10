@@ -34,8 +34,8 @@ if __name__ == "__main__":
     print("Running log2csv program...")
 
     #logfiles = glob("{}/run_mgard_*o.*".format("Cesm_aerod_v_1_1800_3600"))
-    #logfiles = glob("*/run_mgard_*o.*")
-    logfiles = ["run_mgard_hurricaneo.3104932","run_mgard_nyxo.3104935","run_mgard_scaleo.3104946"]
+    logfiles = glob("run_mgard_*o.*")
+    #logfiles = ["run_mgard_hurricaneo.3104932","run_mgard_nyxo.3104935","run_mgard_scaleo.3104946"]
     #logfiles = ["Hurricane_cloudf48_log/run_mgard_hurricaneo.3100916"]
     for logname in logfiles:
         print("Converting {}".format(logname))
@@ -49,7 +49,7 @@ if __name__ == "__main__":
                     df_line = df_line.replace("MaxErr,", "").replace("MSE,", "").replace("PSNR,", "").replace("\n","")
                     df_lines.append(df_line.split(","))
 
-        df = log2csv(df_lines, num_lvl=2)
+        df = log2csv(df_lines, num_lvl=4)
         csvname = csvname + "_{:.2e}.csv".format(np.float64(df.Requested_tolerance.values[0]))
         df.drop_duplicates().to_csv(csvname, index=False)
  
