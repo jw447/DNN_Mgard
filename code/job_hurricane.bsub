@@ -10,41 +10,42 @@
 
 source ../evn_scripts/evn.bash.summit
 
-count=$((65536/128))
-relerr=0.0000001
+batch=128
+count=$((65536/batch))
+relerr=0.1
 
-#data=$HURR_DIR/CLOUDf48.log10.bin.f32
-#valueRange=10.152030
-#abserr=$(bc <<< "$valueRange*$relerr")
-#echo "===== name=$data  ========"
-#for i in {1..50}; do
-#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-#done
-#wait
+data=$HURR_DIR/CLOUDf48.log10.bin.f32
+valueRange=10.152030
+abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
+echo "===== name=$data  ========"
+for ((i=1; i<=$batch; i++)); do
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
 
 #data=$HURR_DIR/PRECIPf48.log10.bin.f32
 #valueRange=35.801388
-#abserr=$(bc <<< "$valueRange*$relerr")
+#abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
 #echo "===== name=$data  ========"
-#for i in {1..50}; do
+#for ((i=1; i<=$batch; i++)); do
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
 
 #data=$HURR_DIR/QGRAUPf48.log10.bin.f32
 #valueRange=35.765643
-#abserr=$(bc <<< "$valueRange*$relerr")
+#abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
 #echo "===== name=$data  ========"
-#for i in {1..50}; do
+#for ((i=1; i<=$batch; i++)); do
 #       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 #done
 #wait
 
-data=$HURR_DIR/QICEf48.log10.bin.f32
-valueRange=18.683064
-abserr=$(bc <<< "$valueRange*$relerr")
-echo "===== name=$data  ========"
-for i in {1..50}; do
-       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
-done
-wait
+#data=$HURR_DIR/QICEf48.log10.bin.f32
+#valueRange=18.683064
+#abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
+#echo "===== name=$data  ========"
+#for ((i=1; i<=$batch; i++)); do
+#       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+#done
+#wait

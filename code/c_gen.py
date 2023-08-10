@@ -28,9 +28,9 @@ def main():
     #    f.write(line)
     #f.close()
     
-    f = open("c_gen.txt", "a")
+    f = open("c_gen_lv4.txt", "a")
     for v in tqdm(np.arange(65536)):
-        line = "{:1.3} {:1.3} {:1.3} \n".format(np.random.randint(1, 554 + 1)/100, np.random.randint(1, 554 + 1)/100, np.random.randint(1, 554 + 1)/100)
+        line = "{:1.3} {:1.3} {:1.3} {:1.3} \n".format(np.random.randint(1, 554 + 1)/100, np.random.randint(1, 554 + 1)/100, np.random.randint(1, 554 + 1)/100, np.random.randint(1, 554 + 1)/100)
         f.write(line)
     f.close()
 
