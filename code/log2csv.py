@@ -49,7 +49,7 @@ if __name__ == "__main__":
                     df_line = df_line.replace("MaxErr,", "").replace("MSE,", "").replace("PSNR,", "").replace("\n","")
                     df_lines.append(df_line.split(","))
 
-        df = log2csv(df_lines, num_lvl=4)
+        df = log2csv(df_lines, num_lvl=3)
         csvname = csvname + "_{:.2e}.csv".format(np.float64(df.Requested_tolerance.values[0]))
         df.drop_duplicates().to_csv(csvname, index=False)
  
