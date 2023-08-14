@@ -1,0 +1,35 @@
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 758667 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+[csmapi][error]	Terminating CSMI lib because of daemon disconnect.
+
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 752839 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 755787 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 755673 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 753435 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 755084 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 757119 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 755148 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+08-11-2023 14:44:18:311 744844 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-11-2023 14:44:52:260 750009 main: Cannot connect to JSMD server
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 752208 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 798808 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794296 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794691 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 798678 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794652 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 796643 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794910 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794894 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795924 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795249 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795945 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 798518 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795339 Bus error               (core dumped) $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 797413 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794371 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795709 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 795375 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 794400 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+/ccs/home/jw447/.lsbatch/1691771501.3107028.shell: line 50: 798288 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
+Terminated

@@ -40,7 +40,12 @@ if __name__ == "__main__":
     for logname in logfiles:
         print("Converting {}".format(logname))
         with open(logname, "r") as logfile:
-            csvname = logfile.readline().split(" ", 3)[1].split("/")[-1].lower().replace(".bin", "").replace(".f32", "").replace(".dat", "").replace(".log10", "_log")
+            line = logfile.readline()
+            if "name" in line:
+                csvname = line.split(" ", 3)[1].split("/")[-1].lower().replace(".bin", "").replace(".f32", "").replace(".dat", "").replace(".log10", "_log")
+            else:
+                print("failed...")
+                continue
              
             df_lines = []
             for line in logfile.readlines():
@@ -49,9 +54,13 @@ if __name__ == "__main__":
                     df_line = df_line.replace("MaxErr,", "").replace("MSE,", "").replace("PSNR,", "").replace("\n","")
                     df_lines.append(df_line.split(","))
 
-        df = log2csv(df_lines, num_lvl=3)
-        csvname = csvname + "_{:.2e}.csv".format(np.float64(df.Requested_tolerance.values[0]))
-        df.drop_duplicates().to_csv(csvname, index=False)
+        print(len(df_lines))
+        #if len(df_lines):
+        #    df = log2csv(df_lines, num_lvl=3)
+        #    csvname = csvname + "_{:.2e}.csv".format(np.float64(df.Requested_tolerance.values[0]))
+        #    df.drop_duplicates().to_csv(csvname, index=False)
+        #else:
+        #    print("failed...")
  
     print("log2csv program finished.")
 

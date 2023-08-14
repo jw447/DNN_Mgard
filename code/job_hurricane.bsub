@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #BSUB -P csc143
-#BSUB -W 02:00
+#BSUB -W 00:10
 #BSUB -nnodes 1
 #BSUB -alloc_flags smt4
 #BSUB -J run_mgard_hurricane 
@@ -10,16 +10,16 @@
 
 source ../evn_scripts/evn.bash.summit
 
-batch=128
-count=$((65536/batch))
-relerr=0.1
+batch=1024
+count=$((32768/batch))
+relerr=0.000001
 
 data=$HURR_DIR/CLOUDf48.log10.bin.f32
 valueRange=10.152030
 abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
 echo "===== name=$data  ========"
 for ((i=1; i<=$batch; i++)); do
-       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+       jsrun -n1 awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen_lv4.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
 done
 wait
 

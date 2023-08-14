@@ -1,7 +1,18 @@
 #!/bin/bash
 
-WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_128
-MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/code/Multiprecision-data-refactoring
+relerr=0.000001
+data=$HURR_DIR/CLOUDf48.log10.bin.f32
+valueRange=10.152030
+abserr=$(echo "scale=15; $valueRange*$relerr" | bc -l)
+
+batch=1024
+count=$((65536/batch))
+echo "===== name=$data  ========"
+for ((i=1; i<=$batch; i++)); do
+       awk "$(((i-1)*count))<=NR && NR<$(((i)*count))" c_gen_lv4.txt | while read line; do $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr  0 $line done; done &
+done
+wait
+
 
 #ts	300	 var	 Bx	 min	-3.90119952	 max	4.477568575	drange	8.378768095
 #ts	300	 var	 Ex	 min	-78360827.01	 max	78360827.01	drange	156721654

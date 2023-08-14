@@ -1,0 +1,17 @@
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: Error negotiating connection with pmix server. read(). errno [104] Connection reset by peer
+Error: PMIx_tool_init failed with -25: UNREACHABLE
+08-11-2023 12:25:43:392 333457 main: Cannot connect to JSMD server
+08-11-2023 12:25:43:502 333531 main: Cannot connect to JSMD server08-11-2023 12:25:43:600 333539 main: Cannot connect to JSMD server08-11-2023 12:25:43:701 333530 main: Cannot connect to JSMD server08-11-2023 12:25:43:807 333502 main: Cannot connect to JSMD server08-11-2023 12:25:43:914 333507 main: Cannot connect to JSMD server08-11-2023 12:25:44:004 333523 main: Cannot connect to JSMD server08-11-2023 12:25:44:111 333466 main: Cannot connect to JSMD server
+
+
+
+
+
+
+User defined signal 2
