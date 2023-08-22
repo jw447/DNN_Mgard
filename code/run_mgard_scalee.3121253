@@ -1,0 +1,30 @@
+
+Lmod is automatically replacing "xl/16.1.1-10" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cmake/3.18.4     2) spectrum-mpi/10.4.0.3-20210112
+
+Traceback (most recent call last):
+  File "/sw/summit/xalt/1.2.1/libexec/xalt_run_submission.py", line 496, in <module>
+    if ( __name__ == '__main__'): main()
+  File "/sw/summit/xalt/1.2.1/libexec/xalt_run_submission.py", line 430, in main
+    args     = CmdLineOptions().execute()
+  File "/sw/summit/xalt/1.2.1/libexec/xalt_run_submission.py", line 78, in execute
+    parser.add_argument("--syshost",  dest='syshost',   action="store", default = syshost(),       help="system host name")
+  File "/sw/summit/xalt/1.2.1/libexec/xalt_run_submission.py", line 59, in syshost
+    hostA = platform.node().split('.')
+  File "/usr/lib64/python2.7/platform.py", line 1308, in node
+    return uname()[1]
+  File "/usr/lib64/python2.7/platform.py", line 1265, in uname
+    processor = _syscmd_uname('-p','')
+  File "/usr/lib64/python2.7/platform.py", line 999, in _syscmd_uname
+    output = string.strip(f.read())
+KeyboardInterrupt
+Error: error in ptssup_mkcltsock_afunix()
+08-22-2023 11:53:51:196 2903168 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-22-2023 11:53:53:762 2903280 main: Cannot connect to JSMD server
+Error: error in ptssup_mkcltsock_afunix()
+08-22-2023 11:53:56:751 2903392 main: Cannot connect to JSMD server
+Terminated
