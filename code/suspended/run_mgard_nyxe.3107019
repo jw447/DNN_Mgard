@@ -1,2 +1,0 @@
-/ccs/home/jw447/.lsbatch/1691771363.3107019.shell: line 32: 796744 Bus error               (core dumped) $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
-Terminated

@@ -1,5 +1,0 @@
-/ccs/home/jw447/.lsbatch/1691771507.3107029.shell: line 50: 747302 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
-/ccs/home/jw447/.lsbatch/1691771507.3107029.shell: line 50: 795468 Killed                  $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
-/ccs/home/jw447/.lsbatch/1691771507.3107029.shell: line 50: 796189 Bus error               $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
-/ccs/home/jw447/.lsbatch/1691771507.3107029.shell: line 50: 795380 Bus error               (core dumped) $MGARD_DIR/build/test/test_reconstructor ${data} 0 1 $abserr 0 $line done
-Terminated
