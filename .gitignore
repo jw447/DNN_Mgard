@@ -6,4 +6,6 @@
 *.tar.gz
 *.f32
 
+ExternalDependencies/
+
 .DS_Store
