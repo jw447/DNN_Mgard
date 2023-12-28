@@ -1,1 +1,0 @@
-The data files in this directory are all cleared datasets. In the orginal raw data, there are some background data values such as 1E35, and they don't need to be compressed according to the users (i.e., the data provider). So, they are replaced by 0 in the cleared datasets. 

@@ -1,0 +1,31 @@
+#!/bin/bash
+module load cmake/3.18.4
+module load gcc/9.3.0
+#module load spectrum-mpi/10.4.0.3-20210112
+module load python/3.7-anaconda3
+module load cuda/11.0.2
+#module load zstd/1.5.0
+#module load c-blosc/1.21.0
+#module load adios2/2.7.1
+#module load hdf5/1.10.7
+
+export PYTHON_PATH=/sw/andes/python/3.7/anaconda-base
+
+export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard
+export PROJHOME=/lustre/orion/csc143/proj-shared/jwang/DNN_Mgard
+
+#export SZ_ROOT=$PROJHOME/ExternalDependencies/SZ
+#export SZ_INCLUDE_DIR=$SZ_ROOT/install/include/sz
+#export SZ_LIBRARY=$SZ_ROOT/install/lib64/libSZ.so
+#export ZFP_ROOT=$PROJHOME/ExternalDependencies/zfp
+#export ZFP_INCLUDE_DIR=$ZFP_ROOT/install/lib64/libzfp.so
+#export ZFP_LIBRARY=$ZFP_ROOT/install/include
+#export MGARD_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/ExternalDependencies/Multiprecision-data-refactoring
+export MGARD_DIR=$PROJHOME/ExternalDependencies/Multiprecision-data-refactoring
+
+#export WARPX_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/laser_driven_electron_accl_3d_512
+#export CESM_DIR=/gpfs/alpine/proj-shared/csc143/jwang/DNN_Mgard/data/SDRBENCH-CESM-ATM-cleared-1800x3600
+export HURR_DIR=$PROJHOME/data/SDRBENCH-Hurricane-ISABEL-100x500x500
+export  NYX_DIR=$PROJHOME/data/SDRBENCH-EXASKY-NYX-512x512x512
+export SCAL_DIR=$PROJHOME/data/SDRBENCH-SCALE_98x1200x1200
+
