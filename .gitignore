@@ -5,9 +5,5 @@
 *.bin
 *.tar.gz
 *.f32
-ExternalDependencies/ADIOS2/
-ExternalDependencies/SZ/
-ExternalDependencies/zfp/
-ExternalDependencies/WarpX/
 
 .DS_Store
