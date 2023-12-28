@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ../evn_scripts/evn.bash.summit
+#source ../evn_scripts/evn.bash.summit
+source ../evn_scripts/evn.bash.andes
 
 ###### hurricane
 data=$HURR_DIR/CLOUDf48.log10.bin.f32 
