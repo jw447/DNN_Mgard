@@ -1,0 +1,12 @@
+pres-98x1200x1200,0.242,0.202,0.28,Requested_tolerance,0.995348,estimated_error,0.676125,23,18,15,Total_retrieve_size,133172492,MaxErr,2.04688,MSE,0.275297,PSNR,105.561
+qc-98x1200x1200,0.242,0.202,0.28,Requested_tolerance,3.01E-08,estimated_error,2.36E-08,22,19,18,Total_retrieve_size,62653138,MaxErr,7.16E-08,MSE,1.06E-16,PSNR,109.337
+qg-98x1200x1200,0.242,0.202,0.28,Requested_tolerance,1.49E-07,estimated_error,9.44E-08,23,20,18,Total_retrieve_size,37461386,MaxErr,2.54E-07,MSE,1.39E-15,PSNR,112.018
+qi-98x1200x1200,0.242,0.202,0.28,Requested_tolerance,1.60E-08,estimated_error,1.18E-08,23,20,18,Total_retrieve_size,46624330,MaxErr,3.36E-08,MSE,2.24E-17,PSNR,110.591
+cloudf48_log,0.242,0.202,0.28,Requested_tolerance,0.00010152,estimated_error,9.67E-05,23,20,19,Total_retrieve_size,24726535,MaxErr,0.00028038,MSE,1.74E-09,PSNR,107.737
+precipf48_log,0.242,0.202,0.28,Requested_tolerance,0.000358014,estimated_error,0.000330139,24,22,20,Total_retrieve_size,38510702,MaxErr,0.000885725,MSE,6.74E-08,PSNR,102.794
+qgraupf48_log,0.242,0.202,0.28,Requested_tolerance,0.000357656,estimated_error,0.000330139,24,22,20,Total_retrieve_size,41457285,MaxErr,0.000882149,MSE,6.73E-08,PSNR,102.792
+qicef48_log,0.242,0.202,0.28,Requested_tolerance,0.000186831,estimated_error,0.000168762,23,22,19,Total_retrieve_size,18616222,MaxErr,0.000537872,MSE,4.69E-09,PSNR,108.714
+baryon_density,0.242,0.202,0.28,Requested_tolerance,1.15862,estimated_error,1.085,17,18,18,Total_retrieve_size,3713838,MaxErr,2.4266,MSE,0.0381201,PSNR,115.467
+dark_matter_density,0.242,0.202,0.28,Requested_tolerance,0.137789,estimated_error,0.0845156,21,20,17,Total_retrieve_size,65010126,MaxErr,0.232748,MSE,0.00438903,PSNR,106.361
+temperature,0.242,0.202,0.28,Requested_tolerance,47.803,estimated_error,43.272,23,19,17,Total_retrieve_size,56814877,MaxErr,121.87,MSE,1090.56,PSNR,103.213
+velocity_x,0.242,0.202,0.28,Requested_tolerance,822.836,estimated_error,692.352,22,18,16,Total_retrieve_size,107091790,MaxErr,1901,MSE,297571,PSNR,103.57
